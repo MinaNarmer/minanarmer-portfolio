@@ -1,0 +1,321 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "clients": "Clients",
+    "blog": "Blog",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  
+  "tech": {
+    "title": "Tech Blog",
+    "description": "Explore guides and roadmaps on key technology topics to advance your development skills.",
+    "readMore": "Read More",
+    "viewAll": "View All Articles",
+    "backToTopics": "Back to Topics"
+  },
+  
+  "resume": {
+    "pageTitle": "Professional Resume",
+    "pageDescription": "Mina Youssef's professional resume showcasing 7+ years of experience in software engineering, .NET development, and system design.",
+    "title": "Professional Resume",
+    "downloadButton": "Download Resume",
+    
+    "profile": {
+      "title": "Professional Profile",
+      "description": "Senior Software Engineer with 7+ years of experience in .NET, C#, and software architecture. I've built scalable, high-performance solutions across Private Equity, Pharma, and Innovation, ensuring efficiency, security, and maintainability. PMP-certified, with expertise in leading agile teams and managing complex projects. Currently expanding my knowledge in AI & DevOps, integrating modern technologies into software development. Passionate about mentorship, problem-solving, and driving innovation through technology."
+    },
+    
+    "experience": {
+      "title": "Professional Experience",
+      "job1": {
+        "title": "Senior Software Engineer",
+        "company": "Cepres",
+        "period": "Apr 2022 - Present",
+        "responsibility1": "Design and development of Dealedge phase in private equity.",
+        "responsibility2": "Enhancement and refactoring of existing systems.",
+        "responsibility3": "Implementation of scalable solutions for financial data management."
+      },
+      "job2": {
+        "title": "Senior Software Engineer",
+        "company": "Bnsights",
+        "period": "Mar 2021 - Mar 2022",
+        "responsibility1": "Developed portal for thought innovation.",
+        "responsibility2": "Designed database schemas and implemented ticketing systems.",
+        "responsibility3": "Guided junior developers and collaborated with stakeholders."
+      },
+      "job3": {
+        "title": "Senior Software Engineer",
+        "company": "DBS (Eldawaa Pharmacies)",
+        "period": "Jul 2020 - Mar 2021",
+        "responsibility1": "Developed applications serving Al-dwaa business needs.",
+        "responsibility2": "Communicated with customers to gather requirements.",
+        "responsibility3": "Led requirements analysis and feature design processes."
+      }
+    },
+    
+    "education": {
+      "title": "Education",
+      "degree1": {
+        "name": "Bachelor of Computer Science",
+        "institution": "Minia University, Egypt",
+        "period": "2009 - 2014",
+        "description": "Focused on software development fundamentals and computer science principles."
+      }
+    },
+    
+    "skills": {
+      "title": "Skills",
+      "technical": {
+        "title": "Technical Skills",
+        "programming": "Programming",
+        "frameworks": "Frameworks",
+        "cloud": "Cloud & DevOps",
+        "databases": "Databases",
+        "ai": "AI & ML"
+      },
+      "soft": {
+        "title": "Soft Skills",
+        "skill1": "Project Management (PMP Certified)",
+        "skill2": "Team Leadership & Mentoring",
+        "skill3": "Requirements Analysis",
+        "skill4": "System Design & Architecture",
+        "skill5": "Agile & SOLID Principles"
+      },
+      "technicalList": "C#, .NET Core, ASP.NET, SQL, LINQ, OOP, SOLID, Design Patterns, APIs, System Design, DevOps, AI",
+      "methodology": "Agile, PMP, System Architecture"
+    },
+    
+    "languages": {
+      "title": "Languages",
+      "english": {
+        "name": "English",
+        "level": "Full Professional Proficiency"
+      },
+      "arabic": {
+        "name": "Arabic",
+        "level": "Native"
+      }
+    },
+    
+    "certifications": {
+      "title": "Certifications",
+      "cert1": {
+        "name": "Project Management Professional (PMP)",
+        "issuer": "PMI",
+        "year": "2024"
+      },
+      "cert2": {
+        "name": "Various Technical Certifications",
+        "issuer": "Pluralsight, LinkedIn, Udemy, Udacity",
+        "year": "2016 - Present"
+      }
+    },
+    
+    "freelance": {
+      "title": "Freelance Experience",
+      "description": "Worked as a freelance developer for various companies including:",
+      "companies": "KAFD.sa, ADNOC (UAE), Microwize (USA), IbnSina Pharma (Egypt), Bip Soft (Egypt), cura.healthcare (KSA), S3edy Dev (Egypt), Cura.sa"
+    },
+    
+    "interests": {
+      "title": "Interests",
+      "list": "Coding, Continuous Learning, Reading, Technology"
+    },
+    
+    "awards": {
+      "title": "Awards",
+      "award1": {
+        "name": "Poetry Writing Cup",
+        "issuer": "Minia University",
+        "year": "2010-2011"
+      }
+    }
+  },
+  "hero": {
+    "hello": "Hello",
+    "im": "I'm",
+    "title": "Senior Software Engineer | PMP",
+    "description": "Specialized in .NET, C#, and software architecture with 7+ years of experience building scalable solutions across Private Equity, Pharma, and Innovation sectors. PMP-certified with expertise in leading agile teams and managing complex projects.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "terminal": {
+    "welcome": {
+      "line1": "Welcome to Mina Narmer's terminal portfolio!",
+      "line2": "Type 'help' to see available commands.",
+      "line3": "Explore my skills, experience, and projects."
+    },
+    "help": {
+      "intro": "Available commands:",
+      "about": "Learn about me",
+      "skills": "View my technical skills",
+      "experience": "See my work experience",
+      "projects": "View my recent projects",
+      "contact": "Get my contact information",
+      "clear": "Clear the terminal screen"
+    },
+    "about": {
+      "line1": "Hi, I'm Mina Narmer, a Senior Software Engineer specializing in .NET, C#, and software architecture.",
+      "line2": "I have over 7 years of experience building scalable solutions across Private Equity, Pharma, and Innovation sectors.",
+      "line3": "I'm PMP-certified with expertise in leading agile teams and managing complex projects."
+    },
+    "skills": {
+      "title": "My Technical Skills:",
+      "ai": "AI & ML Integration",
+      "netcore": ".NET Core & ASP.NET",
+      "python": "C# & SOLID Principles",
+      "cloud": "DevOps & System Architecture",
+      "system": "Project Management (PMP Certified)",
+      "database": "SQL & Database Design"
+    },
+    "experience": {
+      "title": "Work Experience:",
+      "job1": {
+        "title": "Senior Software Engineer at Cepres (Apr 2022-Present)",
+        "description": "Design and development of Dealedge phase in private equity."
+      },
+      "job2": {
+        "title": "Senior Software Engineer at Bnsights (Mar 2021-Mar 2022)",
+        "description": "Developed portal for thought innovation and guided junior developers."
+      },
+      "job3": {
+        "title": "Senior Software Engineer at DBS (Jul 2020-Mar 2021)",
+        "description": "Developed applications serving Al-dwaa business needs."
+      }
+    },
+    "projects": {
+      "title": "Companies I've Worked With:",
+      "project1": "CEPRES - Private equity software solutions and financial data management",
+      "project2": "Bnsights - Thought innovation portal and ticketing systems",
+      "project3": "Al-Dawaa Pharmacies - Business applications and customer requirements",
+      "project4": "ADNOC (UAE) - Oil and gas industry solutions"
+    },
+    "contact": {
+      "title": "Contact Information:",
+      "email": "Email: Minaibrahem.youssef@gmail.com",
+      "email2": "Email: Mina@Minanarmer.com",
+      "github": "GitHub: github.com/MinaNarmer",
+      "linkedin": "LinkedIn: linkedin.com/in/minayousef",
+      "whatsapp": "WhatsApp: +201003260417",
+      "location": "Location: Cairo, Egypt"
+    },
+    "error": {
+      "unknown": "Command not found: '{{command}}'. Type 'help' to see available commands."
+    },
+    "tip": "Click anywhere in the terminal and start typing. Try commands like 'about', 'skills', or 'projects'."
+  },
+  "projects": {
+    "title": "Clients I've Worked With",
+    "description": "A selection of companies I've collaborated with across various industries, from AI to healthcare.",
+    "featured": "Featured",
+    "code": "Code",
+    "demo": "Demo",
+    "viewMore": "View More Clients",
+    "confidential": "Other Clients (Confidential)",
+    "confidentialTooltip": "Some collaborations are under NDA and cannot be publicly listed."
+  },
+  "blog": {
+    "title": "Tech Blog",
+    "description": "Articles, tutorials, and insights on software development, AI, and system design.",
+    "readFull": "Read Full Article",
+    "viewAll": "View All Articles"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Have a project in mind or want to discuss tech? I'd love to hear from you.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "Your email address",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this regarding?",
+      "message": "Message",
+      "messagePlaceholder": "Your message here...",
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "connectTitle": "Connect With Me",
+    "email": "Email",
+    "emailValue": "Minaibrahem.youssef@gmail.com, Mina@Minanarmer.com",
+    "phone": "WhatsApp",
+    "phoneValue": "+201003260417",
+    "location": "Location",
+    "locationValue": "Cairo, Egypt",
+    "availability": "Availability",
+    "availabilityValue": "Monday - Friday, 9am - 6pm EET",
+    "followMe": "Follow Me",
+    "success": "Message Sent",
+    "successMessage": "Thanks for reaching out! I'll get back to you soon.",
+    "error": "Error",
+    "errorMessage": "There was a problem sending your message. Please try again."
+  },
+  "footer": {
+    "description": "Software engineer specializing in backend development, system design, and AI solutions. Building robust, scalable applications with modern technologies.",
+    "quickLinks": "Quick Links",
+    "languages": "Languages",
+    "allRightsReserved": "All rights reserved."
+  },
+  "notFound": {
+    "title": "404 Page Not Found",
+    "description": "The page you are looking for does not exist.",
+    "message": "Sorry, the page you're looking for cannot be found. It might have been removed or renamed.",
+    "backHome": "Back to Home"
+  },
+  "about": {
+    "sectionTitle": "About Me",
+    "sectionSubtitle": "An overview of my professional journey and expertise",
+    "pageTitle": "About Me",
+    "pageDescription": "Learn about Mina Narmer, a software engineer and AI specialist",
+    "title": "Get to Know Me",
+    "subtitle": "Learn about my journey and expertise in software development",
+    "readMore": "Read More",
+    "shortBio": {
+      "title": "Hello, I'm Mina Narmer",
+      "description": "I'm a software engineer specializing in backend development, system design, and AI solutions. I create robust, scalable applications using cutting-edge technologies."
+    },
+    "experience": "5+ years of software development experience",
+    "location": "San Francisco, California",
+    "contactInfo": "Contact Information",
+    "professionalTitle": "Professional Experience",
+    "professionalDescription1": "I'm a specialized software engineer with extensive experience in developing complex web applications and microservice systems. I've worked on diverse projects ranging from SaaS applications to AI and machine learning solutions.",
+    "professionalDescription2": "I have a particular passion for clean architecture and software best practices that lead to robust, maintainable systems. I'm currently working on developing innovative technical solutions that combine engaging user interfaces with advanced algorithms.",
+    "skillsTitle": "Skills",
+    "technicalSkills": "Technical Skills",
+    "softSkills": "Soft Skills",
+    "softSkill1": "Complex Problem Solving",
+    "softSkill2": "Effective Communication",
+    "softSkill3": "Teamwork",
+    "softSkill4": "Project Management",
+    "softSkill5": "Quick Learning",
+    "educationTitle": "Education",
+    "education1": {
+      "degree": "Master of Computer Science",
+      "institution": "Stanford University",
+      "years": "2018 - 2020",
+      "description": "Specialized in Artificial Intelligence and Machine Learning"
+    },
+    "education2": {
+      "degree": "Bachelor of Software Engineering",
+      "institution": "American University in Cairo",
+      "years": "2014 - 2018",
+      "description": "Graduated with honors and distinction"
+    },
+    "galleryTitle": "Photo Gallery",
+    "galleryImagePlaceholder": "Image will be added here"
+  },
+  "bio": {
+    "title": "About Me",
+    "paragraph1": "I'm a Senior Software Engineer with over 7 years of experience in .NET, C#, and software architecture. I've built scalable, high-performance solutions across Private Equity, Pharma, and Innovation sectors, ensuring efficiency, security, and maintainability.",
+    "paragraph2": "PMP-certified, with expertise in leading agile teams and managing complex projects. Currently expanding my knowledge in AI & DevOps, integrating modern technologies into software development. Passionate about mentorship, problem-solving, and driving innovation through technology.",
+    "skills": "Technical Skills"
+  },
+  "seo": {
+    "home": {
+      "title": "Software Engineer & AI Specialist",
+      "description": "Personal portfolio of Mina Narmer, a software engineer specializing in backend development, system design, and AI solutions."
+    }
+  }
+}

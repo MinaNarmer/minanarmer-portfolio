@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="code-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <!-- Background -->
+      <rect width="100" height="100" fill="none"/>
+      
+      <!-- Code symbols -->
+      <text x="5" y="15" font-family="monospace" font-size="10" fill="#3B82F6" opacity="0.3">&lt;/&gt;</text>
+      <text x="60" y="40" font-family="monospace" font-size="10" fill="#3B82F6" opacity="0.3">{ }</text>
+      <text x="20" y="65" font-family="monospace" font-size="10" fill="#3B82F6" opacity="0.3">()</text>
+      <text x="75" y="85" font-family="monospace" font-size="10" fill="#3B82F6" opacity="0.3">[ ]</text>
+      
+      <!-- Egyptian symbols -->
+      <text x="40" y="30" font-family="serif" font-size="12" fill="#F59E0B" opacity="0.3">&#x13000;</text>
+      <text x="15" y="85" font-family="serif" font-size="12" fill="#F59E0B" opacity="0.3">&#x13171;</text>
+    </pattern>
+  </defs>
+  
+  <rect width="100" height="100" fill="url(#code-pattern)"/>
+</svg>

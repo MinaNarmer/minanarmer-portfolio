@@ -1,0 +1,287 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "projects": "Projekte",
+    "clients": "Kunden",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "resume": "Lebenslauf"
+  },
+  
+  "tech": {
+    "title": "Tech-Blog",
+    "description": "Entdecken Sie Leitfäden und Fahrpläne zu wichtigen Technologiethemen, um Ihre Entwicklungsfähigkeiten zu verbessern.",
+    "readMore": "Weiterlesen",
+    "viewAll": "Alle Artikel anzeigen",
+    "backToTopics": "Zurück zu den Themen"
+  },
+  "hero": {
+    "hello": "Hallo",
+    "im": "ich bin",
+    "title": "Software-Ingenieur & KI-Enthusiast",
+    "description": "Spezialisiert auf Backend-Entwicklung, Systemdesign und Lösungen für künstliche Intelligenz. Entwicklung eleganter, skalierbarer Anwendungen mit modernsten Technologien.",
+    "viewProjects": "Projekte ansehen",
+    "contactMe": "Kontaktiere mich"
+  },
+  "terminal": {
+    "welcome": {
+      "line1": "Willkommen im Terminal-Portfolio von Mina Narmer!",
+      "line2": "Geben Sie 'help' ein, um verfügbare Befehle zu sehen.",
+      "line3": "Entdecken Sie meine Fähigkeiten, Erfahrungen und Projekte."
+    },
+    "help": {
+      "intro": "Verfügbare Befehle:",
+      "about": "Über mich erfahren",
+      "skills": "Meine technischen Fähigkeiten anzeigen",
+      "experience": "Meine Arbeitserfahrung sehen",
+      "projects": "Meine neuesten Projekte anzeigen",
+      "contact": "Meine Kontaktinformationen erhalten",
+      "clear": "Terminal-Bildschirm löschen"
+    },
+    "about": {
+      "line1": "Hallo, ich bin Mina Narmer, ein Senior Software Engineer mit Spezialisierung auf .NET, C# und Softwarearchitektur.",
+      "line2": "Ich habe über 7 Jahre Erfahrung im Aufbau skalierbarer Lösungen in den Bereichen Private Equity, Pharma und Innovation.",
+      "line3": "Ich bin PMP-zertifiziert und verfüge über Expertise in der Leitung agiler Teams und im Management komplexer Projekte."
+    },
+    "skills": {
+      "title": "Meine technischen Fähigkeiten:",
+      "ai": "KI & ML Integration",
+      "netcore": ".NET Core & ASP.NET",
+      "python": "C# & SOLID-Prinzipien",
+      "cloud": "DevOps & Systemarchitektur",
+      "system": "Projektmanagement (PMP zertifiziert)",
+      "database": "SQL & Datenbankdesign"
+    },
+    "experience": {
+      "title": "Berufserfahrung:",
+      "job1": {
+        "title": "Senior Software Engineer bei Cepres (Apr 2022-Heute)",
+        "description": "Design und Entwicklung der Dealedge-Phase im Private-Equity-Bereich."
+      },
+      "job2": {
+        "title": "Senior Software Engineer bei Bnsights (März 2021-März 2022)",
+        "description": "Entwicklung eines Portals für Innovation und Anleitung von Junior-Entwicklern."
+      },
+      "job3": {
+        "title": "Senior Software Engineer bei DBS (Jul 2020-März 2021)",
+        "description": "Entwicklung von Anwendungen für Al-dwaa Geschäftsanforderungen."
+      }
+    },
+    "projects": {
+      "title": "Unternehmen, mit denen ich gearbeitet habe:",
+      "project1": "CEPRES - Private-Equity-Softwarelösungen und Finanzdatenmanagement",
+      "project2": "Bnsights - Innovationsportal und Ticketing-Systeme",
+      "project3": "Al-Dawaa Apotheken - Geschäftsanwendungen und Kundenanforderungen",
+      "project4": "ADNOC (VAE) - Lösungen für die Öl- und Gasindustrie"
+    },
+    "contact": {
+      "title": "Kontaktinformationen:",
+      "email": "E-Mail: Minaibrahem.youssef@gmail.com",
+      "email2": "E-Mail: Mina@Minanarmer.com",
+      "github": "GitHub: github.com/MinaNarmer",
+      "linkedin": "LinkedIn: linkedin.com/in/minayousef",
+      "whatsapp": "WhatsApp: +201003260417",
+      "location": "Standort: Kairo, Ägypten"
+    },
+    "error": {
+      "unknown": "Befehl nicht gefunden: '{{command}}'. Geben Sie 'help' ein, um verfügbare Befehle zu sehen."
+    },
+    "tip": "Klicken Sie irgendwo im Terminal und beginnen Sie zu tippen. Probieren Sie Befehle wie 'about', 'skills' oder 'projects'."
+  },
+  "projects": {
+    "title": "Kunden, mit denen ich gearbeitet habe",
+    "description": "Eine Auswahl von Unternehmen, mit denen ich in verschiedenen Branchen zusammengearbeitet habe, von KI bis zur Gesundheitsbranche.",
+    "featured": "Hervorgehoben",
+    "code": "Code",
+    "demo": "Demo",
+    "viewMore": "Mehr Kunden anzeigen",
+    "confidential": "Andere Kunden (Vertraulich)",
+    "confidentialTooltip": "Einige Kooperationen unterliegen Geheimhaltungsvereinbarungen und können nicht öffentlich aufgeführt werden."
+  },
+  "blog": {
+    "title": "Tech-Blog",
+    "description": "Artikel, Tutorials und Einblicke in Softwareentwicklung, KI und Systemdesign.",
+    "readFull": "Vollständigen Artikel lesen",
+    "viewAll": "Alle Artikel anzeigen"
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "description": "Haben Sie ein Projekt im Sinn oder möchten Sie über Technologie diskutieren? Ich würde gerne von Ihnen hören.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "Ihre E-Mail-Adresse",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Worum geht es?",
+      "message": "Nachricht",
+      "messagePlaceholder": "Ihre Nachricht hier...",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet..."
+    },
+    "connectTitle": "Verbinden Sie sich mit mir",
+    "email": "E-Mail",
+    "emailValue": "Minaibrahem.youssef@gmail.com, Mina@Minanarmer.com",
+    "phone": "WhatsApp",
+    "phoneValue": "+201003260417",
+    "location": "Standort",
+    "locationValue": "Kairo, Ägypten",
+    "availability": "Verfügbarkeit",
+    "availabilityValue": "Montag - Freitag, 9-18 Uhr EET",
+    "followMe": "Folgen Sie mir",
+    "success": "Nachricht gesendet",
+    "successMessage": "Danke für Ihre Nachricht! Ich werde mich bald bei Ihnen melden.",
+    "error": "Fehler",
+    "errorMessage": "Beim Senden Ihrer Nachricht ist ein Problem aufgetreten. Bitte versuchen Sie es erneut."
+  },
+  "footer": {
+    "description": "Software-Ingenieur, spezialisiert auf Backend-Entwicklung, Systemdesign und KI-Lösungen. Entwicklung robuster, skalierbarer Anwendungen mit modernen Technologien.",
+    "quickLinks": "Schnelllinks",
+    "languages": "Sprachen",
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  },
+  "notFound": {
+    "title": "404 Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht.",
+    "message": "Entschuldigung, die gesuchte Seite wurde nicht gefunden. Sie wurde möglicherweise entfernt oder umbenannt.",
+    "backHome": "Zurück zur Startseite"
+  },
+  "resume": {
+    "pageTitle": "Professioneller Lebenslauf",
+    "pageDescription": "Mina Youssefs professioneller Lebenslauf mit über 7 Jahren Erfahrung in Softwareentwicklung, .NET-Entwicklung und Systemdesign.",
+    "title": "Professioneller Lebenslauf",
+    "downloadButton": "Lebenslauf herunterladen",
+    
+    "profile": {
+      "title": "Berufsprofil",
+      "description": "Senior Software Engineer mit mehr als 7 Jahren Erfahrung in .NET, C# und Softwarearchitektur. Ich habe skalierbare, leistungsstarke Lösungen für Private Equity, Pharma und Innovation entwickelt, die Effizienz, Sicherheit und Wartbarkeit gewährleisten. PMP-zertifiziert, mit Expertise in der Führung von agilen Teams und der Verwaltung komplexer Projekte. Derzeit erweitere ich mein Wissen in KI und DevOps und integriere moderne Technologien in die Softwareentwicklung. Leidenschaftlich engagiert für Mentoring, Problemlösung und Innovation durch Technologie."
+    },
+    
+    "experience": {
+      "title": "Berufliche Erfahrung",
+      "job1": {
+        "title": "Senior Software Engineer",
+        "company": "Cepres",
+        "period": "Apr 2022 - Heute",
+        "responsibility1": "Design und Entwicklung der Dealedge-Phase im Private-Equity-Bereich.",
+        "responsibility2": "Verbesserung und Refactoring bestehender Systeme.",
+        "responsibility3": "Implementierung skalierbarer Lösungen für das Finanzmanagement."
+      }
+    },
+    
+    "skills": {
+      "title": "Technische Fähigkeiten",
+      "technical": {
+        "title": "Technische Fähigkeiten"
+      },
+      "soft": {
+        "title": "Soft Skills",
+        "skill1": "Problemlösung und analytisches Denken",
+        "skill2": "Teamleitung und Projektmanagement",
+        "skill3": "Effektive Kommunikation und Dokumentation",
+        "skill4": "Mentoring und Wissensaustausch",
+        "skill5": "Anpassungsfähigkeit und kontinuierliches Lernen"
+      },
+      "methodology": "Methodik & Prozess",
+      "technicalList": "C#, .NET Core, ASP.NET, SQL, API-Design, Systemarchitektur, SOLID-Prinzipien"
+    },
+    
+    "education": {
+      "title": "Ausbildung",
+      "degree1": {
+        "name": "Bachelor in Informatik",
+        "institution": "Universität Kairo",
+        "period": "2010-2014",
+        "description": "Fokus auf Softwareentwicklung, Datenstrukturen und Algorithmen. Abschlussprojekt: Entwicklung eines skalierbaren Datenverarbeitungssystems."
+      }
+    },
+    
+    "certifications": {
+      "title": "Zertifizierungen",
+      "cert1": {
+        "name": "Project Management Professional (PMP)",
+        "issuer": "PMI",
+        "year": "2021"
+      },
+      "cert2": {
+        "name": "Microsoft Certified: Azure Developer Associate",
+        "issuer": "Microsoft",
+        "year": "2020"
+      }
+    },
+    
+    "languages": {
+      "title": "Sprachen",
+      "english": {
+        "name": "Englisch",
+        "level": "Fließend (C1)"
+      },
+      "arabic": {
+        "name": "Arabisch",
+        "level": "Muttersprache"
+      }
+    },
+    
+    "freelance": {
+      "title": "Freiberufliche Erfahrung",
+      "description": "Neben meiner Hauptbeschäftigung habe ich als Berater und Entwickler für verschiedene Unternehmen gearbeitet und spezialisierte Softwarelösungen geliefert.",
+      "companies": "Zu den Kunden gehören Startups und etablierte Unternehmen in den Bereichen Finanzen, Gesundheitswesen und E-Commerce."
+    },
+    
+    "interests": {
+      "title": "Interessen",
+      "list": "Künstliche Intelligenz, Maschinelles Lernen, Open-Source-Beiträge, Technologische Innovation"
+    },
+    
+    "awards": {
+      "title": "Auszeichnungen",
+      "award1": {
+        "name": "Innovationspreis für Softwareentwicklung",
+        "issuer": "TechSummit Conference",
+        "year": "2019"
+      }
+    },
+    
+    "photoGallery": {
+      "title": "Foto Galerie",
+      "description": "Eine Sammlung von Erinnerungen und Erfahrungen auf meiner beruflichen Reise.",
+      "nav": {
+        "previous": "Zurück",
+        "next": "Weiter"
+      },
+      "photos": {
+        "photo1": {
+          "title": "Teamarbeit in Berlin",
+          "description": "Zusammenarbeit mit meinem Entwicklungsteam an einem KI-Projekt.",
+          "location": "Berlin, Deutschland"
+        },
+        "photo2": {
+          "title": "Tech Konferenz 2023",
+          "description": "Präsentation über Systemarchitektur und Skalierbarkeit.",
+          "location": "München, Deutschland"
+        },
+        "photo3": {
+          "title": "Entwicklerworkshop",
+          "description": "Leitung eines Workshops über moderne Softwarearchitektur.",
+          "location": "Frankfurt, Deutschland"
+        },
+        "photo4": {
+          "title": "Projekt Meilenstein",
+          "description": "Feier mit dem Team nach einem erfolgreichen Projektabschluss.",
+          "location": "Hamburg, Deutschland"
+        },
+        "photo5": {
+          "title": "Technologieforum",
+          "description": "Teilnahme an einer Podiumsdiskussion über aufkommende Trends in der Softwareentwicklung.",
+          "location": "Köln, Deutschland"
+        }
+      }
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Software-Ingenieur & KI-Spezialist",
+      "description": "Persönliches Portfolio von Mina Narmer, einem Software-Ingenieur, der auf Backend-Entwicklung, Systemdesign und KI-Lösungen spezialisiert ist."
+    }
+  }
+}
