@@ -1,0 +1,1385 @@
+{
+  "projectManagement": {
+    "title": "Feuille de Route de Gestion de Projet",
+    "description": "Un guide sur les méthodologies Agiles, Scrum et le leadership efficace de projet.",
+    "fundamentals": {
+      "title": "Fondamentaux de la Gestion de Projet",
+      "intro": "La gestion de projet est l'application de connaissances, de compétences, d'outils et de techniques pour répondre aux exigences du projet et atteindre des objectifs spécifiques. Comprendre ses fondamentaux est crucial pour quiconque cherche à diriger des projets techniques avec succès.",
+      "concepts": {
+        "title": "Concepts Fondamentaux de Gestion de Projet",
+        "lifecycle": "Cycle de Vie du Projet",
+        "lifecycleDesc": "Initiation, planification, exécution, surveillance et clôture",
+        "constraint": "Triple Contrainte",
+        "constraintDesc": "Gestion efficace de la portée, du temps et des coûts",
+        "stakeholder": "Gestion des Parties Prenantes",
+        "stakeholderDesc": "Identification et engagement avec toutes les parties impliquées",
+        "risk": "Gestion des Risques",
+        "riskDesc": "Identification, évaluation et atténuation des risques du projet",
+        "communication": "Planification de la Communication",
+        "communicationDesc": "Déterminer qui a besoin de quelle information et quand"
+      }
+    },
+    "agile": {
+      "title": "Méthodologies Agiles",
+      "scrum": {
+        "title": "Cadre Scrum",
+        "intro": "Un cadre léger pour le développement complexe de produits :",
+        "roles": "Rôles",
+        "rolesDesc": "Propriétaire du Produit, Scrum Master, Équipe de Développement",
+        "events": "Événements",
+        "eventsDesc": "Sprint, Planification de Sprint, Scrum Quotidien, Revue de Sprint, Rétrospective de Sprint",
+        "artifacts": "Artefacts",
+        "artifactsDesc": "Backlog de Produit, Backlog de Sprint, Incrément",
+        "rules": "Règles",
+        "rulesDesc": "Équipes auto-organisées, time-boxes, contrôle de processus empirique"
+      },
+      "kanban": {
+        "title": "Méthode Kanban",
+        "intro": "Une méthode visuelle de gestion du travail avec un accent sur la livraison continue :",
+        "visualization": "Visualisation du flux de travail sur un tableau Kanban",
+        "wip": "Limitation du travail en cours (WIP)",
+        "flow": "Gestion du flux à travers le système",
+        "policies": "Rendre explicites les politiques de processus",
+        "feedback": "Mise en œuvre de boucles de rétroaction"
+      },
+      "others": {
+        "title": "Autres Approches Agiles",
+        "xp": "Programmation Extrême (XP)",
+        "xpDesc": "Accent sur l'excellence technique et la satisfaction du client",
+        "lean": "Développement Logiciel Lean",
+        "leanDesc": "Élimination des déchets et optimisation de l'efficacité",
+        "safe": "SAFe",
+        "safeDesc": "Scaled Agile Framework pour l'agilité au niveau de l'entreprise",
+        "scrumban": "Scrumban",
+        "scrumbanDesc": "Hybride de Scrum et Kanban pour des environnements complexes"
+      }
+    },
+    "tools": {
+      "title": "Outils de Gestion de Projet",
+      "software": {
+        "title": "Logiciels et Plateformes",
+        "jira": "Jira",
+        "jiraDesc": "Suivi des problèmes et gestion de projet pour les équipes logicielles",
+        "azure": "Azure DevOps",
+        "azureDesc": "Solution complète pour la planification, le codage et le déploiement",
+        "trello": "Trello",
+        "trelloDesc": "Outil de collaboration visuelle pour organiser les projets",
+        "asana": "Asana",
+        "asanaDesc": "Plateforme de gestion du travail pour les équipes",
+        "monday": "Monday.com",
+        "mondayDesc": "Système d'exploitation de travail pour la gestion et la collaboration d'équipe",
+        "clickup": "ClickUp",
+        "clickupDesc": "Plateforme de productivité tout-en-un"
+      },
+      "reporting": {
+        "title": "Rapports et Analyses",
+        "burndown": "Graphiques burndown et burnup",
+        "velocity": "Suivi de la vélocité",
+        "flow": "Diagrammes de flux cumulatif",
+        "cycle": "Métriques de temps de cycle et de temps de lead",
+        "sprint": "Rapports et tableaux de bord de Sprint"
+      }
+    },
+    "pmp": {
+      "title": "Project Management Professional (PMP)",
+      "intro": "La certification PMP est mondialement reconnue comme la norme d'excellence en gestion de projet. Elle valide votre capacité à diriger des projets dans n'importe quelle industrie, avec n'importe quelle méthodologie.",
+      "areas": {
+        "title": "Domaines de Connaissance PMP",
+        "integration": "Gestion de l'Intégration",
+        "scope": "Gestion de la Portée",
+        "schedule": "Gestion du Calendrier",
+        "cost": "Gestion des Coûts",
+        "quality": "Gestion de la Qualité",
+        "resource": "Gestion des Ressources",
+        "communications": "Gestion des Communications",
+        "risk": "Gestion des Risques",
+        "procurement": "Gestion des Approvisionnements",
+        "stakeholder": "Gestion des Parties Prenantes"
+      },
+      "process": {
+        "title": "Processus de Certification PMP",
+        "eligibility": "Éligibilité",
+        "eligibilityDesc": "Vérifier les exigences d'éducation et d'expérience",
+        "application": "Candidature",
+        "applicationDesc": "Compléter la demande PMI",
+        "fee": "Frais d'Examen",
+        "feeDesc": "Payer les frais requis",
+        "preparation": "Préparation à l'Examen",
+        "preparationDesc": "Étudier le Guide PMBOK et passer des examens de pratique",
+        "examination": "Examen",
+        "examinationDesc": "Réussir l'examen de 200 questions et 4 heures",
+        "maintenance": "Maintenance",
+        "maintenanceDesc": "Obtenir 60 PDUs tous les trois ans"
+      }
+    },
+    "leadership": {
+      "title": "Leadership et Compétences Interpersonnelles",
+      "intro": "Les compétences techniques sont importantes, mais le leadership et les compétences interpersonnelles déterminent souvent le succès du projet.",
+      "skills": {
+        "title": "Compétences Essentielles de Leadership",
+        "decision": "Prise de Décision",
+        "decisionDesc": "Prendre des décisions éclairées sous pression",
+        "conflict": "Résolution de Conflits",
+        "conflictDesc": "Aborder et résoudre les conflits d'équipe",
+        "negotiation": "Négociation",
+        "negotiationDesc": "Travailler avec les parties prenantes pour trouver des solutions gagnant-gagnant",
+        "emotional": "Intelligence Émotionnelle",
+        "emotionalDesc": "Comprendre et gérer les émotions",
+        "strategic": "Pensée Stratégique",
+        "strategicDesc": "Aligner les projets sur les objectifs organisationnels",
+        "coaching": "Coaching et Mentorat",
+        "coachingDesc": "Développer les capacités des membres de l'équipe"
+      }
+    },
+    "career": {
+      "title": "Parcours de Carrière en Gestion de Projet :",
+      "coordinator": "Coordinateur/Assistant de Projet",
+      "coordinatorDesc": "Rôle de niveau débutant soutenant les activités de gestion de projet",
+      "manager": "Chef de Projet",
+      "managerDesc": "Diriger des projets individuels",
+      "senior": "Chef de Projet Senior",
+      "seniorDesc": "Gérer des projets complexes à fort impact",
+      "program": "Directeur de Programme",
+      "programDesc": "Superviser plusieurs projets connexes",
+      "portfolio": "Gestionnaire de Portefeuille",
+      "portfolioDesc": "Gérer des collections de programmes et de projets",
+      "director": "Directeur PMO",
+      "directorDesc": "Diriger le Bureau de Gestion de Projet"
+    }
+  },
+  "aiForDevelopers": {
+    "title": "Comprendre l'IA pour les Développeurs",
+    "description": "Explorez les concepts d'IA, les modèles et les stratégies d'intégration pour les développeurs de logiciels.",
+    "fundamentals": {
+      "title": "Fondamentaux de l'IA pour les Développeurs de Logiciels",
+      "intro": "En tant que développeur de logiciels, comprendre l'intelligence artificielle devient de plus en plus important. Les technologies d'IA peuvent améliorer les applications, automatiser les tâches et permettre des fonctionnalités et des capacités totalement nouvelles. Ce guide vous aidera à construire une compréhension fondamentale de l'IA et des moyens pratiques de l'implémenter dans vos projets.",
+      "concepts": {
+        "title": "Concepts Clés de l'IA",
+        "ml": "Apprentissage Automatique",
+        "mlDesc": "Algorithmes qui s'améliorent grâce à l'expérience et aux données",
+        "deep": "Apprentissage Profond",
+        "deepDesc": "Réseaux de neurones avec plusieurs couches pour la reconnaissance de motifs complexes",
+        "nlp": "Traitement du Langage Naturel (NLP)",
+        "nlpDesc": "Permettre aux ordinateurs de comprendre et de générer le langage humain",
+        "vision": "Vision par Ordinateur",
+        "visionDesc": "Permettre aux machines d'interpréter et d'analyser l'information visuelle",
+        "rl": "Apprentissage par Renforcement",
+        "rlDesc": "Entraînement d'agents par des boucles de rétroaction basées sur des récompenses"
+      }
+    },
+    "technologies": {
+      "title": "Technologies de Développement d'IA",
+      "frameworks": {
+        "title": "Frameworks d'Apprentissage Automatique",
+        "tensorflow": "TensorFlow",
+        "tensorflowDesc": "Plateforme ML complète de Google",
+        "pytorch": "PyTorch",
+        "pytorchDesc": "Framework flexible préféré par les chercheurs",
+        "sklearn": "Scikit-learn",
+        "sklearnDesc": "Outils simples et efficaces pour l'analyse de données",
+        "keras": "Keras",
+        "kerasDesc": "API de haut niveau pour les réseaux de neurones",
+        "onnx": "ONNX",
+        "onnxDesc": "Format ouvert pour les modèles d'apprentissage automatique"
+      },
+      "libraries": {
+        "title": "Bibliothèques Clés pour le Développement d'IA",
+        "numpy": "NumPy",
+        "numpyDesc": "Package fondamental pour le calcul scientifique",
+        "pandas": "Pandas",
+        "pandasDesc": "Bibliothèque de manipulation et d'analyse de données",
+        "huggingface": "Hugging Face Transformers",
+        "huggingfaceDesc": "Modèles NLP de pointe",
+        "opencv": "OpenCV",
+        "opencvDesc": "Bibliothèque de vision par ordinateur",
+        "spacy": "spaCy",
+        "spacyDesc": "Bibliothèque NLP avancée"
+      },
+      "cloud": {
+        "title": "Services d'IA dans le Cloud",
+        "aws": "Services d'IA AWS",
+        "awsDesc": "Amazon Rekognition, Amazon Comprehend, etc.",
+        "azure": "Azure Cognitive Services",
+        "azureDesc": "APIs de Vision, Langage, Parole et Décision",
+        "google": "Google Cloud IA",
+        "googleDesc": "APIs de Traduction, Langage Naturel, Vision",
+        "openai": "API OpenAI",
+        "openaiDesc": "Accès à des modèles comme GPT et DALL-E"
+      }
+    },
+    "integration": {
+      "title": "Intégrer l'IA dans les Applications",
+      "patterns": {
+        "title": "Modèles Courants d'Intégration d'IA",
+        "api": "Intégration d'API",
+        "apiDesc": "Utiliser des services d'IA préfabriqués via des APIs REST",
+        "embedded": "Modèles Embarqués",
+        "embeddedDesc": "Exécuter des modèles directement dans votre application",
+        "backend": "Traitement Backend",
+        "backendDesc": "Traiter des données avec l'IA par lots ou dans des pipelines en temps réel",
+        "federated": "Apprentissage Fédéré",
+        "federatedDesc": "Former des modèles sur des appareils distribués",
+        "transfer": "Apprentissage par Transfert",
+        "transferDesc": "Personnaliser des modèles pré-entraînés pour des tâches spécifiques"
+      },
+      "considerations": {
+        "title": "Considérations d'Implémentation d'IA",
+        "compute": "Exigences de Calcul",
+        "computeDesc": "CPU vs. GPU vs. matériel spécialisé",
+        "latency": "Latence et Performance",
+        "latencyDesc": "Compromis entre taille du modèle et vitesse",
+        "privacy": "Confidentialité et Sécurité des Données",
+        "privacyDesc": "Protéger les informations sensibles",
+        "ethics": "Éthique et Biais",
+        "ethicsDesc": "Assurer une utilisation équitable et responsable de l'IA",
+        "versioning": "Contrôle de Version du Modèle",
+        "versioningDesc": "Gérer les versions et les déploiements de modèles"
+      }
+    },
+    "applications": {
+      "title": "Applications Pratiques d'IA pour les Développeurs",
+      "search": {
+        "title": "Recherche Intelligente et Recommandations",
+        "desc": "Implémenter une fonctionnalité de recherche qui comprend l'intention de l'utilisateur et livre des résultats personnalisés basés sur le comportement.",
+        "tech": "Technologies: Elasticsearch, TensorFlow Recommenders, Neo4j"
+      },
+      "content": {
+        "title": "Génération et Résumé de Contenu",
+        "desc": "Générer ou résumer automatiquement du contenu pour blogs, descriptions de produits, rapports, et plus.",
+        "tech": "Technologies: modèles GPT, BART, T5"
+      },
+      "automation": {
+        "title": "Automatisation Intelligente",
+        "desc": "Automatiser des tâches répétitives avec des capacités de prise de décision intelligentes au-delà des systèmes simples basés sur des règles.",
+        "tech": "Technologies: Arbres de Décision ML, Apprentissage par Renforcement"
+      },
+      "conversational": {
+        "title": "Interfaces Conversationnelles",
+        "desc": "Construire des chatbots et des assistants vocaux qui fournissent des interactions naturelles et conscientes du contexte.",
+        "tech": "Technologies: Rasa, DialogFlow, Microsoft Bot Framework"
+      }
+    },
+    "learning": {
+      "title": "Parcours d'Apprentissage pour le Développement d'IA",
+      "intro": "Une approche structurée pour devenir compétent en développement d'IA :",
+      "path": {
+        "foundation": "Fondation :",
+        "foundationDesc": "Maîtriser la programmation Python et l'analyse de données",
+        "math": "Mathématiques :",
+        "mathDesc": "Apprendre l'algèbre linéaire, le calcul, les probabilités et les statistiques",
+        "ml": "Fondamentaux du ML :",
+        "mlDesc": "Comprendre les algorithmes et concepts fondamentaux de l'apprentissage automatique",
+        "framework": "Maîtrise des Frameworks :",
+        "frameworkDesc": "Se familiariser avec TensorFlow ou PyTorch",
+        "specialization": "Spécialisation :",
+        "specializationDesc": "Se concentrer sur NLP, vision par ordinateur, ou apprentissage par renforcement",
+        "integration": "Compétences d'Intégration :",
+        "integrationDesc": "Apprendre à déployer et intégrer des modèles dans des applications",
+        "advanced": "Techniques Avancées :",
+        "advancedDesc": "Explorer des domaines spécialisés comme les GANs, les transformers, ou MLOps"
+      },
+      "resources": {
+        "title": "Ressources pour les Développeurs d'IA :",
+        "courses": "Cours :",
+        "coursesDesc": "Machine Learning d'Andrew Ng, fast.ai, DeepLearning.AI",
+        "books": "Livres :",
+        "booksDesc": "\"Hands-On Machine Learning with Scikit-Learn and TensorFlow,\" \"Deep Learning\" par Goodfellow et al.",
+        "communities": "Communautés :",
+        "communitiesDesc": "Kaggle, articles de recherche IA sur arXiv, dépôts GitHub",
+        "practice": "Pratique :",
+        "practiceDesc": "Commencer par des projets simples et augmenter progressivement la complexité"
+      }
+    }
+  },
+  "kidsProgramming": {
+    "title": "Feuille de Route de Programmation pour Enfants",
+    "description": "Un guide complet pour enseigner aux enfants l'informatique, la programmation et les concepts d'IA.",
+    "intro": {
+      "title": "Introduction à l'Enseignement de la Programmation aux Enfants",
+      "content": "Enseigner l'informatique et la programmation aux enfants dès leur plus jeune âge aide à développer la pensée critique, les compétences de résolution de problèmes et la littératie numérique. Cette feuille de route propose une approche structurée pour initier les enfants au monde de la technologie, des concepts informatiques de base aux fondamentaux de la programmation et même aux concepts d'IA.",
+      "ageGroups": {
+        "title": "Apprentissage Adapté à l'Âge :",
+        "ages5_7": "Ages 5-7 : Interaction basique avec l'ordinateur, programmation visuelle par blocs",
+        "ages8_10": "Ages 8-10 : Apprentissage basé sur le jeu, introduction aux concepts de codage",
+        "ages11_13": "Ages 11-13 : Langages de programmation textuels, projets simples",
+        "ages14Plus": "Ages 14+ : Concepts avancés, domaines spécialisés, fondamentaux de l'IA"
+      }
+    },
+    "computerBasics": {
+      "title": "Phase 1 : Bases Informatiques & Littératie Numérique",
+      "fundamentals": {
+        "title": "Fondamentaux de l'Informatique",
+        "parts": "Parties d'un Ordinateur :",
+        "partsDesc": "Comprendre les composants matériels (écran, clavier, souris, processeur)",
+        "os": "Systèmes d'Exploitation :",
+        "osDesc": "Introduction aux différents systèmes d'exploitation (Windows, MacOS, Linux)",
+        "files": "Fichiers & Dossiers :",
+        "filesDesc": "Gestion basique des fichiers, création de dossiers, sauvegarde de travail",
+        "internet": "Bases d'Internet :",
+        "internetDesc": "Comment fonctionne Internet, navigateurs web, sécurité en ligne"
+      },
+      "digitalLiteracy": {
+        "title": "Compétences en Littératie Numérique",
+        "typing": "Dactylographie :",
+        "typingDesc": "Jeux et activités pour développer les compétences au clavier",
+        "tools": "Outils de Base :",
+        "toolsDesc": "Introduction aux traitements de texte, programmes de dessin, calculatrices",
+        "safety": "Sécurité en Ligne :",
+        "safetyDesc": "Vie privée, contenu approprié et citoyenneté numérique responsable",
+        "media": "Médias Numériques :",
+        "mediaDesc": "Créer et partager du contenu numérique de manière appropriée"
+      },
+      "activities": {
+        "title": "Activités Recommandées",
+        "games": "Jeux éducatifs sur ordinateur qui enseignent le contrôle de la souris et la familiarité avec le clavier",
+        "storytelling": "Narration numérique avec des outils de présentation simples",
+        "art": "Projets d'art numérique utilisant des programmes de dessin basiques",
+        "tutorials": "Tutoriels guidés sur les opérations informatiques de base"
+      }
+    },
+    "programmingBasics": {
+      "title": "Phase 2 : Fondamentaux de la Programmation",
+      "concepts": {
+        "title": "Concepts Fondamentaux de Programmation",
+        "algorithms": "Algorithmes :",
+        "algorithmsDesc": "Instructions étape par étape pour résoudre des problèmes",
+        "sequences": "Séquences :",
+        "sequencesDesc": "Ordonner les instructions dans la bonne séquence",
+        "loops": "Boucles :",
+        "loopsDesc": "Répéter des actions plusieurs fois",
+        "conditionals": "Conditionnels :",
+        "conditionalsDesc": "Prendre des décisions dans le code (instructions if-then)",
+        "variables": "Variables :",
+        "variablesDesc": "Stocker et utiliser des informations",
+        "events": "Événements :",
+        "eventsDesc": "Faire que des choses se produisent quand elles sont déclenchées"
+      },
+      "blockCoding": {
+        "title": "Programmation Visuelle par Blocs",
+        "scratch": "Scratch :",
+        "scratchDesc": "Environnement de programmation visuelle du MIT pour créer des jeux et des animations",
+        "code": "Code.org :",
+        "codeDesc": "Cours structurés avec des personnages et des thèmes populaires",
+        "blockly": "Blockly Games :",
+        "blocklyDesc": "Puzzles et jeux de codage en blocs de Google",
+        "tynker": "Tynker :",
+        "tynkerDesc": "Plateforme basée sur le jeu avec intégration Minecraft"
+      },
+      "introText": {
+        "title": "Introduction à la Programmation Textuelle",
+        "python": "Python :",
+        "pythonDesc": "Langage convivial pour les débutants avec une syntaxe claire",
+        "javascript": "JavaScript :",
+        "javascriptDesc": "Programmation orientée web avec des résultats visuels immédiats",
+        "tools": "EDI Adaptés aux Enfants :",
+        "toolsDesc": "Environnements de développement simplifiés comme Thonny pour Python",
+        "transition": "Conseils de Transition :",
+        "transitionDesc": "Passer des blocs au texte via des plateformes hybrides comme les cours Python de Tynker"
+      },
+      "projects": {
+        "title": "Projets de Programmation pour Débutants",
+        "animations": "Animations simples et histoires interactives",
+        "games": "Jeux basiques comme Pong ou Coureur de Labyrinthe",
+        "quizzes": "Quiz interactifs et jeux de questions-réponses",
+        "art": "Projets d'art créatif par le code utilisant des boucles",
+        "calculator": "Calculatrices simples ou outils de conversion"
+      }
+    },
+    "hardware": {
+      "title": "Phase 3 : Matériel & Informatique Physique",
+      "platforms": {
+        "title": "Plateformes Matérielles Adaptées aux Enfants",
+        "microbit": "micro:bit :",
+        "microbitDesc": "Ordinateur de poche avec LEDs, capteurs et Bluetooth",
+        "arduino": "Arduino :",
+        "arduinoDesc": "Plateforme électronique pour créer des projets interactifs",
+        "raspberry": "Raspberry Pi :",
+        "raspberryDesc": "Ordinateur monocarte pour divers projets de programmation",
+        "lego": "LEGO Robotics :",
+        "legoDesc": "LEGO Mindstorms et SPIKE Prime pour la robotique"
+      },
+      "projects": {
+        "title": "Projets d'Informatique Physique",
+        "led": "Motifs lumineux LED et affichages",
+        "robots": "Robots simples qui peuvent suivre des lignes ou éviter des obstacles",
+        "weather": "Stations météo ou moniteurs environnementaux",
+        "games": "Jeux physiques avec boutons et lumières",
+        "wearables": "Projets de technologie portable"
+      },
+      "skills": {
+        "title": "Compétences Développées",
+        "circuits": "Compréhension basique de l'électronique et des circuits",
+        "realWorld": "Connecter la programmation aux interactions du monde réel",
+        "engineering": "Pensée d'ingénierie et de conception",
+        "debugging": "Débogage physique et résolution de problèmes"
+      }
+    },
+    "ai": {
+      "title": "Phase 4 : Introduction aux Concepts d'IA",
+      "concepts": {
+        "title": "Concepts d'IA de Base pour Enfants",
+        "what": "Qu'est-ce que l'IA :",
+        "whatDesc": "Expliquer l'intelligence artificielle en termes adaptés aux enfants",
+        "ml": "Apprentissage Automatique :",
+        "mlDesc": "Comment les ordinateurs apprennent à partir de données et d'exemples",
+        "pattern": "Reconnaissance de Motifs :",
+        "patternDesc": "Trouver des modèles dans les informations",
+        "ethics": "Éthique de l'IA :",
+        "ethicsDesc": "Utilisation responsable de l'IA et compréhension des biais"
+      },
+      "tools": {
+        "title": "Outils d'IA Adaptés aux Enfants",
+        "machinelearning": "Machine Learning for Kids :",
+        "machinelearningDesc": "Outil web pour créer des projets avec apprentissage automatique",
+        "cognimates": "Cognimates :",
+        "cognimatesDesc": "Plateforme éducative d'IA avec des expériences d'apprentissage ludiques",
+        "aiblocks": "AI Blocks :",
+        "aiblocksDesc": "Programmation visuelle pour réseaux neuronaux",
+        "quickdraw": "Quick, Draw! :",
+        "quickdrawDesc": "Jeu de dessin de Google qui utilise des réseaux neuronaux"
+      },
+      "projects": {
+        "title": "Projets d'IA Simples pour Enfants",
+        "imageRecognition": "Reconnaissance d'images : Apprendre à un ordinateur à reconnaître des dessins ou des objets",
+        "textGen": "Génération de texte : Créer des chatbots simples ou des générateurs d'histoires",
+        "games": "IA dans les jeux : Créer des jeux simples avec des adversaires contrôlés par ordinateur",
+        "voice": "Projets de commande vocale : Construire des applications simples commandées par la voix"
+      }
+    },
+    "progressPath": {
+      "title": "Apprentissage Continu & Chemin de Progression",
+      "advancement": {
+        "title": "Faire Progresser Leurs Compétences",
+        "compSci": "Principes d'Informatique :",
+        "compSciDesc": "Introduction aux algorithmes, structures de données et pensée computationnelle",
+        "webDev": "Développement Web :",
+        "webDevDesc": "HTML, CSS et JavaScript pour créer des sites web",
+        "mobileDev": "Développement d'Applications Mobiles :",
+        "mobileDevDesc": "Créer des applications mobiles simples",
+        "gameDev": "Développement de Jeux :",
+        "gameDevDesc": "Utiliser des moteurs de jeu comme Unity ou Godot"
+      },
+      "resources": {
+        "title": "Ressources d'Apprentissage",
+        "online": "Plateformes d'Apprentissage en Ligne :",
+        "onlineDesc": "Khan Academy, Codecademy, Udemy Kids",
+        "clubs": "Clubs de Codage & Communautés :",
+        "clubsDesc": "CoderDojo, Code Club, Girls Who Code",
+        "competitions": "Compétitions & Défis :",
+        "competitionsDesc": "Hackathons, compétitions de codage, défis Scratch",
+        "yt": "Chaînes YouTube :",
+        "ytDesc": "Tutoriels de programmation et idées de projets adaptés aux enfants"
+      },
+      "parentTips": {
+        "title": "Conseils pour Parents & Éducateurs :",
+        "interest": "Mise sur les intérêts : Connecter la programmation à des sujets que les enfants apprécient déjà",
+        "creative": "Mettre l'accent sur la créativité : Le codage est un outil d'expression créative, pas seulement une compétence technique",
+        "pace": "Aller à leur rythme : Chaque enfant apprend différemment ; les laisser progresser à un rythme confortable",
+        "together": "Apprendre ensemble : Explorer de nouveaux concepts aux côtés de votre enfant",
+        "celebrate": "Célébrer les succès : Reconnaître et célébrer les réussites, aussi petites soient-elles"
+      }
+    }
+  },
+  "databaseArchitecture": {
+    "title": "Architecture et Performance des Bases de Données",
+    "description": "Meilleures pratiques pour concevoir des systèmes de bases de données robustes et performants à grande échelle.",
+    "fundamentals": {
+      "title": "Fondamentaux de l'Architecture des Bases de Données",
+      "intro": "L'architecture des bases de données est la conception structurelle d'un système de base de données qui définit comment les données sont stockées, consultées et gérées. Une architecture de base de données bien conçue assure l'intégrité des données, la performance et l'évolutivité à mesure que les applications se développent.",
+      "concepts": {
+        "title": "Concepts Fondamentaux des Bases de Données",
+        "dataModels": "Modèles de Données",
+        "dataModelsDesc": "Relationnel, document, clé-valeur, graphe, séries temporelles",
+        "acid": "Propriétés ACID",
+        "acidDesc": "Atomicité, Cohérence, Isolation, Durabilité",
+        "normalization": "Normalisation",
+        "normalizationDesc": "Organisation des données pour réduire la redondance et améliorer l'intégrité",
+        "indexing": "Indexation",
+        "indexingDesc": "Optimisation des opérations de récupération de données",
+        "transactions": "Transactions",
+        "transactionsDesc": "Gestion de plusieurs opérations de base de données comme une seule unité",
+        "concurrency": "Contrôle de Concurrence",
+        "concurrencyDesc": "Gestion des accès simultanés aux données"
+      }
+    },
+    "types": {
+      "title": "Types de Bases de Données et Critères de Sélection",
+      "relational": {
+        "title": "Bases de Données Relationnelles (SGBDR)",
+        "intro": "Données structurées avec des relations définies entre les entités :",
+        "postgresql": "PostgreSQL",
+        "postgresqlDesc": "SGBDR open-source avancé avec des fonctionnalités robustes",
+        "mysql": "MySQL/MariaDB",
+        "mysqlDesc": "Base de données open-source populaire et fiable",
+        "sqlServer": "SQL Server",
+        "sqlServerDesc": "Solution de base de données d'entreprise de Microsoft",
+        "oracle": "Oracle",
+        "oracleDesc": "SGBDR de niveau entreprise pour les applications critiques",
+        "bestFor": "Idéal pour : Requêtes complexes, transactions et données avec des relations claires"
+      },
+      "nosql": {
+        "title": "Bases de Données NoSQL",
+        "documentStores": "Bases de Données Documentaires",
+        "documentStoresDesc": "MongoDB, Couchbase (schéma flexible, documents similaires à JSON)",
+        "keyValue": "Bases de Données Clé-Valeur",
+        "keyValueDesc": "Redis, DynamoDB (accès aux données simple et haute performance)",
+        "columnFamily": "Bases de Données Orientées Colonnes",
+        "columnFamilyDesc": "Cassandra, HBase (données à colonnes larges avec débit d'écriture élevé)",
+        "graph": "Bases de Données de Graphes",
+        "graphDesc": "Neo4j, Amazon Neptune (données axées sur les relations)",
+        "timeSeries": "Bases de Données de Séries Temporelles",
+        "timeSeriesDesc": "InfluxDB, TimescaleDB (optimisées pour les données temporelles)",
+        "bestFor": "Idéal pour : Modèles de données spécifiques, mise à l'échelle horizontale et cas d'utilisation spécialisés"
+      },
+      "selection": {
+        "title": "Critères de Sélection de Base de Données",
+        "dataStructure": "Structure des Données",
+        "dataStructureDesc": "Vos données sont-elles relationnelles ou non structurées ?",
+        "queryPatterns": "Modèles de Requêtes",
+        "queryPatternsDesc": "Quels types de requêtes exécuterez-vous le plus fréquemment ?",
+        "scalability": "Exigences de Scalabilité",
+        "scalabilityDesc": "Besoins de mise à l'échelle verticale vs horizontale",
+        "consistency": "Exigences de Cohérence",
+        "consistencyDesc": "Cohérence forte vs cohérence éventuelle",
+        "transaction": "Support des Transactions",
+        "transactionDesc": "Avez-vous besoin de transactions ACID ?",
+        "performance": "Besoins de Performance",
+        "performanceDesc": "Charges de travail intensives en lecture vs écriture"
+      }
+    },
+    "optimization": {
+      "title": "Techniques d'Optimisation des Performances",
+      "indexing": {
+        "title": "Stratégies d'Indexation de Base de Données",
+        "btree": "Index B-Tree",
+        "btreeDesc": "Indexation polyvalente pour les requêtes d'égalité et de plage",
+        "hash": "Index Hash",
+        "hashDesc": "Recherches rapides pour les requêtes de correspondance exacte",
+        "bitmap": "Index Bitmap",
+        "bitmapDesc": "Efficaces pour les colonnes à faible cardinalité",
+        "fulltext": "Index Full-Text",
+        "fulltextDesc": "Optimisés pour la recherche textuelle",
+        "spatial": "Index Spatiaux",
+        "spatialDesc": "Pour les données géographiques et géométriques",
+        "composite": "Index Composites",
+        "compositeDesc": "Colonnes multiples pour des modèles de requêtes complexes"
+      },
+      "query": {
+        "title": "Optimisation des Requêtes",
+        "executionPlans": "Comprendre les plans d'exécution des requêtes",
+        "rewriting": "Réécriture de requêtes inefficaces",
+        "joins": "Techniques de JOIN appropriées",
+        "n1": "Éviter les problèmes de requêtes N+1",
+        "hints": "Utilisation judicieuse des indications de requête",
+        "pagination": "Implémentation efficace de la pagination"
+      },
+      "caching": {
+        "title": "Stratégies de Mise en Cache",
+        "memory": "Cache en Mémoire",
+        "memoryDesc": "Redis, Memcached",
+        "application": "Cache au Niveau de l'Application",
+        "applicationDesc": "Cache mémoire local",
+        "query": "Cache des Résultats de Requêtes",
+        "queryDesc": "Stockage des résultats de requêtes fréquentes",
+        "dataAccess": "Cache de la Couche d'Accès aux Données",
+        "dataAccessDesc": "Cache au niveau ORM",
+        "cdn": "Réseaux de Distribution de Contenu",
+        "cdnDesc": "Cache distribué pour le contenu"
+      }
+    },
+    "scaling": {
+      "title": "Mise à l'Échelle des Systèmes de Bases de Données",
+      "vertical": {
+        "title": "Mise à l'Échelle Verticale (Scaling Up)",
+        "hardware": "Ajout de CPU, mémoire ou stockage à un serveur unique",
+        "storage": "Mise à niveau vers un stockage plus rapide (SSD, NVMe)",
+        "config": "Optimisation des paramètres de configuration du serveur",
+        "advantages": "Avantages : Simplicité, pas de changements d'application nécessaires",
+        "limitations": "Limitations : Plafond matériel, point unique de défaillance"
+      },
+      "horizontal": {
+        "title": "Mise à l'Échelle Horizontale (Scaling Out)",
+        "sharding": "Sharding",
+        "shardingDesc": "Partitionnement des données sur plusieurs serveurs de bases de données",
+        "replication": "Réplication",
+        "replicationDesc": "Création de copies de données pour la mise à l'échelle en lecture et la redondance",
+        "readReplicas": "Répliques de Lecture",
+        "readReplicasDesc": "Distribution du trafic de lecture sur plusieurs serveurs",
+        "clusters": "Clusters de Bases de Données",
+        "clustersDesc": "Nœuds de base de données coordonnés",
+        "advantages": "Avantages : Potentiel de mise à l'échelle quasi illimité, tolérance aux pannes",
+        "challenges": "Défis : Complexité accrue, problèmes de cohérence des données"
+      }
+    },
+    "reliability": {
+      "title": "Fiabilité et Maintenance des Bases de Données",
+      "availability": {
+        "title": "Modèles de Haute Disponibilité",
+        "masterSlave": "Réplication Maître-Esclave",
+        "masterSlaveDesc": "Pour la capacité de basculement",
+        "multiMaster": "Réplication Multi-Maître",
+        "multiMasterDesc": "Pour les configurations actif-actif",
+        "clustering": "Clustering de Bases de Données",
+        "clusteringDesc": "Pour une haute disponibilité coordonnée",
+        "failover": "Basculement Automatique",
+        "failoverDesc": "Avec des outils comme HAProxy, Patroni",
+        "disaster": "Planification de Reprise après Sinistre",
+        "disasterDesc": "Sauvegardes régulières et tests de récupération"
+      },
+      "maintenance": {
+        "title": "Meilleures Pratiques de Maintenance des Bases de Données",
+        "backup": "Tests réguliers de sauvegarde et de restauration",
+        "index": "Maintenance des index et mises à jour des statistiques",
+        "vacuum": "Processus de nettoyage/vacuum de la base de données",
+        "monitoring": "Systèmes de surveillance et d'alerte",
+        "upgrade": "Gestion des mises à niveau et des correctifs"
+      },
+      "checklist": {
+        "title": "Checklist d'Architecture de Base de Données :",
+        "models": "Définir clairement les modèles de données et les relations",
+        "indexing": "Mettre en œuvre une stratégie d'indexation appropriée",
+        "scale": "Planifier pour la mise à l'échelle dès le début",
+        "monitoring": "Mettre en œuvre la surveillance et l'analyse des performances",
+        "faultTolerance": "Concevoir pour la tolérance aux pannes et la haute disponibilité",
+        "backup": "Établir des procédures de sauvegarde et de reprise après sinistre",
+        "connection": "Documenter le pooling de connexions et la gestion des ressources",
+        "dataLayer": "Créer une couche d'accès aux données qui abstrait les opérations de base de données"
+      }
+    }
+  },
+  "frontendRoadmap": {
+    "title": "Feuille de Route Frontend (Angular & React)",
+    "description": "Maîtriser Angular et React pour construire des interfaces utilisateur modernes et responsives.",
+    "fundamentals": {
+      "title": "Fondamentaux du Développement Frontend",
+      "intro": "Avant de plonger dans des frameworks comme Angular et React, il est essentiel d'avoir une compréhension solide des technologies web de base qui alimentent l'écosystème frontend moderne.",
+      "coreTech": {
+        "title": "Technologies Fondamentales",
+        "html": "HTML5",
+        "htmlDesc": "Balisage sémantique, accessibilité et structure de document",
+        "css": "CSS3",
+        "cssDesc": "Stylisation, mises en page, animations et design responsive",
+        "js": "JavaScript (ES6+)",
+        "jsDesc": "Fonctionnalités de base du langage, manipulation du DOM et syntaxe moderne",
+        "ts": "TypeScript",
+        "tsDesc": "Typage statique pour JavaScript, essentiel pour Angular et recommandé pour React"
+      },
+      "prerequisites": {
+        "title": "Compétences Préalables:",
+        "http": "Compréhension du protocole HTTP et des concepts d'API",
+        "responsive": "Compréhension de base des principes de design responsive",
+        "devtools": "Familiarité avec les outils de développement du navigateur",
+        "git": "Contrôle de version avec Git"
+      }
+    },
+    "angular": {
+      "title": "Framework Angular",
+      "concepts": {
+        "title": "Concepts Fondamentaux",
+        "components": "Composants",
+        "componentsDesc": "Éléments constitutifs des applications Angular",
+        "templates": "Modèles",
+        "templatesDesc": "HTML avec syntaxe spécifique à Angular",
+        "directives": "Directives",
+        "directivesDesc": "Extension du HTML avec des comportements personnalisés",
+        "services": "Services",
+        "servicesDesc": "Fournisseurs de données et de logique réutilisables",
+        "di": "Injection de Dépendances",
+        "diDesc": "Système DI d'Angular"
+      },
+      "state": {
+        "title": "Gestion d'État et Flux de Données",
+        "io": "Propriétés Input/Output",
+        "services": "Services et RxJS",
+        "ngrx": "NgRx pour la gestion d'état complexe",
+        "http": "HTTP Client pour la communication API"
+      },
+      "ecosystem": {
+        "title": "Écosystème Angular",
+        "cli": "Angular CLI pour l'échafaudage de projets et les outils",
+        "material": "Angular Material pour les composants UI",
+        "universal": "Angular Universal pour le rendu côté serveur",
+        "nx": "Nx pour la gestion de monorepo"
+      }
+    },
+    "react": {
+      "title": "Bibliothèque React",
+      "concepts": {
+        "title": "Concepts Fondamentaux",
+        "components": "Composants",
+        "componentsDesc": "Composants fonctionnels et de classe",
+        "jsx": "JSX",
+        "jsxDesc": "Syntaxe JavaScript XML",
+        "props": "Props",
+        "propsDesc": "Propriétés des composants",
+        "state": "État",
+        "stateDesc": "Données au niveau des composants",
+        "hooks": "Hooks",
+        "hooksDesc": "Gestion de l'état et des effets secondaires dans les composants fonctionnels"
+      },
+      "state": {
+        "title": "Gestion d'État et Flux de Données",
+        "context": "Context API pour l'état de l'arborescence des composants",
+        "redux": "Redux pour la gestion d'état global",
+        "query": "React Query pour l'état du serveur",
+        "apollo": "Apollo Client pour GraphQL"
+      },
+      "ecosystem": {
+        "title": "Écosystème React",
+        "cra": "Create React App pour la configuration de projet",
+        "nextjs": "Next.js pour le rendu côté serveur et la génération de site statique",
+        "ui": "Material-UI, Chakra UI et autres bibliothèques de composants",
+        "router": "React Router pour la navigation"
+      }
+    },
+    "common": {
+      "title": "Compétences Frontend Communes",
+      "styling": {
+        "title": "Approches de Stylisation",
+        "modules": "CSS Modules pour les styles à portée de composant",
+        "styled": "Styled Components pour CSS-in-JS",
+        "tailwind": "Tailwind CSS pour une stylisation utility-first",
+        "sass": "Sass/SCSS pour des capacités CSS améliorées"
+      },
+      "testing": {
+        "title": "Frameworks de Test",
+        "jest": "Jest pour les tests unitaires",
+        "rtl": "React Testing Library / Utilitaires de test Angular",
+        "cypress": "Cypress pour les tests de bout en bout",
+        "storybook": "Storybook pour la documentation des composants et les tests visuels"
+      },
+      "performance": {
+        "title": "Optimisation des Performances",
+        "splitting": "Fractionnement de code et chargement différé",
+        "memo": "Techniques de mémorisation",
+        "vitals": "Web Vitals et audits Lighthouse",
+        "bundle": "Optimisation de la taille des bundles"
+      }
+    },
+    "learning": {
+      "title": "Parcours d'Apprentissage",
+      "intro": "Suivez ce parcours structuré pour devenir compétent en développement frontend:",
+      "path": {
+        "basics": "Bases",
+        "basicsDesc": "Maîtriser les fondamentaux HTML, CSS et JavaScript",
+        "typescript": "TypeScript",
+        "typescriptDesc": "Apprendre les bases de TypeScript et les systèmes de types",
+        "framework": "Choisir un Framework",
+        "frameworkDesc": "Choisir Angular ou React pour commencer (selon les besoins du projet)",
+        "projects": "Construire des Projets",
+        "projectsDesc": "Créer des applications progressivement complexes",
+        "testing": "Tests",
+        "testingDesc": "Implémenter des stratégies de test complètes",
+        "state": "Gestion d'État",
+        "stateDesc": "Ajouter une gestion d'état avancée",
+        "performance": "Performance",
+        "performanceDesc": "Optimiser pour la vitesse et l'expérience utilisateur",
+        "patterns": "Motifs Avancés",
+        "patternsDesc": "Apprendre les motifs de conception spécifiques à votre framework"
+      }
+    },
+    "comparison": {
+      "title": "Comparaison des Frameworks:",
+      "angular": {
+        "title": "Angular",
+        "complete": "Framework complet avec solutions intégrées",
+        "typescript": "TypeScript requis",
+        "opinions": "Opinions plus fortes sur l'architecture",
+        "enterprise": "Idéal pour les applications d'entreprise"
+      },
+      "react": {
+        "title": "React",
+        "flexible": "Approche de bibliothèque flexible",
+        "ecosystem": "Plus de choix d'écosystème",
+        "learning": "Courbe d'apprentissage initialement plus légère",
+        "startups": "Excellent pour les startups et le prototypage rapide"
+      }
+    }
+  },
+  "devOpsEssentials": {
+    "title": "Essentiels DevOps",
+    "description": "Apprenez les principes fondamentaux, les pratiques et les outils pour une mise en œuvre efficace de DevOps.",
+    "understanding": {
+      "title": "Comprendre DevOps",
+      "intro": "DevOps est un ensemble de pratiques qui combine le développement logiciel (Dev) et les opérations informatiques (Ops), visant à raccourcir le cycle de développement et à fournir une livraison continue de haute qualité. Il est construit sur une culture de collaboration entre des équipes qui fonctionnaient historiquement en silos."
+    },
+    "corePrinciples": {
+      "title": "Principes Fondamentaux",
+      "collaboration": "Collaboration",
+      "collaborationDesc": "Briser les silos entre le développement et les opérations",
+      "automation": "Automatisation",
+      "automationDesc": "Automatiser les tâches et processus répétitifs",
+      "ci": "Intégration Continue",
+      "ciDesc": "Fusionner fréquemment les changements de code dans un référentiel central",
+      "cd": "Livraison Continue",
+      "cdDesc": "Garantir que le code peut être déployé de manière fiable à tout moment",
+      "monitoring": "Surveillance et Retour d'Information",
+      "monitoringDesc": "Collecter des métriques pour améliorer les processus"
+    },
+    "practices": {
+      "title": "Pratiques Essentielles DevOps",
+      "iac": {
+        "title": "Infrastructure as Code (IaC)",
+        "description": "Gérer l'infrastructure par code plutôt que par des processus manuels:",
+        "terraform": "Terraform pour le provisionnement d'infrastructure",
+        "ansible": "Ansible pour la gestion de configuration",
+        "cloudformation": "CloudFormation pour les ressources AWS",
+        "arm": "Modèles ARM pour les ressources Azure"
+      },
+      "cicd": {
+        "title": "Intégration Continue/Déploiement Continu (CI/CD)",
+        "description": "Automatiser l'intégration et le déploiement des changements de code:",
+        "jenkins": "Jenkins pour serveur d'automatisation",
+        "github": "GitHub Actions pour pipelines CI/CD",
+        "azure": "Azure DevOps pour DevOps de bout en bout",
+        "gitlab": "GitLab CI pour workflows intégrés",
+        "circleci": "CircleCI pour CI/CD basé sur le cloud"
+      },
+      "containers": {
+        "title": "Conteneurisation et Orchestration",
+        "description": "Empaqueter et gérer les applications de manière cohérente dans tous les environnements:",
+        "docker": "Docker pour la conteneurisation",
+        "kubernetes": "Kubernetes pour l'orchestration de conteneurs",
+        "compose": "Docker Compose pour applications multi-conteneurs",
+        "helm": "Helm pour la gestion des packages Kubernetes"
+      }
+    },
+    "monitoring": {
+      "title": "Surveillance et Observabilité",
+      "metrics": {
+        "title": "Métriques Clés et Outillage",
+        "prometheus": "Prometheus",
+        "prometheusDesc": "Surveillance de séries temporelles",
+        "grafana": "Grafana",
+        "grafanaDesc": "Visualisation et tableaux de bord",
+        "elk": "ELK Stack",
+        "elkDesc": "Elasticsearch, Logstash, Kibana pour la gestion des logs",
+        "newrelic": "New Relic",
+        "newrelicDesc": "Surveillance des performances applicatives",
+        "datadog": "Datadog",
+        "datadogDesc": "Surveillance à l'échelle du cloud"
+      },
+      "pillars": {
+        "title": "Piliers de l'Observabilité",
+        "logs": "Logs",
+        "logsDesc": "Enregistrement des événements et erreurs",
+        "metrics": "Métriques",
+        "metricsDesc": "Mesures numériques",
+        "traces": "Traces",
+        "tracesDesc": "Suivi des requêtes à travers un système distribué",
+        "alerts": "Alertes",
+        "alertsDesc": "Notifications pour les problèmes critiques"
+      }
+    },
+    "security": {
+      "title": "Sécurité dans DevOps (DevSecOps)",
+      "intro": "Intégrer les pratiques de sécurité au sein du processus DevOps:",
+      "shiftLeft": "Sécurité Shift Left",
+      "shiftLeftDesc": "Implémenter la sécurité tôt dans le développement",
+      "testing": "Tests de Sécurité Automatisés",
+      "testingDesc": "SAST, DAST, SCA",
+      "vulnerability": "Gestion des Vulnérabilités",
+      "vulnerabilityDesc": "Analyse régulière et correction",
+      "compliance": "Conformité as Code",
+      "complianceDesc": "Automatiser les vérifications de conformité",
+      "secrets": "Gestion des Secrets",
+      "secretsDesc": "Vault, AWS Secrets Manager, Azure Key Vault"
+    },
+    "implementation": {
+      "title": "Feuille de Route d'Implémentation",
+      "intro": "Une approche progressive pour implémenter DevOps dans votre organisation:",
+      "assessment": "Évaluation",
+      "assessmentDesc": "Évaluer les processus actuels et les points de douleur",
+      "culture": "Culture",
+      "cultureDesc": "Favoriser la collaboration entre développement et opérations",
+      "tooling": "Outillage",
+      "toolingDesc": "Sélectionner et implémenter les outils appropriés",
+      "automation": "Automatisation",
+      "automationDesc": "Commencer avec les pipelines CI/CD",
+      "monitoring": "Surveillance",
+      "monitoringDesc": "Mettre en place une surveillance complète",
+      "iteration": "Itération",
+      "iterationDesc": "Améliorer continuellement les processus et pratiques",
+      "certifications": {
+        "title": "Certifications Recommandées",
+        "aws": "AWS Certified DevOps Engineer",
+        "azure": "Azure DevOps Engineer Expert",
+        "kubernetes": "Certified Kubernetes Administrator (CKA)",
+        "docker": "Docker Certified Associate"
+      }
+    }
+  },
+  "dotnetRoadmap": {
+    "title": "Feuille de Route .NET",
+    "description": "Un guide complet pour maîtriser le développement .NET et construire des applications évolutives.",
+    "gettingStarted": {
+      "title": "Débuter avec .NET",
+      "intro": ".NET est une plateforme de développement gratuite, multiplateforme et open-source pour construire différents types d'applications. Avec .NET, vous pouvez utiliser plusieurs langages, éditeurs et bibliothèques pour développer pour le web, mobile, bureau, jeux et IoT."
+    },
+    "coreConcepts": {
+      "title": "Concepts Fondamentaux",
+      "csharp": "Fondamentaux de C#",
+      "csharpDesc": "Maîtrisez la syntaxe, les types et les principes orientés objet",
+      "clr": "CLR & .NET Runtime",
+      "clrDesc": "Comprendre comment .NET exécute votre code",
+      "ide": "Visual Studio / VS Code",
+      "ideDesc": "Configurez votre environnement de développement",
+      "nuget": "Gestion des Packages NuGet",
+      "nugetDesc": "Apprenez à utiliser l'écosystème de packages .NET"
+    },
+    "keyTech": {
+      "title": "Technologies Clés",
+      "aspnet": {
+        "title": "ASP.NET Core",
+        "description": "Créez des applications web et des services rapides, sécurisés et pouvant fonctionner sur Windows, Linux et macOS :",
+        "mvc": "Architecture MVC",
+        "razor": "Razor Pages",
+        "blazor": "Blazor (WebAssembly & Server)",
+        "api": "API Web et Services RESTful",
+        "signalr": "SignalR pour Applications en Temps Réel"
+      },
+      "ef": {
+        "title": "Entity Framework Core",
+        "description": "ORM moderne pour .NET qui prend en charge plusieurs fournisseurs de bases de données :",
+        "approaches": "Approches Code-First et Database-First",
+        "linq": "LINQ pour les Requêtes d'Entités",
+        "migrations": "Migrations et Gestion des Schémas",
+        "performance": "Optimisation des Performances"
+      },
+      "desktop": {
+        "title": "Développement Bureau",
+        "description": "Options pour construire des applications de bureau :",
+        "wpf": "WPF (Windows Presentation Foundation)",
+        "winforms": "Windows Forms",
+        "uwp": "UWP (Universal Windows Platform)",
+        "maui": "MAUI (Multi-platform App UI)"
+      }
+    },
+    "advanced": {
+      "title": "Sujets Avancés",
+      "cloud": {
+        "title": "Cloud et Microservices",
+        "azure": "Intégration Azure",
+        "docker": "Conteneurisation avec Docker",
+        "kubernetes": "Orchestration avec Kubernetes",
+        "microservices": "Architecture Microservices"
+      },
+      "performance": {
+        "title": "Performance et Optimisation",
+        "async": "Modèles Async/Await",
+        "memory": "Gestion de la Mémoire",
+        "threading": "Threading et Concurrence",
+        "profiling": "Profilage de Performance"
+      },
+      "testing": {
+        "title": "Tests",
+        "unit": "Tests Unitaires avec xUnit, NUnit ou MSTest",
+        "integration": "Tests d'Intégration",
+        "mock": "Objets Mock et Injection de Dépendances",
+        "tdd": "Développement Piloté par les Tests (TDD)"
+      }
+    },
+    "learning": {
+      "title": "Parcours d'Apprentissage et Ressources",
+      "intro": "Suivez ce parcours structuré pour devenir compétent en développement .NET :",
+      "path": {
+        "basics": "Bases",
+        "basicsDesc": "Apprenez les fondamentaux de C# et .NET",
+        "web": "Développement Web",
+        "webDesc": "Maîtrisez ASP.NET Core",
+        "data": "Accès aux Données",
+        "dataDesc": "Apprenez Entity Framework Core",
+        "auth": "Authentification",
+        "authDesc": "Implémentez l'identité et la sécurité",
+        "cloud": "Cloud",
+        "cloudDesc": "Déployez sur Azure et implémentez DevOps",
+        "advanced": "Avancé",
+        "advancedDesc": "Explorez les microservices et le serverless"
+      },
+      "certifications": {
+        "title": "Certifications Recommandées",
+        "azure": "Microsoft Certified : Azure Developer Associate",
+        "dotnet": "Microsoft Certified : .NET Developer"
+      }
+    }
+  },
+  "techTopics": {
+    "kidsProgramming": {
+      "title": "Feuille de Route de Programmation pour Enfants",
+      "description": "Un guide complet pour enseigner aux enfants l'informatique, la programmation et les concepts d'IA."
+    },
+    "dotnet": {
+      "title": "Feuille de Route .NET",
+      "description": "Un guide complet pour maîtriser le développement .NET et construire des applications évolutives."
+    },
+    "devops": {
+      "title": "Essentiels DevOps",
+      "description": "Apprenez les principes fondamentaux, les pratiques et les outils pour une mise en œuvre efficace de DevOps."
+    },
+    "frontend": {
+      "title": "Feuille de Route Frontend",
+      "description": "Maîtrisez Angular et React pour créer des interfaces utilisateur modernes et réactives."
+    },
+    "project": {
+      "title": "Feuille de Route en Gestion de Projet",
+      "description": "Un guide des méthodologies Agile, Scrum et du leadership efficace de projet."
+    },
+    "ai": {
+      "title": "Comprendre l'IA pour les Développeurs",
+      "description": "Explorez les concepts d'IA, les modèles et les stratégies d'intégration pour les développeurs de logiciels."
+    },
+    "database": {
+      "title": "Architecture et Performance des Bases de Données",
+      "description": "Meilleures pratiques pour concevoir des systèmes de bases de données robustes et performants à grande échelle."
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "clients": "Clients",
+    "blog": "Blog",
+    "contact": "Contact",
+    "resume": "CV"
+  },
+  
+  "tech": {
+    "title": "Blog Tech",
+    "description": "Explorez des guides et des feuilles de route sur des sujets technologiques clés pour améliorer vos compétences en développement.",
+    "readMore": "Lire Plus",
+    "viewAll": "Voir Tous les Articles",
+    "backToTopics": "Retour aux Sujets"
+  },
+  
+  "resume": {
+    "pageTitle": "CV Professionnel",
+    "pageDescription": "CV professionnel de Mina Youssef présentant plus de 7 ans d'expérience en ingénierie logicielle, développement .NET et conception de systèmes.",
+    "title": "CV Professionnel",
+    "downloadButton": "Télécharger le CV",
+    
+    "profile": {
+      "title": "Profil Professionnel",
+      "description": "Je suis un Ingénieur Logiciel Senior avec plus de 7 ans d'expérience dans la conception, le développement et la livraison de systèmes backend robustes utilisant l'écosystème Microsoft .NET. Mon expertise réside dans la construction d'applications évolutives et performantes dans divers domaines tels que le Capital-Investissement, la Santé et les Plateformes d'Innovation.\n\nJe me spécialise en C#, ASP.NET Core, APIs RESTful, architecture de microservices et conception de bases de données avec SQL Server. Mon travail est guidé par des principes d'architecture propre, de testabilité et de maintenabilité à long terme. J'ai dirigé des projets techniques complexes, garantissant leur alignement avec les objectifs commerciaux, le respect des normes de sécurité et de performance, et leur capacité à évoluer efficacement.\n\nTitulaire d'une certification PMP, j'ai géré et livré avec succès des projets basés sur les méthodes agiles, collaboré avec des équipes pluridisciplinaires et dirigé des efforts de développement dans des environnements distribués. Je crois que la communication efficace et le leadership structuré sont aussi essentiels que l'exécution technique.\n\nActuellement, j'élargis mes compétences en Intelligence Artificielle et DevOps. J'intègre activement l'IA dans les systèmes backend et adopte des pratiques DevOps modernes comme les pipelines CI/CD, la conteneurisation et les déploiements cloud-native.\n\nAu-delà du code, je suis passionné par le mentorat, la construction de communautés et la simplification de sujets complexes par l'éducation. Que je conçoive un système ou dirige une équipe, mon objectif est d'apporter de la valeur, d'inspirer la croissance et de repousser les limites du possible avec le logiciel."
+    },
+    
+    "experience": {
+      "title": "Expérience Professionnelle",
+      "job1": {
+        "title": "Ingénieur Logiciel Senior",
+        "company": "Cepres",
+        "period": "Avr 2022 - Présent",
+        "responsibility1": "Conception et développement de la phase Dealedge en private equity.",
+        "responsibility2": "Amélioration et refactorisation des systèmes existants.",
+        "responsibility3": "Implémentation de solutions évolutives pour la gestion des données financières."
+      },
+      "job2": {
+        "title": "Ingénieur Logiciel Senior",
+        "company": "Bnsights",
+        "period": "Mar 2021 - Mar 2022",
+        "responsibility1": "Développement d'un portail pour l'innovation de la pensée.",
+        "responsibility2": "Conception de schémas de base de données et implémentation de systèmes de ticketing.",
+        "responsibility3": "Guidage des développeurs juniors et collaboration avec les parties prenantes."
+      },
+      "job3": {
+        "title": "Ingénieur Logiciel Senior",
+        "company": "DBS (Pharmacies Eldawaa)",
+        "period": "Juil 2020 - Mar 2021",
+        "responsibility1": "Développement d'applications répondant aux besoins de l'entreprise Al-dwaa.",
+        "responsibility2": "Communication avec les clients pour recueillir les exigences.",
+        "responsibility3": "Direction des processus d'analyse des exigences et de conception des fonctionnalités."
+      }
+    },
+    
+    "education": {
+      "title": "Formation",
+      "degree1": {
+        "name": "Licence en Informatique",
+        "institution": "Université de Minia, Égypte",
+        "period": "2009 - 2014",
+        "description": "Concentration sur les fondamentaux du développement logiciel et les principes de l'informatique."
+      }
+    },
+    
+    "skills": {
+      "title": "Compétences",
+      "technical": {
+        "title": "Compétences Techniques",
+        "programming": "Programmation",
+        "frameworks": "Frameworks",
+        "cloud": "Cloud & DevOps",
+        "databases": "Bases de données",
+        "ai": "IA & ML"
+      },
+      "soft": {
+        "title": "Compétences Humaines",
+        "skill1": "Gestion de Projet (Certifié PMP)",
+        "skill2": "Leadership d'Équipe & Mentorat",
+        "skill3": "Analyse des Exigences",
+        "skill4": "Conception & Architecture de Systèmes",
+        "skill5": "Principes Agile & SOLID"
+      },
+      "technicalList": "C#, .NET Core, ASP.NET, SQL, LINQ, OOP, SOLID, Patrons de Conception, APIs, Conception de Systèmes, DevOps, IA",
+      "methodology": "Agile, PMP, Architecture de Systèmes"
+    },
+    
+    "languages": {
+      "title": "Langues",
+      "english": {
+        "name": "Anglais",
+        "level": "Maîtrise Professionnelle Complète"
+      },
+      "arabic": {
+        "name": "Arabe",
+        "level": "Langue Maternelle"
+      }
+    },
+    
+    "certifications": {
+      "title": "Certifications",
+      "cert1": {
+        "name": "Project Management Professional (PMP)",
+        "issuer": "PMI",
+        "year": "2024"
+      },
+      "cert2": {
+        "name": "Diverses Certifications Techniques",
+        "issuer": "Pluralsight, LinkedIn, Udemy, Udacity",
+        "year": "2016 - Présent"
+      }
+    },
+    
+    "freelance": {
+      "title": "Expérience en Freelance",
+      "description": "A travaillé comme développeur freelance pour diverses entreprises, notamment :",
+      "companies": "KAFD.sa, ADNOC (UAE), Microwize (USA), IbnSina Pharma (Égypte), Bip Soft (Égypte), cura.healthcare (KSA), S3edy Dev (Égypte), Cura.sa"
+    },
+    
+    "interests": {
+      "title": "Centres d'Intérêt",
+      "list": "Codage, Apprentissage Continu, Lecture, Technologie"
+    },
+    
+    "awards": {
+      "title": "Prix",
+      "award1": {
+        "name": "Coupe d'Écriture Poétique",
+        "issuer": "Université de Minia",
+        "year": "2010-2011"
+      }
+    }
+  },
+  "hero": {
+    "hello": "Bonjour",
+    "im": "Je suis",
+    "title": "Ingénieur Logiciel Senior | PMP",
+    "description": "Spécialisé en .NET, C# et architecture logicielle avec plus de 7 ans d'expérience dans la construction de solutions évolutives pour les secteurs du Private Equity, de la Pharmacie et de l'Innovation. Certifié PMP avec une expertise dans la direction d'équipes agiles et la gestion de projets complexes.",
+    "viewProjects": "Voir les Projets",
+    "contactMe": "Me Contacter"
+  },
+  "terminal": {
+    "welcome": {
+      "line1": "Bienvenue sur le portfolio terminal de Mina Narmer !",
+      "line2": "Tapez 'help' pour voir les commandes disponibles.",
+      "line3": "Explorez mes compétences, mon expérience et mes projets."
+    },
+    "help": {
+      "intro": "Commandes disponibles :",
+      "about": "En savoir plus sur moi",
+      "skills": "Voir mes compétences techniques",
+      "experience": "Voir mon expérience professionnelle",
+      "projects": "Voir mes projets récents",
+      "contact": "Obtenir mes coordonnées",
+      "clear": "Effacer l'écran du terminal"
+    },
+    "about": {
+      "line1": "Bonjour, je suis Mina Narmer, un Ingénieur Logiciel Senior spécialisé en .NET, C# et architecture logicielle.",
+      "line2": "J'ai plus de 7 ans d'expérience dans la construction de solutions évolutives pour les secteurs du Private Equity, de la Pharmacie et de l'Innovation.",
+      "line3": "Je suis certifié PMP avec une expertise dans la direction d'équipes agiles et la gestion de projets complexes."
+    },
+    "skills": {
+      "title": "Mes Compétences Techniques :",
+      "ai": "Intégration IA & ML",
+      "netcore": ".NET Core & ASP.NET",
+      "python": "C# & Principes SOLID",
+      "cloud": "DevOps & Architecture de Systèmes",
+      "system": "Gestion de Projet (Certifié PMP)",
+      "database": "SQL & Conception de Base de Données"
+    },
+    "experience": {
+      "title": "Expérience Professionnelle :",
+      "job1": {
+        "title": "Ingénieur Logiciel Senior chez Cepres (Avr 2022-Présent)",
+        "description": "Conception et développement de la phase Dealedge en private equity."
+      },
+      "job2": {
+        "title": "Ingénieur Logiciel Senior chez Bnsights (Mar 2021-Mar 2022)",
+        "description": "Développement d'un portail pour l'innovation de la pensée et guidage des développeurs juniors."
+      },
+      "job3": {
+        "title": "Ingénieur Logiciel Senior chez DBS (Juil 2020-Mar 2021)",
+        "description": "Développement d'applications répondant aux besoins de l'entreprise Al-dwaa."
+      }
+    },
+    "projects": {
+      "title": "Entreprises avec lesquelles j'ai travaillé :",
+      "project1": "CEPRES - Solutions logicielles de private equity et gestion de données financières",
+      "project2": "Bnsights - Portail d'innovation de la pensée et systèmes de ticketing",
+      "project3": "Pharmacies Al-Dawaa - Applications métier et exigences clients",
+      "project4": "ADNOC (UAE) - Solutions pour l'industrie pétrolière et gazière"
+    },
+    "contact": {
+      "title": "Coordonnées :",
+      "email": "Email : Minaibrahem.youssef@gmail.com",
+      "github": "GitHub : github.com/MinaNarmer",
+      "linkedin": "LinkedIn : linkedin.com/in/minayousef",
+      "whatsapp": "WhatsApp : +201003260417",
+      "location": "Emplacement : Le Caire, Égypte"
+    },
+    "error": {
+      "unknown": "Commande non trouvée : '{{command}}'. Tapez 'help' pour voir les commandes disponibles."
+    },
+    "tip": "Cliquez n'importe où dans le terminal et commencez à taper. Essayez des commandes comme 'about', 'skills', ou 'projects'."
+  },
+  "projects": {
+    "title": "Clients avec lesquels j'ai travaillé",
+    "description": "Une sélection d'entreprises avec lesquelles j'ai collaboré dans divers secteurs, de l'IA à la santé.",
+    "featured": "En vedette",
+    "code": "Code",
+    "demo": "Démo",
+    "viewMore": "Voir Plus de Clients",
+    "confidential": "Autres Clients (Confidentiels)",
+    "confidentialTooltip": "Certaines collaborations sont sous NDA et ne peuvent pas être publiées.",
+    "pageTitle": "Portfolio de Projets",
+    "pageDescription": "Découvrez les projets de développement logiciel et les collaborations avec les clients de Mina Narmer dans divers secteurs.",
+    "comingSoon": "Projets à Venir",
+    "comingSoonDescription": "Je travaille actuellement sur une présentation complète de mes projets. Veuillez revenir bientôt pour explorer mon travail en détail.",
+    "backHome": "Retour à l'Accueil"
+  },
+  "blog": {
+    "title": "Blog Tech",
+    "description": "Articles, tutoriels et perspectives sur le développement logiciel, l'IA et la conception de systèmes.",
+    "readFull": "Lire l'Article Complet",
+    "viewAll": "Voir Tous les Articles"
+  },
+  "contact": {
+    "title": "Entrer en Contact",
+    "description": "Vous avez un projet en tête ou vous souhaitez discuter de technologie ? J'aimerais vous entendre.",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "Votre adresse email",
+      "subject": "Sujet",
+      "subjectPlaceholder": "De quoi s'agit-il ?",
+      "message": "Message",
+      "messagePlaceholder": "Votre message ici...",
+      "send": "Envoyer le Message",
+      "sending": "Envoi en cours..."
+    },
+    "connectTitle": "Connectez-vous avec Moi",
+    "email": "Email",
+    "emailValue": "Minaibrahem.youssef@gmail.com",
+    "phone": "WhatsApp",
+    "phoneValue": "+201003260417",
+    "location": "Emplacement",
+    "locationValue": "Le Caire, Égypte",
+    "availability": "Disponibilité",
+    "availabilityValue": "Lundi - Vendredi, 9h - 18h EET",
+    "followMe": "Suivez-moi",
+    "success": "Message Envoyé",
+    "successMessage": "Merci de m'avoir contacté ! Je vous répondrai bientôt.",
+    "error": "Erreur",
+    "errorMessage": "Un problème est survenu lors de l'envoi de votre message. Veuillez réessayer.",
+    "emailError": "Échec de l'envoi de la notification par email. Veuillez réessayer plus tard."
+  },
+  "footer": {
+    "description": "Ingénieur logiciel spécialisé dans le développement backend, la conception de systèmes et les solutions d'IA. Construction d'applications robustes et évolutives avec des technologies modernes.",
+    "quickLinks": "Liens Rapides",
+    "languages": "Langues",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "notFound": {
+    "title": "404 Page Non Trouvée",
+    "description": "La page que vous recherchez n'existe pas.",
+    "message": "Désolé, la page que vous recherchez est introuvable. Elle a peut-être été supprimée ou renommée.",
+    "backHome": "Retour à l'Accueil"
+  },
+  "about": {
+    "sectionTitle": "À Propos de Moi",
+    "sectionSubtitle": "Un aperçu de mon parcours professionnel et de mon expertise",
+    "pageTitle": "À Propos de Moi",
+    "pageDescription": "Découvrez Mina Narmer, un ingénieur logiciel et spécialiste en IA",
+    "title": "Apprenez à Me Connaître",
+    "subtitle": "Découvrez mon parcours et mon expertise en développement logiciel",
+    "readMore": "Lire Plus",
+    "shortBio": {
+      "title": "Bonjour, je suis Mina Narmer",
+      "description": "Je suis un ingénieur logiciel spécialisé dans le développement backend, la conception de systèmes et les solutions d'IA. Je crée des applications robustes et évolutives en utilisant des technologies de pointe."
+    },
+    "experience": "Plus de 5 ans d'expérience en développement logiciel",
+    "location": "San Francisco, Californie",
+    "contactInfo": "Coordonnées",
+    "professionalTitle": "Expérience Professionnelle",
+    "professionalDescription1": "Je suis un ingénieur logiciel spécialisé avec une vaste expérience dans le développement d'applications web complexes et de systèmes de microservices. J'ai travaillé sur divers projets allant des applications SaaS aux solutions d'IA et d'apprentissage automatique.",
+    "professionalDescription2": "J'ai une passion particulière pour l'architecture propre et les meilleures pratiques logicielles qui conduisent à des systèmes robustes et maintenables. Je travaille actuellement sur le développement de solutions techniques innovantes qui combinent des interfaces utilisateur engageantes avec des algorithmes avancés.",
+    "skillsTitle": "Compétences",
+    "technicalSkills": "Compétences Techniques",
+    "softSkills": "Compétences Humaines",
+    "softSkill1": "Résolution de Problèmes Complexes",
+    "softSkill2": "Communication Efficace",
+    "softSkill3": "Travail d'Équipe",
+    "softSkill4": "Gestion de Projet",
+    "softSkill5": "Apprentissage Rapide",
+    "educationTitle": "Formation",
+    "education1": {
+      "degree": "Master en Informatique",
+      "institution": "Université Stanford",
+      "years": "2018 - 2020",
+      "description": "Spécialisé en Intelligence Artificielle et Apprentissage Automatique"
+    },
+    "education2": {
+      "degree": "Licence en Génie Logiciel",
+      "institution": "Université Américaine du Caire",
+      "years": "2014 - 2018",
+      "description": "Diplômé avec mentions et distinction"
+    },
+    "galleryTitle": "Galerie Photo",
+    "galleryImagePlaceholder": "L'image sera ajoutée ici"
+  },
+  "bio": {
+    "title": "À Propos de Moi",
+    "paragraph1": "Je suis un Ingénieur Logiciel Senior avec plus de 7 ans d'expérience en .NET, C# et architecture logicielle. J'ai construit des solutions évolutives et performantes dans les secteurs du Private Equity, de la Pharmacie et de l'Innovation, assurant efficacité, sécurité et maintenabilité.",
+    "paragraph2": "Certifié PMP, avec une expertise dans la direction d'équipes agiles et la gestion de projets complexes. J'élargis actuellement mes connaissances en IA et DevOps, intégrant des technologies modernes dans le développement logiciel. Passionné par le mentorat, la résolution de problèmes et l'innovation technologique.",
+    "skills": "Compétences Techniques",
+    "technical_skills": "Compétences Techniques",
+    "architecture_leadership": "Architecture & Leadership",
+    "project_management": "Gestion de Projet & Leadership",
+    "system_design": "Conception de Systèmes",
+    "microservices": "Microservices",
+    "cloud_architecture": "Architecture Cloud",
+    "pmp_certified": "Certifié PMP",
+    "pmp": "PMP",
+    "devops": "DevOps",
+    "agile": "Agile",
+    "scrum": "Scrum",
+    "pmbok": "PMBOK",
+    "team_leadership": "Leadership d'Équipe",
+    "risk_management": "Gestion des Risques",
+    "resource_planning": "Planification des Ressources",
+    "project_scheduling": "Planification de Projet",
+    "stakeholder_management": "Gestion des Parties Prenantes",
+    "csharp": "C#",
+    "dotnet_core": ".NET Core",
+    "sql": "SQL",
+    "asp_net": "ASP.NET",
+    "ai": "IA",
+    "solid": "SOLID",
+    "oop": "OOP",
+    "linq": "LINQ"
+  },
+  "seo": {
+    "home": {
+      "title": "Ingénieur Logiciel & Spécialiste en IA",
+      "description": "Portfolio personnel de Mina Narmer, un ingénieur logiciel spécialisé dans le développement backend, la conception de systèmes et les solutions d'IA."
+    }
+  }
+}

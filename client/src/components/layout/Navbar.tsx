@@ -31,14 +31,16 @@ export function Navbar() {
     { href: "/", label: t("nav.home"), isHash: false },
     { href: "/resume", label: t("nav.resume"), isHash: false },
     { href: "/projects", label: t("nav.projects"), isHash: false },
-    { href: "#clients", label: t("nav.clients"), isHash: true },
-    { href: "#blog", label: t("nav.blog"), isHash: true },
-    { href: "#contact", label: t("nav.contact"), isHash: true }
+    { href: "/#clients", label: t("nav.clients"), isHash: true },
+    { href: "/#blog", label: t("nav.blog"), isHash: true },
+    { href: "/#contact", label: t("nav.contact"), isHash: true }
   ];
 
   const languages = [
     { code: "en", name: "English", display: "EN" },
     { code: "de", name: "Deutsch", display: "DE" },
+    { code: "fr", name: "Français", display: "FR" },
+    { code: "es", name: "Español", display: "ES" },
     { code: "it", name: "Italiano", display: "IT" }
   ];
 
@@ -56,31 +58,31 @@ export function Navbar() {
               <div className="space-x-4 rtl:space-x-reverse">
                 {navLinks.map((link) => 
                   link.isHash ? (
-                    <a
+                    <Link
                       key={link.href}
-                      href={location === "/" ? link.href : "/"}
+                      href="/"
                       onClick={(e) => {
                         if (location !== "/") {
+                          // We need to navigate to home first
+                          // The link will handle the navigation
+                        } else {
+                          // If we're already on the home page, just scroll to the section
                           e.preventDefault();
-                          window.history.pushState({}, "", "/");
-                          window.dispatchEvent(new PopStateEvent("popstate"));
-                          // نضيف تأخير صغير للسماح للصفحة بالتحميل قبل التمرير
-                          setTimeout(() => {
-                            const element = document.querySelector(link.href);
-                            if (element) {
-                              element.scrollIntoView({ behavior: 'smooth' });
-                            }
-                          }, 100);
+                          const sectionId = link.href.split("#")[1];
+                          const element = document.getElementById(sectionId);
+                          if (element) {
+                            element.scrollIntoView({ behavior: 'smooth' });
+                          }
                         }
                       }}
                       className={`px-3 py-2 text-sm font-medium ${
-                        location === link.href
+                        location === "/"
                           ? "text-primary-color"
                           : "text-dark-color dark:text-light-color hover:text-primary-color dark:hover:text-primary-color"
                       }`}
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   ) : (
                     <Link
                       key={link.href}
@@ -178,31 +180,30 @@ export function Navbar() {
         <div className="px-2 pt-2 pb-3 space-y-1">
           {navLinks.map((link) => 
             link.isHash ? (
-              <a
+              <Link
                 key={link.href}
-                href={location === "/" ? link.href : "/"}
+                href="/"
                 onClick={(e) => {
                   if (location !== "/") {
+                    // The Link will handle navigation to home
+                  } else {
+                    // If already on home page, just scroll to section
                     e.preventDefault();
-                    window.history.pushState({}, "", "/");
-                    window.dispatchEvent(new PopStateEvent("popstate"));
-                    // نضيف تأخير صغير للسماح للصفحة بالتحميل قبل التمرير
-                    setTimeout(() => {
-                      const element = document.querySelector(link.href);
-                      if (element) {
-                        element.scrollIntoView({ behavior: 'smooth' });
-                      }
-                    }, 100);
+                    const sectionId = link.href.split("#")[1];
+                    const element = document.getElementById(sectionId);
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
                   }
                 }}
                 className={`block px-3 py-2 text-base font-medium ${
-                  location === link.href
+                  location === "/"
                     ? "text-primary-color"
                     : "text-dark-color dark:text-light-color hover:bg-light-color-darker dark:hover:bg-dark-color hover:text-primary-color"
                 }`}
               >
                 {link.label}
-              </a>
+              </Link>
             ) : (
               <Link
                 key={link.href}

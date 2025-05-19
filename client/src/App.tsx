@@ -12,6 +12,7 @@ import Projects from "@/pages/Projects";
 import NotFound from "@/pages/not-found";
 
 // Tech blog pages
+import KidsProgrammingRoadmap from "@/pages/tech/KidsProgrammingRoadmap";
 import DotNetRoadmap from "@/pages/tech/DotNetRoadmap";
 import DevOpsEssentials from "@/pages/tech/DevOpsEssentials";
 import FrontendRoadmap from "@/pages/tech/FrontendRoadmap";
@@ -27,6 +28,7 @@ function Router() {
       <Route path="/projects" component={Projects}/>
       
       {/* Tech blog routes */}
+      <Route path="/tech/kids-programming-roadmap" component={KidsProgrammingRoadmap}/>
       <Route path="/tech/dotnet-roadmap" component={DotNetRoadmap}/>
       <Route path="/tech/devops-essentials" component={DevOpsEssentials}/>
       <Route path="/tech/frontend-roadmap" component={FrontendRoadmap}/>

@@ -78,47 +78,54 @@ const FrontendIcons = (props: LucideProps) => (
 export default function TechBlogSection() {
   const { t } = useTranslation();
   
-  // Define tech topics
+  // Define tech topics with translation keys
   const techTopics: TechTopic[] = [
     {
+      id: "0",
+      title: t("techTopics.kidsProgramming.title", "Kids Programming & Computer Learning Roadmap"),
+      description: t("techTopics.kidsProgramming.description", "A comprehensive guide to teaching children about computers, programming, and AI concepts."),
+      icon: <Sparkles size={36} className="text-yellow-500" />,
+      slug: "kids-programming-roadmap"
+    },
+    {
       id: "1",
-      title: ".NET Roadmap",
-      description: "A comprehensive guide to mastering .NET development and building scalable applications.",
+      title: t("techTopics.dotnet.title", ".NET Roadmap"),
+      description: t("techTopics.dotnet.description", "A comprehensive guide to mastering .NET development and building scalable applications."),
       icon: <Code size={36} className="text-blue-500" />,
       slug: "dotnet-roadmap"
     },
     {
       id: "2",
-      title: "DevOps Essentials",
-      description: "Learn the core principles, practices, and tools for effective DevOps implementation.",
+      title: t("techTopics.devops.title", "DevOps Essentials"),
+      description: t("techTopics.devops.description", "Learn the core principles, practices, and tools for effective DevOps implementation."),
       icon: <Cog size={36} className="text-indigo-500" />,
       slug: "devops-essentials"
     },
     {
       id: "3",
-      title: "Frontend Roadmap",
-      description: "Master Angular and React to build modern, responsive user interfaces.",
+      title: t("techTopics.frontend.title", "Frontend Roadmap"),
+      description: t("techTopics.frontend.description", "Master Angular and React to build modern, responsive user interfaces."),
       icon: <FrontendIcons size={36} className="text-red-500" />,
       slug: "frontend-roadmap"
     },
     {
       id: "4",
-      title: "Project Management Roadmap",
-      description: "A guide to Agile methodologies, Scrum, and effective project leadership.",
+      title: t("techTopics.project.title", "Project Management Roadmap"),
+      description: t("techTopics.project.description", "A guide to Agile methodologies, Scrum, and effective project leadership."),
       icon: <Clipboard size={36} className="text-green-500" />,
       slug: "project-management"
     },
     {
       id: "5",
-      title: "Understanding AI for Developers",
-      description: "Explore AI concepts, models, and integration strategies for software developers.",
+      title: t("techTopics.ai.title", "Understanding AI for Developers"),
+      description: t("techTopics.ai.description", "Explore AI concepts, models, and integration strategies for software developers."),
       icon: <Brain size={36} className="text-purple-500" />,
       slug: "ai-for-developers"
     },
     {
       id: "6",
-      title: "Database Architecture & Performance",
-      description: "Best practices for designing robust, high-performance database systems at scale.",
+      title: t("techTopics.database.title", "Database Architecture & Performance"),
+      description: t("techTopics.database.description", "Best practices for designing robust, high-performance database systems at scale."),
       icon: <Database size={36} className="text-amber-500" />,
       slug: "database-architecture"
     }

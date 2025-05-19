@@ -1,4 +1,1038 @@
 {
+  "projectManagement": {
+    "title": "Project Management Roadmap",
+    "description": "A guide to Agile methodologies, Scrum, and effective project leadership.",
+    "fundamentals": {
+      "title": "Project Management Fundamentals",
+      "intro": "Project management is the application of knowledge, skills, tools, and techniques to meet project requirements and achieve specific objectives. Understanding its fundamentals is crucial for anyone looking to lead technical projects successfully.",
+      "concepts": {
+        "title": "Core Project Management Concepts",
+        "lifecycle": "Project Lifecycle",
+        "lifecycleDesc": "Initiation, planning, execution, monitoring, and closure",
+        "constraint": "Triple Constraint",
+        "constraintDesc": "Managing scope, time, and cost effectively",
+        "stakeholder": "Stakeholder Management",
+        "stakeholderDesc": "Identifying and engaging with all involved parties",
+        "risk": "Risk Management",
+        "riskDesc": "Identifying, assessing, and mitigating project risks",
+        "communication": "Communication Planning",
+        "communicationDesc": "Determining who needs what information and when"
+      }
+    },
+    "agile": {
+      "title": "Agile Methodologies",
+      "scrum": {
+        "title": "Scrum Framework",
+        "intro": "A lightweight framework for complex product development:",
+        "roles": "Roles",
+        "rolesDesc": "Product Owner, Scrum Master, Development Team",
+        "events": "Events",
+        "eventsDesc": "Sprint, Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective",
+        "artifacts": "Artifacts",
+        "artifactsDesc": "Product Backlog, Sprint Backlog, Increment",
+        "rules": "Rules",
+        "rulesDesc": "Self-organizing teams, time-boxes, empirical process control"
+      },
+      "kanban": {
+        "title": "Kanban Method",
+        "intro": "A visual method for managing work with an emphasis on continuous delivery:",
+        "visualization": "Visualizing workflow on a Kanban board",
+        "wip": "Limiting work in progress (WIP)",
+        "flow": "Managing flow through the system",
+        "policies": "Making process policies explicit",
+        "feedback": "Implementing feedback loops"
+      },
+      "others": {
+        "title": "Other Agile Approaches",
+        "xp": "Extreme Programming (XP)",
+        "xpDesc": "Focus on technical excellence and customer satisfaction",
+        "lean": "Lean Software Development",
+        "leanDesc": "Eliminating waste and optimizing efficiency",
+        "safe": "SAFe",
+        "safeDesc": "Scaled Agile Framework for enterprise-level agility",
+        "scrumban": "Scrumban",
+        "scrumbanDesc": "Hybrid of Scrum and Kanban for complex environments"
+      }
+    },
+    "tools": {
+      "title": "Project Management Tools",
+      "software": {
+        "title": "Software and Platforms",
+        "jira": "Jira",
+        "jiraDesc": "Issue tracking and project management for software teams",
+        "azure": "Azure DevOps",
+        "azureDesc": "Comprehensive solution for planning, coding, and deployment",
+        "trello": "Trello",
+        "trelloDesc": "Visual collaboration tool for organizing projects",
+        "asana": "Asana",
+        "asanaDesc": "Work management platform for teams",
+        "monday": "Monday.com",
+        "mondayDesc": "Work OS for team management and collaboration",
+        "clickup": "ClickUp",
+        "clickupDesc": "All-in-one productivity platform"
+      },
+      "reporting": {
+        "title": "Reporting and Analytics",
+        "burndown": "Burndown and burnup charts",
+        "velocity": "Velocity tracking",
+        "flow": "Cumulative flow diagrams",
+        "cycle": "Cycle time and lead time metrics",
+        "sprint": "Sprint reports and dashboards"
+      }
+    },
+    "pmp": {
+      "title": "Project Management Professional (PMP)",
+      "intro": "The PMP certification is globally recognized as the gold standard in project management. It validates your ability to lead projects in any industry, with any methodology.",
+      "areas": {
+        "title": "PMP Knowledge Areas",
+        "integration": "Integration Management",
+        "scope": "Scope Management",
+        "schedule": "Schedule Management",
+        "cost": "Cost Management",
+        "quality": "Quality Management",
+        "resource": "Resource Management",
+        "communications": "Communications Management",
+        "risk": "Risk Management",
+        "procurement": "Procurement Management",
+        "stakeholder": "Stakeholder Management"
+      },
+      "process": {
+        "title": "PMP Certification Process",
+        "eligibility": "Eligibility",
+        "eligibilityDesc": "Verify education and experience requirements",
+        "application": "Application",
+        "applicationDesc": "Complete the PMI application",
+        "fee": "Examination Fee",
+        "feeDesc": "Pay the required fee",
+        "preparation": "Exam Preparation",
+        "preparationDesc": "Study the PMBOK Guide and take practice exams",
+        "examination": "Examination",
+        "examinationDesc": "Pass the 200-question, 4-hour exam",
+        "maintenance": "Maintenance",
+        "maintenanceDesc": "Earn 60 PDUs every three years"
+      }
+    },
+    "leadership": {
+      "title": "Leadership and Soft Skills",
+      "intro": "Technical skills are important, but leadership and soft skills often determine project success.",
+      "skills": {
+        "title": "Essential Leadership Skills",
+        "decision": "Decision Making",
+        "decisionDesc": "Making informed choices under pressure",
+        "conflict": "Conflict Resolution",
+        "conflictDesc": "Addressing and resolving team conflicts",
+        "negotiation": "Negotiation",
+        "negotiationDesc": "Working with stakeholders to find win-win solutions",
+        "emotional": "Emotional Intelligence",
+        "emotionalDesc": "Understanding and managing emotions",
+        "strategic": "Strategic Thinking",
+        "strategicDesc": "Aligning projects with organizational goals",
+        "coaching": "Coaching and Mentoring",
+        "coachingDesc": "Developing team members' capabilities"
+      }
+    },
+    "career": {
+      "title": "Project Management Career Path:",
+      "coordinator": "Project Coordinator/Assistant",
+      "coordinatorDesc": "Entry-level role supporting PM activities",
+      "manager": "Project Manager",
+      "managerDesc": "Leading individual projects",
+      "senior": "Senior Project Manager",
+      "seniorDesc": "Managing complex, high-impact projects",
+      "program": "Program Manager",
+      "programDesc": "Overseeing multiple related projects",
+      "portfolio": "Portfolio Manager",
+      "portfolioDesc": "Managing collections of programs and projects",
+      "director": "PMO Director",
+      "directorDesc": "Leading the Project Management Office"
+    }
+  },
+  "aiForDevelopers": {
+    "title": "Understanding AI for Developers",
+    "description": "Explore AI concepts, models, and integration strategies for software developers.",
+    "fundamentals": {
+      "title": "AI Fundamentals for Software Developers",
+      "intro": "As a software developer, understanding artificial intelligence is becoming increasingly important. AI technologies can enhance applications, automate tasks, and enable completely new features and capabilities. This guide will help you build a foundational understanding of AI and practical ways to implement it in your projects.",
+      "concepts": {
+        "title": "Key AI Concepts",
+        "ml": "Machine Learning",
+        "mlDesc": "Algorithms that improve through experience and data",
+        "deep": "Deep Learning",
+        "deepDesc": "Neural networks with multiple layers for complex pattern recognition",
+        "nlp": "Natural Language Processing (NLP)",
+        "nlpDesc": "Enabling computers to understand and generate human language",
+        "vision": "Computer Vision",
+        "visionDesc": "Allowing machines to interpret and analyze visual information",
+        "rl": "Reinforcement Learning",
+        "rlDesc": "Training agents through reward-based feedback loops"
+      }
+    },
+    "technologies": {
+      "title": "AI Development Technologies",
+      "frameworks": {
+        "title": "Machine Learning Frameworks",
+        "tensorflow": "TensorFlow",
+        "tensorflowDesc": "Comprehensive ML platform from Google",
+        "pytorch": "PyTorch",
+        "pytorchDesc": "Flexible framework preferred by researchers",
+        "sklearn": "Scikit-learn",
+        "sklearnDesc": "Simple and efficient tools for data analysis",
+        "keras": "Keras",
+        "kerasDesc": "High-level neural networks API",
+        "onnx": "ONNX",
+        "onnxDesc": "Open format for machine learning models"
+      },
+      "libraries": {
+        "title": "Key Libraries for AI Development",
+        "numpy": "NumPy",
+        "numpyDesc": "Fundamental package for scientific computing",
+        "pandas": "Pandas",
+        "pandasDesc": "Data manipulation and analysis library",
+        "huggingface": "Hugging Face Transformers",
+        "huggingfaceDesc": "State-of-the-art NLP models",
+        "opencv": "OpenCV",
+        "opencvDesc": "Computer vision library",
+        "spacy": "spaCy",
+        "spacyDesc": "Advanced NLP library"
+      },
+      "cloud": {
+        "title": "Cloud AI Services",
+        "aws": "AWS AI Services",
+        "awsDesc": "Amazon Rekognition, Amazon Comprehend, etc.",
+        "azure": "Azure Cognitive Services",
+        "azureDesc": "Vision, Language, Speech, and Decision APIs",
+        "google": "Google Cloud AI",
+        "googleDesc": "Translation, Natural Language, Vision APIs",
+        "openai": "OpenAI API",
+        "openaiDesc": "Access to models like GPT and DALL-E"
+      }
+    },
+    "integration": {
+      "title": "Integrating AI into Applications",
+      "patterns": {
+        "title": "Common AI Integration Patterns",
+        "api": "API Integration",
+        "apiDesc": "Using pre-built AI services via REST APIs",
+        "embedded": "Embedded Models",
+        "embeddedDesc": "Running models directly within your application",
+        "backend": "Backend Processing",
+        "backendDesc": "Processing data with AI in batch or real-time pipelines",
+        "federated": "Federated Learning",
+        "federatedDesc": "Training models across distributed devices",
+        "transfer": "Transfer Learning",
+        "transferDesc": "Customizing pre-trained models for specific tasks"
+      },
+      "considerations": {
+        "title": "AI Implementation Considerations",
+        "compute": "Compute Requirements",
+        "computeDesc": "CPU vs. GPU vs. specialized hardware",
+        "latency": "Latency and Performance",
+        "latencyDesc": "Trade-offs between model size and speed",
+        "privacy": "Data Privacy and Security",
+        "privacyDesc": "Protecting sensitive information",
+        "ethics": "Ethics and Bias",
+        "ethicsDesc": "Ensuring fair and responsible AI use",
+        "versioning": "Model Version Control",
+        "versioningDesc": "Managing model versions and deployments"
+      }
+    },
+    "applications": {
+      "title": "Practical AI Applications for Developers",
+      "search": {
+        "title": "Intelligent Search and Recommendations",
+        "desc": "Implement search functionality that understands user intent and delivers personalized results based on behavior.",
+        "tech": "Technologies: Elasticsearch, TensorFlow Recommenders, Neo4j"
+      },
+      "content": {
+        "title": "Content Generation and Summarization",
+        "desc": "Automatically generate or summarize content for blogs, product descriptions, reports, and more.",
+        "tech": "Technologies: GPT models, BART, T5"
+      },
+      "automation": {
+        "title": "Intelligent Automation",
+        "desc": "Automate repetitive tasks with intelligent decision-making capabilities beyond simple rule-based systems.",
+        "tech": "Technologies: ML Decision Trees, Reinforcement Learning"
+      },
+      "conversational": {
+        "title": "Conversational Interfaces",
+        "desc": "Build chatbots and voice assistants that provide natural, context-aware interactions.",
+        "tech": "Technologies: Rasa, DialogFlow, Microsoft Bot Framework"
+      }
+    },
+    "learning": {
+      "title": "Learning Path for AI Development",
+      "intro": "A structured approach to becoming proficient in AI development:",
+      "path": {
+        "foundation": "Foundation:",
+        "foundationDesc": "Master Python programming and data analysis",
+        "math": "Mathematics:",
+        "mathDesc": "Learn linear algebra, calculus, probability, and statistics",
+        "ml": "ML Fundamentals:",
+        "mlDesc": "Understand core machine learning algorithms and concepts",
+        "framework": "Framework Proficiency:",
+        "frameworkDesc": "Get comfortable with TensorFlow or PyTorch",
+        "specialization": "Specialization:",
+        "specializationDesc": "Focus on NLP, computer vision, or reinforcement learning",
+        "integration": "Integration Skills:",
+        "integrationDesc": "Learn to deploy and integrate models into applications",
+        "advanced": "Advanced Techniques:",
+        "advancedDesc": "Explore specialized areas like GANs, transformers, or MLOps"
+      },
+      "resources": {
+        "title": "Resources for AI Developers:",
+        "courses": "Courses:",
+        "coursesDesc": "Andrew Ng's Machine Learning, fast.ai, DeepLearning.AI",
+        "books": "Books:",
+        "booksDesc": "\"Hands-On Machine Learning with Scikit-Learn and TensorFlow,\" \"Deep Learning\" by Goodfellow et al.",
+        "communities": "Communities:",
+        "communitiesDesc": "Kaggle, AI research papers on arXiv, GitHub repositories",
+        "practice": "Practice:",
+        "practiceDesc": "Start with simple projects and gradually increase complexity"
+      }
+    }
+  },
+  "kidsProgramming": {
+    "title": "Kids Programming & Computer Learning Roadmap",
+    "description": "A comprehensive guide to teaching children about computers, programming, and AI concepts.",
+    "intro": {
+      "title": "Introduction to Teaching Children Programming",
+      "content": "Teaching children about computers and programming at an early age helps develop critical thinking, problem-solving skills, and digital literacy. This roadmap provides a structured approach to introducing children to the world of technology, from basic computer concepts to programming fundamentals and even AI concepts.",
+      "ageGroups": {
+        "title": "Age-Appropriate Learning:",
+        "ages5_7": "Ages 5-7: Basic computer interaction, visual block programming",
+        "ages8_10": "Ages 8-10: Game-based learning, introduction to coding concepts",
+        "ages11_13": "Ages 11-13: Text-based programming languages, simple projects",
+        "ages14Plus": "Ages 14+: Advanced concepts, specialized areas, AI fundamentals"
+      }
+    },
+    "computerBasics": {
+      "title": "Phase 1: Computer Basics & Digital Literacy",
+      "fundamentals": {
+        "title": "Computer Fundamentals",
+        "parts": "Parts of a Computer:",
+        "partsDesc": "Understanding hardware components (monitor, keyboard, mouse, CPU)",
+        "os": "Operating Systems:",
+        "osDesc": "Introduction to different operating systems (Windows, MacOS, Linux)",
+        "files": "Files & Folders:",
+        "filesDesc": "Basic file management, creating folders, saving work",
+        "internet": "Internet Basics:",
+        "internetDesc": "How the internet works, web browsers, online safety"
+      },
+      "digitalLiteracy": {
+        "title": "Digital Literacy Skills",
+        "typing": "Typing:",
+        "typingDesc": "Games and activities to develop keyboard skills",
+        "tools": "Basic Tools:",
+        "toolsDesc": "Introduction to word processors, paint programs, calculators",
+        "safety": "Online Safety:",
+        "safetyDesc": "Privacy, appropriate content, and responsible digital citizenship",
+        "media": "Digital Media:",
+        "mediaDesc": "Creating and sharing digital content appropriately"
+      },
+      "activities": {
+        "title": "Recommended Activities",
+        "games": "Educational computer games that teach mouse control and keyboard familiarity",
+        "storytelling": "Digital storytelling with simple presentation tools",
+        "art": "Digital art projects using basic drawing programs",
+        "tutorials": "Guided tutorials on basic computer operations"
+      }
+    },
+    "programmingBasics": {
+      "title": "Phase 2: Programming Fundamentals",
+      "concepts": {
+        "title": "Core Programming Concepts",
+        "algorithms": "Algorithms:",
+        "algorithmsDesc": "Step-by-step instructions to solve problems",
+        "sequences": "Sequences:",
+        "sequencesDesc": "Ordering instructions in the correct sequence",
+        "loops": "Loops:",
+        "loopsDesc": "Repeating actions multiple times",
+        "conditionals": "Conditionals:",
+        "conditionalsDesc": "Making decisions in code (if-then statements)",
+        "variables": "Variables:",
+        "variablesDesc": "Storing and using information",
+        "events": "Events:",
+        "eventsDesc": "Making things happen when triggered"
+      },
+      "blockCoding": {
+        "title": "Visual Block-Based Coding",
+        "scratch": "Scratch:",
+        "scratchDesc": "MIT's visual programming environment for creating games and animations",
+        "code": "Code.org:",
+        "codeDesc": "Structured courses with popular characters and themes",
+        "blockly": "Blockly Games:",
+        "blocklyDesc": "Google's block coding puzzles and games",
+        "tynker": "Tynker:",
+        "tynkerDesc": "Game-based platform with Minecraft integration"
+      },
+      "introText": {
+        "title": "Introduction to Text-Based Programming",
+        "python": "Python:",
+        "pythonDesc": "Beginner-friendly language with clear syntax",
+        "javascript": "JavaScript:",
+        "javascriptDesc": "Web-focused programming with immediate visual results",
+        "tools": "Kid-Friendly IDEs:",
+        "toolsDesc": "Simplified development environments like Thonny for Python",
+        "transition": "Transitioning Tips:",
+        "transitionDesc": "Moving from blocks to text through hybrid platforms like Tynker's Python courses"
+      },
+      "projects": {
+        "title": "Beginner Programming Projects",
+        "animations": "Simple animations and interactive stories",
+        "games": "Basic games like Pong or Maze Runner",
+        "quizzes": "Interactive quizzes and trivia games",
+        "art": "Creative coding art projects using loops",
+        "calculator": "Simple calculator or conversion tools"
+      }
+    },
+    "hardware": {
+      "title": "Phase 3: Hardware & Physical Computing",
+      "platforms": {
+        "title": "Kid-Friendly Hardware Platforms",
+        "microbit": "micro:bit:",
+        "microbitDesc": "Pocket-sized computer with LEDs, sensors, and Bluetooth",
+        "arduino": "Arduino:",
+        "arduinoDesc": "Electronics platform for creating interactive projects",
+        "raspberry": "Raspberry Pi:",
+        "raspberryDesc": "Single-board computer for various programming projects",
+        "lego": "LEGO Robotics:",
+        "legoDesc": "LEGO Mindstorms and SPIKE Prime for robotics"
+      },
+      "projects": {
+        "title": "Physical Computing Projects",
+        "led": "LED light patterns and displays",
+        "robots": "Simple robots that can follow lines or avoid obstacles",
+        "weather": "Weather stations or environmental monitors",
+        "games": "Physical games with buttons and lights",
+        "wearables": "Wearable technology projects"
+      },
+      "skills": {
+        "title": "Skills Developed",
+        "circuits": "Basic electronics and circuit understanding",
+        "realWorld": "Connecting programming to real-world interactions",
+        "engineering": "Engineering and design thinking",
+        "debugging": "Physical debugging and troubleshooting"
+      }
+    },
+    "ai": {
+      "title": "Phase 4: Introduction to AI Concepts",
+      "concepts": {
+        "title": "Basic AI Concepts for Kids",
+        "what": "What is AI:",
+        "whatDesc": "Explaining artificial intelligence in kid-friendly terms",
+        "ml": "Machine Learning:",
+        "mlDesc": "How computers learn from data and examples",
+        "pattern": "Pattern Recognition:",
+        "patternDesc": "Finding patterns in information",
+        "ethics": "AI Ethics:",
+        "ethicsDesc": "Responsible AI use and understanding biases"
+      },
+      "tools": {
+        "title": "Kid-Friendly AI Tools",
+        "machinelearning": "Machine Learning for Kids:",
+        "machinelearningDesc": "Web-based tool for creating projects with machine learning",
+        "cognimates": "Cognimates:",
+        "cognimatesDesc": "AI education platform with playful learning experiences",
+        "aiblocks": "AI Blocks:",
+        "aiblocksDesc": "Visual programming for neural networks",
+        "quickdraw": "Quick, Draw!:",
+        "quickdrawDesc": "Google's drawing game that uses neural networks"
+      },
+      "projects": {
+        "title": "Simple AI Projects for Kids",
+        "imageRecognition": "Image recognition: Training a computer to recognize drawings or objects",
+        "textGen": "Text generation: Creating simple chatbots or story generators",
+        "games": "AI in games: Creating simple games with computer opponents",
+        "voice": "Voice command projects: Building simple voice-controlled applications"
+      }
+    },
+    "progressPath": {
+      "title": "Continuous Learning & Progress Path",
+      "advancement": {
+        "title": "Advancing Their Skills",
+        "compSci": "Computer Science Principles:",
+        "compSciDesc": "Introduction to algorithms, data structures, and computational thinking",
+        "webDev": "Web Development:",
+        "webDevDesc": "HTML, CSS, and JavaScript for creating websites",
+        "mobileDev": "Mobile App Development:",
+        "mobileDevDesc": "Creating simple mobile applications",
+        "gameDev": "Game Development:",
+        "gameDevDesc": "Using game engines like Unity or Godot"
+      },
+      "resources": {
+        "title": "Learning Resources",
+        "online": "Online Learning Platforms:",
+        "onlineDesc": "Khan Academy, Codecademy, Udemy Kids",
+        "clubs": "Coding Clubs & Communities:",
+        "clubsDesc": "CoderDojo, Code Club, Girls Who Code",
+        "competitions": "Competitions & Challenges:",
+        "competitionsDesc": "Hackathons, coding competitions, Scratch challenges",
+        "yt": "YouTube Channels:",
+        "ytDesc": "Kid-friendly programming tutorials and project ideas"
+      },
+      "parentTips": {
+        "title": "Tips for Parents & Educators:",
+        "interest": "Focus on interests: Connect programming to topics children already enjoy",
+        "creative": "Emphasize creativity: Coding is a creative expression tool, not just a technical skill",
+        "pace": "Go at their pace: Each child learns differently; let them progress at a comfortable speed",
+        "together": "Learn together: Explore new concepts alongside your child",
+        "celebrate": "Celebrate successes: Recognize and celebrate accomplishments, no matter how small"
+      }
+    }
+  },
+  "databaseArchitecture": {
+    "title": "Database Architecture & Performance",
+    "description": "Best practices for designing robust, high-performance database systems at scale.",
+    "fundamentals": {
+      "title": "Database Architecture Fundamentals",
+      "intro": "Database architecture is the structural design of a database system that defines how data is stored, accessed, and managed. A well-designed database architecture ensures data integrity, performance, and scalability as applications grow.",
+      "concepts": {
+        "title": "Core Database Concepts",
+        "dataModels": "Data Models",
+        "dataModelsDesc": "Relational, document, key-value, graph, time-series",
+        "acid": "ACID Properties",
+        "acidDesc": "Atomicity, Consistency, Isolation, Durability",
+        "normalization": "Normalization",
+        "normalizationDesc": "Organizing data to reduce redundancy and improve integrity",
+        "indexing": "Indexing",
+        "indexingDesc": "Optimizing data retrieval operations",
+        "transactions": "Transactions",
+        "transactionsDesc": "Managing multiple database operations as a single unit",
+        "concurrency": "Concurrency Control",
+        "concurrencyDesc": "Managing simultaneous access to data"
+      }
+    },
+    "types": {
+      "title": "Database Types and Selection Criteria",
+      "relational": {
+        "title": "Relational Databases (RDBMS)",
+        "intro": "Structured data with defined relationships between entities:",
+        "postgresql": "PostgreSQL",
+        "postgresqlDesc": "Advanced open-source RDBMS with robust features",
+        "mysql": "MySQL/MariaDB",
+        "mysqlDesc": "Popular, reliable, open-source database",
+        "sqlServer": "SQL Server",
+        "sqlServerDesc": "Microsoft's enterprise database solution",
+        "oracle": "Oracle",
+        "oracleDesc": "Enterprise-grade RDBMS for mission-critical applications",
+        "bestFor": "Best for: Complex queries, transactions, and data with clear relationships"
+      },
+      "nosql": {
+        "title": "NoSQL Databases",
+        "documentStores": "Document Stores",
+        "documentStoresDesc": "MongoDB, Couchbase (flexible schema, JSON-like documents)",
+        "keyValue": "Key-Value Stores",
+        "keyValueDesc": "Redis, DynamoDB (simple, high-performance data access)",
+        "columnFamily": "Column-Family Stores",
+        "columnFamilyDesc": "Cassandra, HBase (wide-column data with high write throughput)",
+        "graph": "Graph Databases",
+        "graphDesc": "Neo4j, Amazon Neptune (relationship-focused data)",
+        "timeSeries": "Time-Series Databases",
+        "timeSeriesDesc": "InfluxDB, TimescaleDB (optimized for time-based data)",
+        "bestFor": "Best for: Specific data patterns, horizontal scaling, and specialized use cases"
+      },
+      "selection": {
+        "title": "Database Selection Criteria",
+        "dataStructure": "Data Structure",
+        "dataStructureDesc": "Is your data relational or unstructured?",
+        "queryPatterns": "Query Patterns",
+        "queryPatternsDesc": "What types of queries will you run most frequently?",
+        "scalability": "Scalability Requirements",
+        "scalabilityDesc": "Vertical vs. horizontal scaling needs",
+        "consistency": "Consistency Requirements",
+        "consistencyDesc": "Strong consistency vs. eventual consistency",
+        "transaction": "Transaction Support",
+        "transactionDesc": "Do you need ACID transactions?",
+        "performance": "Performance Needs",
+        "performanceDesc": "Read-heavy vs. write-heavy workloads"
+      }
+    },
+    "optimization": {
+      "title": "Performance Optimization Techniques",
+      "indexing": {
+        "title": "Database Indexing Strategies",
+        "btree": "B-Tree Indexes",
+        "btreeDesc": "General-purpose indexing for equality and range queries",
+        "hash": "Hash Indexes",
+        "hashDesc": "Fast lookups for exact-match queries",
+        "bitmap": "Bitmap Indexes",
+        "bitmapDesc": "Efficient for low-cardinality columns",
+        "fulltext": "Full-Text Indexes",
+        "fulltextDesc": "Optimized for textual search",
+        "spatial": "Spatial Indexes",
+        "spatialDesc": "For geographic and geometric data",
+        "composite": "Composite Indexes",
+        "compositeDesc": "Multiple columns for complex query patterns"
+      },
+      "query": {
+        "title": "Query Optimization",
+        "executionPlans": "Understanding query execution plans",
+        "rewriting": "Rewriting inefficient queries",
+        "joins": "Proper JOIN techniques",
+        "n1": "Avoiding N+1 query problems",
+        "hints": "Using query hints judiciously",
+        "pagination": "Implementing pagination effectively"
+      },
+      "caching": {
+        "title": "Caching Strategies",
+        "memory": "In-Memory Caching",
+        "memoryDesc": "Redis, Memcached",
+        "application": "Application-Level Caching",
+        "applicationDesc": "Local memory cache",
+        "query": "Query Result Caching",
+        "queryDesc": "Storing frequent query results",
+        "dataAccess": "Data Access Layer Caching",
+        "dataAccessDesc": "ORM-level caching",
+        "cdn": "Content Delivery Networks",
+        "cdnDesc": "Distributed caching for content"
+      }
+    },
+    "scaling": {
+      "title": "Scaling Database Systems",
+      "vertical": {
+        "title": "Vertical Scaling (Scaling Up)",
+        "hardware": "Adding more CPU, memory, or storage to a single server",
+        "storage": "Upgrading to faster storage (SSD, NVMe)",
+        "config": "Optimizing server configuration parameters",
+        "advantages": "Advantages: Simplicity, no application changes needed",
+        "limitations": "Limitations: Hardware ceiling, single point of failure"
+      },
+      "horizontal": {
+        "title": "Horizontal Scaling (Scaling Out)",
+        "sharding": "Sharding",
+        "shardingDesc": "Partitioning data across multiple database servers",
+        "replication": "Replication",
+        "replicationDesc": "Creating copies of data for read scaling and redundancy",
+        "readReplicas": "Read Replicas",
+        "readReplicasDesc": "Distributing read traffic across multiple servers",
+        "clusters": "Database Clusters",
+        "clustersDesc": "Coordinated database nodes",
+        "advantages": "Advantages: Nearly unlimited scaling potential, fault tolerance",
+        "challenges": "Challenges: Increased complexity, data consistency issues"
+      }
+    },
+    "reliability": {
+      "title": "Database Reliability and Maintenance",
+      "availability": {
+        "title": "High Availability Patterns",
+        "masterSlave": "Master-Slave Replication",
+        "masterSlaveDesc": "For failover capability",
+        "multiMaster": "Multi-Master Replication",
+        "multiMasterDesc": "For active-active setups",
+        "clustering": "Database Clustering",
+        "clusteringDesc": "For coordinated high availability",
+        "failover": "Automatic Failover",
+        "failoverDesc": "With tools like HAProxy, Patroni",
+        "disaster": "Disaster Recovery Planning",
+        "disasterDesc": "Regular backups and recovery testing"
+      },
+      "maintenance": {
+        "title": "Database Maintenance Best Practices",
+        "backup": "Regular backup and restore testing",
+        "index": "Index maintenance and statistics updates",
+        "vacuum": "Database vacuum/cleanup processes",
+        "monitoring": "Monitoring and alerting systems",
+        "upgrade": "Upgrade and patch management"
+      },
+      "checklist": {
+        "title": "Database Architecture Checklist:",
+        "models": "Clearly define data models and relationships",
+        "indexing": "Implement proper indexing strategy",
+        "scale": "Plan for scale from the beginning",
+        "monitoring": "Implement monitoring and performance analysis",
+        "faultTolerance": "Design for fault tolerance and high availability",
+        "backup": "Establish backup and disaster recovery procedures",
+        "connection": "Document connection pooling and resource management",
+        "dataLayer": "Create a data access layer that abstracts database operations"
+      }
+    }
+  },
+  "frontendRoadmap": {
+    "title": "Frontend Roadmap (Angular & React)",
+    "description": "Master Angular and React to build modern, responsive user interfaces.",
+    "fundamentals": {
+      "title": "Frontend Development Fundamentals",
+      "intro": "Before diving into frameworks like Angular and React, it's essential to have a solid understanding of the core web technologies that power the modern frontend ecosystem.",
+      "coreTech": {
+        "title": "Core Technologies",
+        "html": "HTML5",
+        "htmlDesc": "Semantic markup, accessibility, and document structure",
+        "css": "CSS3",
+        "cssDesc": "Styling, layouts, animations, and responsive design",
+        "js": "JavaScript (ES6+)",
+        "jsDesc": "Core language features, DOM manipulation, and modern syntax",
+        "ts": "TypeScript",
+        "tsDesc": "Static typing for JavaScript, essential for Angular and recommended for React"
+      },
+      "prerequisites": {
+        "title": "Prerequisite Skills:",
+        "http": "Understanding of HTTP protocol and API concepts",
+        "responsive": "Basic understanding of responsive design principles",
+        "devtools": "Familiarity with browser DevTools",
+        "git": "Version control with Git"
+      }
+    },
+    "angular": {
+      "title": "Angular Framework",
+      "concepts": {
+        "title": "Core Concepts",
+        "components": "Components",
+        "componentsDesc": "Building blocks of Angular applications",
+        "templates": "Templates",
+        "templatesDesc": "HTML with Angular-specific syntax",
+        "directives": "Directives",
+        "directivesDesc": "Extending HTML with custom behaviors",
+        "services": "Services",
+        "servicesDesc": "Reusable data and logic providers",
+        "di": "Dependency Injection",
+        "diDesc": "Angular's DI system"
+      },
+      "state": {
+        "title": "State Management and Data Flow",
+        "io": "Input/Output properties",
+        "services": "Services and RxJS",
+        "ngrx": "NgRx for complex state management",
+        "http": "HTTP Client for API communication"
+      },
+      "ecosystem": {
+        "title": "Angular Ecosystem",
+        "cli": "Angular CLI for project scaffolding and tooling",
+        "material": "Angular Material for UI components",
+        "universal": "Angular Universal for server-side rendering",
+        "nx": "Nx for monorepo management"
+      }
+    },
+    "react": {
+      "title": "React Library",
+      "concepts": {
+        "title": "Core Concepts",
+        "components": "Components",
+        "componentsDesc": "Functional and class components",
+        "jsx": "JSX",
+        "jsxDesc": "JavaScript XML syntax",
+        "props": "Props",
+        "propsDesc": "Component properties",
+        "state": "State",
+        "stateDesc": "Component-level data",
+        "hooks": "Hooks",
+        "hooksDesc": "Managing state and side effects in functional components"
+      },
+      "state": {
+        "title": "State Management and Data Flow",
+        "context": "Context API for component tree state",
+        "redux": "Redux for global state management",
+        "query": "React Query for server-state",
+        "apollo": "Apollo Client for GraphQL"
+      },
+      "ecosystem": {
+        "title": "React Ecosystem",
+        "cra": "Create React App for project setup",
+        "nextjs": "Next.js for server-side rendering and static site generation",
+        "ui": "Material-UI, Chakra UI, and other component libraries",
+        "router": "React Router for navigation"
+      }
+    },
+    "common": {
+      "title": "Common Frontend Skills",
+      "styling": {
+        "title": "Styling Approaches",
+        "modules": "CSS Modules for component-scoped styles",
+        "styled": "Styled Components for CSS-in-JS",
+        "tailwind": "Tailwind CSS for utility-first styling",
+        "sass": "Sass/SCSS for enhanced CSS capabilities"
+      },
+      "testing": {
+        "title": "Testing Frameworks",
+        "jest": "Jest for unit testing",
+        "rtl": "React Testing Library / Angular Testing Utilities",
+        "cypress": "Cypress for end-to-end testing",
+        "storybook": "Storybook for component documentation and visual testing"
+      },
+      "performance": {
+        "title": "Performance Optimization",
+        "splitting": "Code splitting and lazy loading",
+        "memo": "Memoization techniques",
+        "vitals": "Web Vitals and Lighthouse audits",
+        "bundle": "Bundle size optimization"
+      }
+    },
+    "learning": {
+      "title": "Learning Path",
+      "intro": "Follow this structured path to becoming proficient in frontend development:",
+      "path": {
+        "basics": "Basics",
+        "basicsDesc": "Master HTML, CSS, and JavaScript fundamentals",
+        "typescript": "TypeScript",
+        "typescriptDesc": "Learn TypeScript basics and type systems",
+        "framework": "Choose a Framework",
+        "frameworkDesc": "Pick either Angular or React to start (based on project needs)",
+        "projects": "Build Projects",
+        "projectsDesc": "Create progressively complex applications",
+        "testing": "Testing",
+        "testingDesc": "Implement comprehensive testing strategies",
+        "state": "State Management",
+        "stateDesc": "Add advanced state management",
+        "performance": "Performance",
+        "performanceDesc": "Optimize for speed and user experience",
+        "patterns": "Advanced Patterns",
+        "patternsDesc": "Learn design patterns specific to your framework"
+      }
+    },
+    "comparison": {
+      "title": "Framework Comparison:",
+      "angular": {
+        "title": "Angular",
+        "complete": "Complete framework with built-in solutions",
+        "typescript": "TypeScript required",
+        "opinions": "Stronger opinions about architecture",
+        "enterprise": "Ideal for enterprise applications"
+      },
+      "react": {
+        "title": "React",
+        "flexible": "Flexible library approach",
+        "ecosystem": "More ecosystem choices",
+        "learning": "Lighter learning curve initially",
+        "startups": "Great for startups and quick prototyping"
+      }
+    }
+  },
+  "devOpsEssentials": {
+    "title": "DevOps Essentials",
+    "description": "Learn the core principles, practices, and tools for effective DevOps implementation.",
+    "understanding": {
+      "title": "Understanding DevOps",
+      "intro": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops), aiming to shorten the development lifecycle and provide continuous delivery with high quality. It's built on a culture of collaboration between teams that historically functioned in silos."
+    },
+    "corePrinciples": {
+      "title": "Core Principles",
+      "collaboration": "Collaboration",
+      "collaborationDesc": "Breaking down silos between development and operations",
+      "automation": "Automation",
+      "automationDesc": "Automating repetitive tasks and processes",
+      "ci": "Continuous Integration",
+      "ciDesc": "Frequently merging code changes into a central repository",
+      "cd": "Continuous Delivery",
+      "cdDesc": "Ensuring code can be reliably released at any time",
+      "monitoring": "Monitoring and Feedback",
+      "monitoringDesc": "Collecting metrics to improve processes"
+    },
+    "practices": {
+      "title": "Essential DevOps Practices",
+      "iac": {
+        "title": "Infrastructure as Code (IaC)",
+        "description": "Managing infrastructure through code instead of manual processes:",
+        "terraform": "Terraform for infrastructure provisioning",
+        "ansible": "Ansible for configuration management",
+        "cloudformation": "CloudFormation for AWS resources",
+        "arm": "ARM templates for Azure resources"
+      },
+      "cicd": {
+        "title": "Continuous Integration/Continuous Deployment (CI/CD)",
+        "description": "Automating the integration and deployment of code changes:",
+        "jenkins": "Jenkins for automation server",
+        "github": "GitHub Actions for CI/CD pipelines",
+        "azure": "Azure DevOps for end-to-end DevOps",
+        "gitlab": "GitLab CI for integrated workflows",
+        "circleci": "CircleCI for cloud-based CI/CD"
+      },
+      "containers": {
+        "title": "Containerization and Orchestration",
+        "description": "Packaging and managing applications consistently across environments:",
+        "docker": "Docker for containerization",
+        "kubernetes": "Kubernetes for container orchestration",
+        "compose": "Docker Compose for multi-container applications",
+        "helm": "Helm for Kubernetes package management"
+      }
+    },
+    "monitoring": {
+      "title": "Monitoring and Observability",
+      "metrics": {
+        "title": "Key Metrics and Tooling",
+        "prometheus": "Prometheus",
+        "prometheusDesc": "Time-series monitoring",
+        "grafana": "Grafana",
+        "grafanaDesc": "Visualization and dashboards",
+        "elk": "ELK Stack",
+        "elkDesc": "Elasticsearch, Logstash, Kibana for log management",
+        "newrelic": "New Relic",
+        "newrelicDesc": "Application performance monitoring",
+        "datadog": "Datadog",
+        "datadogDesc": "Cloud-scale monitoring"
+      },
+      "pillars": {
+        "title": "Observability Pillars",
+        "logs": "Logs",
+        "logsDesc": "Record of events and errors",
+        "metrics": "Metrics",
+        "metricsDesc": "Numerical measurements",
+        "traces": "Traces",
+        "tracesDesc": "Following requests through a distributed system",
+        "alerts": "Alerts",
+        "alertsDesc": "Notifications for critical issues"
+      }
+    },
+    "security": {
+      "title": "Security in DevOps (DevSecOps)",
+      "intro": "Integrating security practices within the DevOps process:",
+      "shiftLeft": "Shift Left Security",
+      "shiftLeftDesc": "Implementing security early in development",
+      "testing": "Automated Security Testing",
+      "testingDesc": "SAST, DAST, SCA",
+      "vulnerability": "Vulnerability Management",
+      "vulnerabilityDesc": "Regular scanning and remediation",
+      "compliance": "Compliance as Code",
+      "complianceDesc": "Automating compliance checks",
+      "secrets": "Secret Management",
+      "secretsDesc": "Vault, AWS Secrets Manager, Azure Key Vault"
+    },
+    "implementation": {
+      "title": "Implementation Roadmap",
+      "intro": "A phased approach to implementing DevOps in your organization:",
+      "assessment": "Assessment",
+      "assessmentDesc": "Evaluate current processes and pain points",
+      "culture": "Culture",
+      "cultureDesc": "Foster collaboration between development and operations",
+      "tooling": "Tooling",
+      "toolingDesc": "Select and implement appropriate tools",
+      "automation": "Automation",
+      "automationDesc": "Start with CI/CD pipelines",
+      "monitoring": "Monitoring",
+      "monitoringDesc": "Implement comprehensive monitoring",
+      "iteration": "Iteration",
+      "iterationDesc": "Continuously improve processes and practices",
+      "certifications": {
+        "title": "Recommended Certifications",
+        "aws": "AWS Certified DevOps Engineer",
+        "azure": "Azure DevOps Engineer Expert",
+        "kubernetes": "Certified Kubernetes Administrator (CKA)",
+        "docker": "Docker Certified Associate"
+      }
+    }
+  },
+  "dotnetRoadmap": {
+    "title": ".NET Roadmap",
+    "description": "A comprehensive guide to mastering .NET development and building scalable applications.",
+    "gettingStarted": {
+      "title": "Getting Started with .NET",
+      "intro": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications. With .NET, you can use multiple languages, editors, and libraries to build for web, mobile, desktop, games, and IoT."
+    },
+    "coreConcepts": {
+      "title": "Core Concepts",
+      "csharp": "C# Fundamentals",
+      "csharpDesc": "Master the syntax, types, and object-oriented principles",
+      "clr": "CLR & .NET Runtime",
+      "clrDesc": "Understand how .NET executes your code",
+      "ide": "Visual Studio / VS Code",
+      "ideDesc": "Set up your development environment",
+      "nuget": "NuGet Package Management",
+      "nugetDesc": "Learn to use the .NET package ecosystem"
+    },
+    "keyTech": {
+      "title": "Key Technologies",
+      "aspnet": {
+        "title": "ASP.NET Core",
+        "description": "Build web apps and services that are fast, secure, and can run on Windows, Linux and macOS:",
+        "mvc": "MVC Architecture",
+        "razor": "Razor Pages",
+        "blazor": "Blazor (WebAssembly & Server)",
+        "api": "Web APIs and RESTful Services",
+        "signalr": "SignalR for Real-time Applications"
+      },
+      "ef": {
+        "title": "Entity Framework Core",
+        "description": "Modern ORM for .NET that supports multiple database providers:",
+        "approaches": "Code-First and Database-First Approaches",
+        "linq": "LINQ for Entity Queries",
+        "migrations": "Migrations and Schema Management",
+        "performance": "Performance Optimization"
+      },
+      "desktop": {
+        "title": "Desktop Development",
+        "description": "Options for building desktop applications:",
+        "wpf": "WPF (Windows Presentation Foundation)",
+        "winforms": "Windows Forms",
+        "uwp": "UWP (Universal Windows Platform)",
+        "maui": "MAUI (Multi-platform App UI)"
+      }
+    },
+    "advanced": {
+      "title": "Advanced Topics",
+      "cloud": {
+        "title": "Cloud and Microservices",
+        "azure": "Azure Integration",
+        "docker": "Containerization with Docker",
+        "kubernetes": "Orchestration with Kubernetes",
+        "microservices": "Microservices Architecture"
+      },
+      "performance": {
+        "title": "Performance and Optimization",
+        "async": "Async/Await Patterns",
+        "memory": "Memory Management",
+        "threading": "Threading and Concurrency",
+        "profiling": "Performance Profiling"
+      },
+      "testing": {
+        "title": "Testing",
+        "unit": "Unit Testing with xUnit, NUnit, or MSTest",
+        "integration": "Integration Testing",
+        "mock": "Mock Objects and Dependency Injection",
+        "tdd": "Test-Driven Development (TDD)"
+      }
+    },
+    "learning": {
+      "title": "Learning Path and Resources",
+      "intro": "Follow this structured path to becoming proficient in .NET development:",
+      "path": {
+        "basics": "Basics",
+        "basicsDesc": "Learn C# and .NET fundamentals",
+        "web": "Web Development",
+        "webDesc": "Master ASP.NET Core",
+        "data": "Data Access",
+        "dataDesc": "Learn Entity Framework Core",
+        "auth": "Authentication",
+        "authDesc": "Implement identity and security",
+        "cloud": "Cloud",
+        "cloudDesc": "Deploy to Azure and implement DevOps",
+        "advanced": "Advanced",
+        "advancedDesc": "Explore microservices and serverless"
+      },
+      "certifications": {
+        "title": "Recommended Certifications",
+        "azure": "Microsoft Certified: Azure Developer Associate",
+        "dotnet": "Microsoft Certified: .NET Developer"
+      }
+    }
+  },
+  "techTopics": {
+    "kidsProgramming": {
+      "title": "Kids Programming & Computer Learning Roadmap",
+      "description": "A comprehensive guide to teaching children about computers, programming, and AI concepts."
+    },
+    "dotnet": {
+      "title": ".NET Roadmap",
+      "description": "A comprehensive guide to mastering .NET development and building scalable applications."
+    },
+    "devops": {
+      "title": "DevOps Essentials",
+      "description": "Learn the core principles, practices, and tools for effective DevOps implementation."
+    },
+    "frontend": {
+      "title": "Frontend Roadmap",
+      "description": "Master Angular and React to build modern, responsive user interfaces."
+    },
+    "project": {
+      "title": "Project Management Roadmap",
+      "description": "A guide to Agile methodologies, Scrum, and effective project leadership."
+    },
+    "ai": {
+      "title": "Understanding AI for Developers",
+      "description": "Explore AI concepts, models, and integration strategies for software developers."
+    },
+    "database": {
+      "title": "Database Architecture & Performance",
+      "description": "Best practices for designing robust, high-performance database systems at scale."
+    }
+  },
   "nav": {
     "home": "Home",
     "projects": "Projects",
@@ -24,7 +1058,7 @@
     
     "profile": {
       "title": "Professional Profile",
-      "description": "Senior Software Engineer with 7+ years of experience in .NET, C#, and software architecture. I've built scalable, high-performance solutions across Private Equity, Pharma, and Innovation, ensuring efficiency, security, and maintainability. PMP-certified, with expertise in leading agile teams and managing complex projects. Currently expanding my knowledge in AI & DevOps, integrating modern technologies into software development. Passionate about mentorship, problem-solving, and driving innovation through technology."
+      "description": "I am a Senior Software Engineer with over 7 years of experience in designing, developing, and delivering robust backend systems using the Microsoft .NET ecosystem. My expertise lies in building scalable, high-performance applications across diverse domains such as Private Equity, Healthcare, and Innovation Platforms.\n\nI specialize in C#, ASP.NET Core, RESTful APIs, microservices architecture, and database design using SQL Server. My work is driven by principles of clean architecture, testability, and long-term maintainability. I've led complex technical projects, ensuring they align with business goals, meet security and performance standards, and scale effectively.\n\nHolding a PMP certification, I have successfully managed and delivered agile-based projects, collaborated with cross-functional teams, and led development efforts across distributed environments. I believe that effective communication and structured leadership are just as critical as technical execution.\n\nCurrently, I'm expanding my skillset in Artificial Intelligence and DevOps. I'm actively integrating AI into backend systems, and adopting modern DevOps practices like CI/CD pipelines, containerization, and cloud-native deployments.\n\nBeyond the code, I'm passionate about mentorship, community building, and simplifying complex topics through education. Whether I'm designing a system or leading a team, I aim to drive value, inspire growth, and push the boundaries of what's possible with software."
     },
     
     "experience": {
@@ -52,6 +1086,36 @@
         "responsibility1": "Developed applications serving Al-dwaa business needs.",
         "responsibility2": "Communicated with customers to gather requirements.",
         "responsibility3": "Led requirements analysis and feature design processes."
+      },
+      "job4": {
+        "title": "Senior Software Engineer",
+        "company": "handleError",
+        "period": "Jan 2019 - Jun 2020",
+        "location": "Austria",
+        "description": "handleError is a startup company that works on mechanical projects",
+        "responsibility1": "Develop applications that manage connections between engineers and car owners.",
+        "responsibility2": "Communicate with the customer to get the requirement.",
+        "responsibility3": "Guiding Juniors."
+      },
+      "job5": {
+        "title": "Senior Software Engineer",
+        "company": "Giza Systems",
+        "period": "Feb 2018 - Dec 2018",
+        "location": "New Cairo/Egypt",
+        "description": "Giza Systems, a leading systems integrator in the MEA region",
+        "responsibility1": "Develop application for measuring KPIs.",
+        "responsibility2": "Refactor vacations system.",
+        "responsibility3": "Work on Microsoft dynamics AX reports."
+      },
+      "job6": {
+        "title": "Software Engineer",
+        "company": "S3edyDev",
+        "period": "Jul 2016 - Jan 2018",
+        "location": "Minia-Egypt",
+        "description": "Startup Company",
+        "responsibility1": "Participate in developing a sales management system.",
+        "responsibility2": "Communicate with the customer to get the requirement.",
+        "responsibility3": "Participate in designing the database schema."
       }
     },
     
@@ -195,7 +1259,6 @@
     "contact": {
       "title": "Contact Information:",
       "email": "Email: Minaibrahem.youssef@gmail.com",
-      "email2": "Email: Mina@Minanarmer.com",
       "github": "GitHub: github.com/MinaNarmer",
       "linkedin": "LinkedIn: linkedin.com/in/minayousef",
       "whatsapp": "WhatsApp: +201003260417",
@@ -244,7 +1307,7 @@
     },
     "connectTitle": "Connect With Me",
     "email": "Email",
-    "emailValue": "Minaibrahem.youssef@gmail.com, Mina@Minanarmer.com",
+    "emailValue": "Minaibrahem.youssef@gmail.com",
     "phone": "WhatsApp",
     "phoneValue": "+201003260417",
     "location": "Location",

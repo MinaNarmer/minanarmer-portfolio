@@ -10,14 +10,16 @@ export function Footer() {
   const navLinks = [
     { href: "/", label: t("nav.home") },
     { href: "/resume", label: t("nav.resume") },
-    { href: "#clients", label: t("nav.clients") },
-    { href: "#blog", label: t("nav.blog") },
-    { href: "#contact", label: t("nav.contact") }
+    { href: "/#clients", label: t("nav.clients") },
+    { href: "/#blog", label: t("nav.blog") },
+    { href: "/#contact", label: t("nav.contact") }
   ];
   
   const languages = [
     { code: "en", name: "English" },
     { code: "de", name: "Deutsch" },
+    { code: "fr", name: "Français" },
+    { code: "es", name: "Español" },
     { code: "it", name: "Italiano" }
   ];
   
@@ -51,9 +53,21 @@ export function Footer() {
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <a href={link.href} className="text-light-color-darker hover:text-primary-color transition-colors">
-                    {link.label}
-                  </a>
+                  {link.href.startsWith('#') ? (
+                    <a 
+                      href={link.href} 
+                      className="text-light-color-darker hover:text-primary-color transition-colors"
+                    >
+                      {link.label}
+                    </a>
+                  ) : (
+                    <Link 
+                      to={link.href} 
+                      className="text-light-color-darker hover:text-primary-color transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

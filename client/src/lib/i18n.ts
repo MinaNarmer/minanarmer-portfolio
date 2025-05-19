@@ -6,6 +6,8 @@ import enTranslation from "../locales/en/translation.json";
 import arTranslation from "../locales/ar/translation.json";
 import deTranslation from "../locales/de/translation.json";
 import itTranslation from "../locales/it/translation.json";
+import frTranslation from "../locales/fr/translation.json";
+import esTranslation from "../locales/es/translation.json";
 
 // Initialize i18next
 i18n
@@ -24,6 +26,12 @@ i18n
       },
       it: {
         translation: itTranslation
+      },
+      fr: {
+        translation: frTranslation
+      },
+      es: {
+        translation: esTranslation
       }
     },
     fallbackLng: "en",

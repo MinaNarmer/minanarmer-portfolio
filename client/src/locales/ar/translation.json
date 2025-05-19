@@ -196,7 +196,6 @@
     "contact": {
       "title": "معلومات الاتصال:",
       "email": "البريد الإلكتروني: Minaibrahem.youssef@gmail.com",
-      "email2": "البريد الإلكتروني: Mina@Minanarmer.com",
       "github": "GitHub: github.com/MinaNarmer",
       "linkedin": "LinkedIn: linkedin.com/in/minayousef",
       "whatsapp": "واتساب: +201003260417",
@@ -245,7 +244,7 @@
     },
     "connectTitle": "تواصل معي",
     "email": "البريد الإلكتروني",
-    "emailValue": "Minaibrahem.youssef@gmail.com, Mina@Minanarmer.com",
+    "emailValue": "Minaibrahem.youssef@gmail.com",
     "phone": "واتساب",
     "phoneValue": "+201003260417", 
     "location": "الموقع",

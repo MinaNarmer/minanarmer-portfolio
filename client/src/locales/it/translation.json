@@ -1,4 +1,1038 @@
 {
+  "projectManagement": {
+    "title": "Roadmap di Project Management",
+    "description": "Una guida alle metodologie Agile, Scrum e alla leadership efficace dei progetti.",
+    "fundamentals": {
+      "title": "Fondamenti di Project Management",
+      "intro": "Il project management è l'applicazione di conoscenze, competenze, strumenti e tecniche per soddisfare i requisiti del progetto e raggiungere obiettivi specifici. Comprendere i suoi fondamenti è cruciale per chiunque voglia guidare con successo progetti tecnici.",
+      "concepts": {
+        "title": "Concetti Fondamentali di Project Management",
+        "lifecycle": "Ciclo di Vita del Progetto",
+        "lifecycleDesc": "Avvio, pianificazione, esecuzione, monitoraggio e chiusura",
+        "constraint": "Triplice Vincolo",
+        "constraintDesc": "Gestione efficace di ambito, tempo e costi",
+        "stakeholder": "Gestione degli Stakeholder",
+        "stakeholderDesc": "Identificazione e coinvolgimento di tutte le parti interessate",
+        "risk": "Gestione dei Rischi",
+        "riskDesc": "Identificazione, valutazione e mitigazione dei rischi di progetto",
+        "communication": "Pianificazione della Comunicazione",
+        "communicationDesc": "Determinare chi ha bisogno di quali informazioni e quando"
+      }
+    },
+    "agile": {
+      "title": "Metodologie Agili",
+      "scrum": {
+        "title": "Framework Scrum",
+        "intro": "Un framework leggero per lo sviluppo di prodotti complessi:",
+        "roles": "Ruoli",
+        "rolesDesc": "Product Owner, Scrum Master, Team di Sviluppo",
+        "events": "Eventi",
+        "eventsDesc": "Sprint, Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective",
+        "artifacts": "Artefatti",
+        "artifactsDesc": "Product Backlog, Sprint Backlog, Incremento",
+        "rules": "Regole",
+        "rulesDesc": "Team auto-organizzati, time-box, controllo empirico del processo"
+      },
+      "kanban": {
+        "title": "Metodo Kanban",
+        "intro": "Un metodo visivo per gestire il lavoro con enfasi sulla consegna continua:",
+        "visualization": "Visualizzazione del flusso di lavoro su una board Kanban",
+        "wip": "Limitazione del lavoro in corso (WIP)",
+        "flow": "Gestione del flusso attraverso il sistema",
+        "policies": "Rendere esplicite le politiche di processo",
+        "feedback": "Implementazione di cicli di feedback"
+      },
+      "others": {
+        "title": "Altri Approcci Agili",
+        "xp": "Extreme Programming (XP)",
+        "xpDesc": "Focus sull'eccellenza tecnica e sulla soddisfazione del cliente",
+        "lean": "Sviluppo Software Lean",
+        "leanDesc": "Eliminazione degli sprechi e ottimizzazione dell'efficienza",
+        "safe": "SAFe",
+        "safeDesc": "Scaled Agile Framework per l'agilità a livello aziendale",
+        "scrumban": "Scrumban",
+        "scrumbanDesc": "Ibrido di Scrum e Kanban per ambienti complessi"
+      }
+    },
+    "tools": {
+      "title": "Strumenti di Project Management",
+      "software": {
+        "title": "Software e Piattaforme",
+        "jira": "Jira",
+        "jiraDesc": "Tracciamento problemi e gestione progetti per team software",
+        "azure": "Azure DevOps",
+        "azureDesc": "Soluzione completa per pianificazione, codifica e distribuzione",
+        "trello": "Trello",
+        "trelloDesc": "Strumento di collaborazione visiva per organizzare progetti",
+        "asana": "Asana",
+        "asanaDesc": "Piattaforma di gestione del lavoro per team",
+        "monday": "Monday.com",
+        "mondayDesc": "Sistema operativo di lavoro per gestione e collaborazione di team",
+        "clickup": "ClickUp",
+        "clickupDesc": "Piattaforma di produttività all-in-one"
+      },
+      "reporting": {
+        "title": "Reportistica e Analisi",
+        "burndown": "Grafici burndown e burnup",
+        "velocity": "Monitoraggio della velocità",
+        "flow": "Diagrammi di flusso cumulativo",
+        "cycle": "Metriche di cycle time e lead time",
+        "sprint": "Report e dashboard di Sprint"
+      }
+    },
+    "pmp": {
+      "title": "Project Management Professional (PMP)",
+      "intro": "La certificazione PMP è riconosciuta globalmente come lo standard d'oro nel project management. Convalida la tua capacità di guidare progetti in qualsiasi settore, con qualsiasi metodologia.",
+      "areas": {
+        "title": "Aree di Conoscenza PMP",
+        "integration": "Gestione dell'Integrazione",
+        "scope": "Gestione dell'Ambito",
+        "schedule": "Gestione del Programma",
+        "cost": "Gestione dei Costi",
+        "quality": "Gestione della Qualità",
+        "resource": "Gestione delle Risorse",
+        "communications": "Gestione delle Comunicazioni",
+        "risk": "Gestione dei Rischi",
+        "procurement": "Gestione degli Approvvigionamenti",
+        "stakeholder": "Gestione degli Stakeholder"
+      },
+      "process": {
+        "title": "Processo di Certificazione PMP",
+        "eligibility": "Idoneità",
+        "eligibilityDesc": "Verificare i requisiti di istruzione ed esperienza",
+        "application": "Domanda",
+        "applicationDesc": "Completare la domanda PMI",
+        "fee": "Tassa d'Esame",
+        "feeDesc": "Pagare la tassa richiesta",
+        "preparation": "Preparazione all'Esame",
+        "preparationDesc": "Studiare la Guida PMBOK e fare esami di pratica",
+        "examination": "Esame",
+        "examinationDesc": "Superare l'esame di 200 domande e 4 ore",
+        "maintenance": "Mantenimento",
+        "maintenanceDesc": "Guadagnare 60 PDU ogni tre anni"
+      }
+    },
+    "leadership": {
+      "title": "Leadership e Soft Skill",
+      "intro": "Le competenze tecniche sono importanti, ma la leadership e le soft skill spesso determinano il successo del progetto.",
+      "skills": {
+        "title": "Competenze Essenziali di Leadership",
+        "decision": "Presa di Decisioni",
+        "decisionDesc": "Prendere decisioni informate sotto pressione",
+        "conflict": "Risoluzione dei Conflitti",
+        "conflictDesc": "Affrontare e risolvere i conflitti del team",
+        "negotiation": "Negoziazione",
+        "negotiationDesc": "Lavorare con gli stakeholder per trovare soluzioni win-win",
+        "emotional": "Intelligenza Emotiva",
+        "emotionalDesc": "Comprendere e gestire le emozioni",
+        "strategic": "Pensiero Strategico",
+        "strategicDesc": "Allineare i progetti con gli obiettivi organizzativi",
+        "coaching": "Coaching e Mentoring",
+        "coachingDesc": "Sviluppare le capacità dei membri del team"
+      }
+    },
+    "career": {
+      "title": "Percorso di Carriera nel Project Management:",
+      "coordinator": "Coordinatore/Assistente di Progetto",
+      "coordinatorDesc": "Ruolo di livello base a supporto delle attività di PM",
+      "manager": "Project Manager",
+      "managerDesc": "Guida di progetti individuali",
+      "senior": "Senior Project Manager",
+      "seniorDesc": "Gestione di progetti complessi ad alto impatto",
+      "program": "Program Manager",
+      "programDesc": "Supervisione di più progetti correlati",
+      "portfolio": "Portfolio Manager",
+      "portfolioDesc": "Gestione di collezioni di programmi e progetti",
+      "director": "Direttore PMO",
+      "directorDesc": "Guida dell'Ufficio di Project Management"
+    }
+  },
+  "aiForDevelopers": {
+    "title": "Comprendere l'IA per Sviluppatori",
+    "description": "Esplora concetti di IA, modelli e strategie di integrazione per sviluppatori software.",
+    "fundamentals": {
+      "title": "Fondamenti di IA per Sviluppatori Software",
+      "intro": "Come sviluppatore software, comprendere l'intelligenza artificiale sta diventando sempre più importante. Le tecnologie IA possono migliorare le applicazioni, automatizzare attività e abilitare funzionalità e capacità completamente nuove. Questa guida ti aiuterà a costruire una comprensione fondamentale dell'IA e modi pratici per implementarla nei tuoi progetti.",
+      "concepts": {
+        "title": "Concetti Chiave di IA",
+        "ml": "Machine Learning",
+        "mlDesc": "Algoritmi che migliorano attraverso esperienza e dati",
+        "deep": "Deep Learning",
+        "deepDesc": "Reti neurali con più strati per il riconoscimento di pattern complessi",
+        "nlp": "Natural Language Processing (NLP)",
+        "nlpDesc": "Consentire ai computer di comprendere e generare linguaggio umano",
+        "vision": "Computer Vision",
+        "visionDesc": "Permettere alle macchine di interpretare e analizzare informazioni visive",
+        "rl": "Reinforcement Learning",
+        "rlDesc": "Addestramento di agenti attraverso cicli di feedback basati su ricompense"
+      }
+    },
+    "technologies": {
+      "title": "Tecnologie di Sviluppo IA",
+      "frameworks": {
+        "title": "Framework di Machine Learning",
+        "tensorflow": "TensorFlow",
+        "tensorflowDesc": "Piattaforma ML completa di Google",
+        "pytorch": "PyTorch",
+        "pytorchDesc": "Framework flessibile preferito dai ricercatori",
+        "sklearn": "Scikit-learn",
+        "sklearnDesc": "Strumenti semplici ed efficienti per l'analisi dei dati",
+        "keras": "Keras",
+        "kerasDesc": "API di alto livello per reti neurali",
+        "onnx": "ONNX",
+        "onnxDesc": "Formato aperto per modelli di machine learning"
+      },
+      "libraries": {
+        "title": "Librerie Chiave per lo Sviluppo IA",
+        "numpy": "NumPy",
+        "numpyDesc": "Pacchetto fondamentale per il calcolo scientifico",
+        "pandas": "Pandas",
+        "pandasDesc": "Libreria per manipolazione e analisi dei dati",
+        "huggingface": "Hugging Face Transformers",
+        "huggingfaceDesc": "Modelli NLP all'avanguardia",
+        "opencv": "OpenCV",
+        "opencvDesc": "Libreria di computer vision",
+        "spacy": "spaCy",
+        "spacyDesc": "Libreria NLP avanzata"
+      },
+      "cloud": {
+        "title": "Servizi IA Cloud",
+        "aws": "Servizi IA AWS",
+        "awsDesc": "Amazon Rekognition, Amazon Comprehend, ecc.",
+        "azure": "Azure Cognitive Services",
+        "azureDesc": "API di Visione, Linguaggio, Conversazione e Decisione",
+        "google": "Google Cloud IA",
+        "googleDesc": "API di Traduzione, Linguaggio Naturale, Visione",
+        "openai": "API OpenAI",
+        "openaiDesc": "Accesso a modelli come GPT e DALL-E"
+      }
+    },
+    "integration": {
+      "title": "Integrare l'IA nelle Applicazioni",
+      "patterns": {
+        "title": "Pattern Comuni di Integrazione IA",
+        "api": "Integrazione API",
+        "apiDesc": "Utilizzo di servizi IA precostruiti tramite API REST",
+        "embedded": "Modelli Incorporati",
+        "embeddedDesc": "Esecuzione di modelli direttamente all'interno della tua applicazione",
+        "backend": "Elaborazione Backend",
+        "backendDesc": "Elaborazione dati con IA in batch o pipeline in tempo reale",
+        "federated": "Federated Learning",
+        "federatedDesc": "Addestramento di modelli su dispositivi distribuiti",
+        "transfer": "Transfer Learning",
+        "transferDesc": "Personalizzazione di modelli pre-addestrati per compiti specifici"
+      },
+      "considerations": {
+        "title": "Considerazioni sull'Implementazione IA",
+        "compute": "Requisiti di Calcolo",
+        "computeDesc": "CPU vs. GPU vs. hardware specializzato",
+        "latency": "Latenza e Prestazioni",
+        "latencyDesc": "Compromessi tra dimensione del modello e velocità",
+        "privacy": "Privacy e Sicurezza dei Dati",
+        "privacyDesc": "Protezione delle informazioni sensibili",
+        "ethics": "Etica e Bias",
+        "ethicsDesc": "Garantire un uso equo e responsabile dell'IA",
+        "versioning": "Controllo Versione dei Modelli",
+        "versioningDesc": "Gestione delle versioni e dei deployment dei modelli"
+      }
+    },
+    "applications": {
+      "title": "Applicazioni Pratiche di IA per Sviluppatori",
+      "search": {
+        "title": "Ricerca Intelligente e Raccomandazioni",
+        "desc": "Implementare funzionalità di ricerca che comprendono l'intento dell'utente e forniscono risultati personalizzati basati sul comportamento.",
+        "tech": "Tecnologie: Elasticsearch, TensorFlow Recommenders, Neo4j"
+      },
+      "content": {
+        "title": "Generazione e Sintesi di Contenuti",
+        "desc": "Generare o sintetizzare automaticamente contenuti per blog, descrizioni di prodotti, report e altro.",
+        "tech": "Tecnologie: modelli GPT, BART, T5"
+      },
+      "automation": {
+        "title": "Automazione Intelligente",
+        "desc": "Automatizzare attività ripetitive con capacità decisionali intelligenti oltre i semplici sistemi basati su regole.",
+        "tech": "Tecnologie: Alberi Decisionali ML, Reinforcement Learning"
+      },
+      "conversational": {
+        "title": "Interfacce Conversazionali",
+        "desc": "Costruire chatbot e assistenti vocali che forniscono interazioni naturali e consapevoli del contesto.",
+        "tech": "Tecnologie: Rasa, DialogFlow, Microsoft Bot Framework"
+      }
+    },
+    "learning": {
+      "title": "Percorso di Apprendimento per lo Sviluppo IA",
+      "intro": "Un approccio strutturato per diventare competenti nello sviluppo IA:",
+      "path": {
+        "foundation": "Fondamenta:",
+        "foundationDesc": "Padroneggiare la programmazione Python e l'analisi dei dati",
+        "math": "Matematica:",
+        "mathDesc": "Imparare algebra lineare, calcolo, probabilità e statistica",
+        "ml": "Fondamenti di ML:",
+        "mlDesc": "Comprendere algoritmi e concetti fondamentali del machine learning",
+        "framework": "Competenza nei Framework:",
+        "frameworkDesc": "Familiarizzare con TensorFlow o PyTorch",
+        "specialization": "Specializzazione:",
+        "specializationDesc": "Concentrarsi su NLP, computer vision o reinforcement learning",
+        "integration": "Competenze di Integrazione:",
+        "integrationDesc": "Imparare a distribuire e integrare modelli nelle applicazioni",
+        "advanced": "Tecniche Avanzate:",
+        "advancedDesc": "Esplorare aree specializzate come GAN, transformer o MLOps"
+      },
+      "resources": {
+        "title": "Risorse per Sviluppatori IA:",
+        "courses": "Corsi:",
+        "coursesDesc": "Machine Learning di Andrew Ng, fast.ai, DeepLearning.AI",
+        "books": "Libri:",
+        "booksDesc": "\"Hands-On Machine Learning with Scikit-Learn and TensorFlow,\" \"Deep Learning\" di Goodfellow et al.",
+        "communities": "Comunità:",
+        "communitiesDesc": "Kaggle, articoli di ricerca IA su arXiv, repository GitHub",
+        "practice": "Pratica:",
+        "practiceDesc": "Iniziare con progetti semplici e aumentare gradualmente la complessità"
+      }
+    }
+  },
+  "kidsProgramming": {
+    "title": "Percorso di Programmazione per Bambini",
+    "description": "Una guida completa per insegnare ai bambini l'informatica, la programmazione e i concetti di IA.",
+    "intro": {
+      "title": "Introduzione all'Insegnamento della Programmazione ai Bambini",
+      "content": "Insegnare ai bambini l'informatica e la programmazione in tenera età aiuta a sviluppare il pensiero critico, le capacità di problem solving e l'alfabetizzazione digitale. Questo percorso fornisce un approccio strutturato per introdurre i bambini al mondo della tecnologia, dai concetti informatici di base ai fondamenti della programmazione fino ai concetti di IA.",
+      "ageGroups": {
+        "title": "Apprendimento Adeguato all'Età:",
+        "ages5_7": "Età 5-7: Interazione di base con il computer, programmazione visuale a blocchi",
+        "ages8_10": "Età 8-10: Apprendimento basato sul gioco, introduzione ai concetti di codifica",
+        "ages11_13": "Età 11-13: Linguaggi di programmazione testuali, progetti semplici",
+        "ages14Plus": "Età 14+: Concetti avanzati, aree specializzate, fondamenti di IA"
+      }
+    },
+    "computerBasics": {
+      "title": "Fase 1: Fondamenti di Informatica e Alfabetizzazione Digitale",
+      "fundamentals": {
+        "title": "Fondamenti di Informatica",
+        "parts": "Parti di un Computer:",
+        "partsDesc": "Comprendere i componenti hardware (monitor, tastiera, mouse, CPU)",
+        "os": "Sistemi Operativi:",
+        "osDesc": "Introduzione ai diversi sistemi operativi (Windows, MacOS, Linux)",
+        "files": "File e Cartelle:",
+        "filesDesc": "Gestione di base dei file, creazione di cartelle, salvataggio del lavoro",
+        "internet": "Fondamenti di Internet:",
+        "internetDesc": "Come funziona Internet, browser web, sicurezza online"
+      },
+      "digitalLiteracy": {
+        "title": "Competenze di Alfabetizzazione Digitale",
+        "typing": "Dattilografia:",
+        "typingDesc": "Giochi e attività per sviluppare le abilità con la tastiera",
+        "tools": "Strumenti di Base:",
+        "toolsDesc": "Introduzione a elaboratori di testo, programmi di disegno, calcolatrici",
+        "safety": "Sicurezza Online:",
+        "safetyDesc": "Privacy, contenuti appropriati e cittadinanza digitale responsabile",
+        "media": "Media Digitali:",
+        "mediaDesc": "Creare e condividere contenuti digitali in modo appropriato"
+      },
+      "activities": {
+        "title": "Attività Consigliate",
+        "games": "Giochi educativi per computer che insegnano il controllo del mouse e la familiarità con la tastiera",
+        "storytelling": "Narrazione digitale con semplici strumenti di presentazione",
+        "art": "Progetti di arte digitale utilizzando programmi di disegno di base",
+        "tutorials": "Tutorial guidati sulle operazioni informatiche di base"
+      }
+    },
+    "programmingBasics": {
+      "title": "Fase 2: Fondamenti di Programmazione",
+      "concepts": {
+        "title": "Concetti Fondamentali di Programmazione",
+        "algorithms": "Algoritmi:",
+        "algorithmsDesc": "Istruzioni passo-passo per risolvere problemi",
+        "sequences": "Sequenze:",
+        "sequencesDesc": "Ordinare le istruzioni nella sequenza corretta",
+        "loops": "Cicli:",
+        "loopsDesc": "Ripetere azioni più volte",
+        "conditionals": "Condizionali:",
+        "conditionalsDesc": "Prendere decisioni nel codice (istruzioni if-then)",
+        "variables": "Variabili:",
+        "variablesDesc": "Memorizzare e utilizzare informazioni",
+        "events": "Eventi:",
+        "eventsDesc": "Far accadere cose quando vengono attivate"
+      },
+      "blockCoding": {
+        "title": "Programmazione Visuale a Blocchi",
+        "scratch": "Scratch:",
+        "scratchDesc": "Ambiente di programmazione visuale del MIT per creare giochi e animazioni",
+        "code": "Code.org:",
+        "codeDesc": "Corsi strutturati con personaggi e temi popolari",
+        "blockly": "Blockly Games:",
+        "blocklyDesc": "Puzzle e giochi di codifica a blocchi di Google",
+        "tynker": "Tynker:",
+        "tynkerDesc": "Piattaforma basata sul gioco con integrazione Minecraft"
+      },
+      "introText": {
+        "title": "Introduzione alla Programmazione Testuale",
+        "python": "Python:",
+        "pythonDesc": "Linguaggio amichevole per principianti con sintassi chiara",
+        "javascript": "JavaScript:",
+        "javascriptDesc": "Programmazione orientata al web con risultati visivi immediati",
+        "tools": "IDE a Misura di Bambino:",
+        "toolsDesc": "Ambienti di sviluppo semplificati come Thonny per Python",
+        "transition": "Consigli per la Transizione:",
+        "transitionDesc": "Passare dai blocchi al testo attraverso piattaforme ibride come i corsi Python di Tynker"
+      },
+      "projects": {
+        "title": "Progetti di Programmazione per Principianti",
+        "animations": "Semplici animazioni e storie interattive",
+        "games": "Giochi di base come Pong o Labirinti",
+        "quizzes": "Quiz interattivi e giochi di domande",
+        "art": "Progetti artistici creativi di coding utilizzando cicli",
+        "calculator": "Semplici calcolatrici o strumenti di conversione"
+      }
+    },
+    "hardware": {
+      "title": "Fase 3: Hardware e Informatica Fisica",
+      "platforms": {
+        "title": "Piattaforme Hardware a Misura di Bambino",
+        "microbit": "micro:bit:",
+        "microbitDesc": "Computer tascabile con LED, sensori e Bluetooth",
+        "arduino": "Arduino:",
+        "arduinoDesc": "Piattaforma elettronica per creare progetti interattivi",
+        "raspberry": "Raspberry Pi:",
+        "raspberryDesc": "Computer a scheda singola per vari progetti di programmazione",
+        "lego": "LEGO Robotics:",
+        "legoDesc": "LEGO Mindstorms e SPIKE Prime per la robotica"
+      },
+      "projects": {
+        "title": "Progetti di Informatica Fisica",
+        "led": "Pattern di luci LED e display",
+        "robots": "Robot semplici che possono seguire linee o evitare ostacoli",
+        "weather": "Stazioni meteorologiche o monitor ambientali",
+        "games": "Giochi fisici con pulsanti e luci",
+        "wearables": "Progetti di tecnologia indossabile"
+      },
+      "skills": {
+        "title": "Competenze Sviluppate",
+        "circuits": "Comprensione base dell'elettronica e dei circuiti",
+        "realWorld": "Collegare la programmazione alle interazioni del mondo reale",
+        "engineering": "Pensiero ingegneristico e progettuale",
+        "debugging": "Debugging fisico e risoluzione dei problemi"
+      }
+    },
+    "ai": {
+      "title": "Fase 4: Introduzione ai Concetti di IA",
+      "concepts": {
+        "title": "Concetti Base di IA per Bambini",
+        "what": "Cos'è l'IA:",
+        "whatDesc": "Spiegare l'intelligenza artificiale in termini adatti ai bambini",
+        "ml": "Machine Learning:",
+        "mlDesc": "Come i computer imparano dai dati e dagli esempi",
+        "pattern": "Riconoscimento di Pattern:",
+        "patternDesc": "Trovare modelli nelle informazioni",
+        "ethics": "Etica dell'IA:",
+        "ethicsDesc": "Uso responsabile dell'IA e comprensione dei pregiudizi"
+      },
+      "tools": {
+        "title": "Strumenti di IA a Misura di Bambino",
+        "machinelearning": "Machine Learning for Kids:",
+        "machinelearningDesc": "Strumento web per creare progetti con machine learning",
+        "cognimates": "Cognimates:",
+        "cognimatesDesc": "Piattaforma educativa di IA con esperienze di apprendimento ludiche",
+        "aiblocks": "AI Blocks:",
+        "aiblocksDesc": "Programmazione visuale per reti neurali",
+        "quickdraw": "Quick, Draw!:",
+        "quickdrawDesc": "Gioco di disegno di Google che utilizza reti neurali"
+      },
+      "projects": {
+        "title": "Progetti di IA Semplici per Bambini",
+        "imageRecognition": "Riconoscimento di immagini: Insegnare a un computer a riconoscere disegni o oggetti",
+        "textGen": "Generazione di testo: Creare semplici chatbot o generatori di storie",
+        "games": "IA nei giochi: Creare giochi semplici con avversari controllati dal computer",
+        "voice": "Progetti di comandi vocali: Costruire semplici applicazioni controllate dalla voce"
+      }
+    },
+    "progressPath": {
+      "title": "Apprendimento Continuo e Percorso di Progresso",
+      "advancement": {
+        "title": "Sviluppare le Loro Competenze",
+        "compSci": "Principi di Informatica:",
+        "compSciDesc": "Introduzione agli algoritmi, strutture dati e pensiero computazionale",
+        "webDev": "Sviluppo Web:",
+        "webDevDesc": "HTML, CSS e JavaScript per creare siti web",
+        "mobileDev": "Sviluppo di App Mobili:",
+        "mobileDevDesc": "Creare semplici applicazioni mobili",
+        "gameDev": "Sviluppo di Giochi:",
+        "gameDevDesc": "Usare motori di gioco come Unity o Godot"
+      },
+      "resources": {
+        "title": "Risorse di Apprendimento",
+        "online": "Piattaforme di Apprendimento Online:",
+        "onlineDesc": "Khan Academy, Codecademy, Udemy Kids",
+        "clubs": "Club di Coding e Comunità:",
+        "clubsDesc": "CoderDojo, Code Club, Girls Who Code",
+        "competitions": "Competizioni e Sfide:",
+        "competitionsDesc": "Hackathon, competizioni di programmazione, sfide Scratch",
+        "yt": "Canali YouTube:",
+        "ytDesc": "Tutorial di programmazione e idee per progetti a misura di bambino"
+      },
+      "parentTips": {
+        "title": "Consigli per Genitori ed Educatori:",
+        "interest": "Concentrarsi sugli interessi: Collegare la programmazione a temi che i bambini già apprezzano",
+        "creative": "Enfatizzare la creatività: Il coding è uno strumento di espressione creativa, non solo un'abilità tecnica",
+        "pace": "Procedere al loro ritmo: Ogni bambino impara in modo diverso; permettigli di progredire a una velocità confortevole",
+        "together": "Imparare insieme: Esplorare nuovi concetti insieme al tuo bambino",
+        "celebrate": "Celebrare i successi: Riconoscere e celebrare i traguardi, non importa quanto piccoli"
+      }
+    }
+  },
+  "databaseArchitecture": {
+    "title": "Architettura e Performance dei Database",
+    "description": "Best practice per progettare sistemi di database robusti e ad alte prestazioni su larga scala.",
+    "fundamentals": {
+      "title": "Fondamenti di Architettura dei Database",
+      "intro": "L'architettura dei database è il design strutturale di un sistema di database che definisce come i dati vengono memorizzati, consultati e gestiti. Un'architettura di database ben progettata garantisce l'integrità dei dati, le prestazioni e la scalabilità man mano che le applicazioni crescono.",
+      "concepts": {
+        "title": "Concetti Fondamentali dei Database",
+        "dataModels": "Modelli di Dati",
+        "dataModelsDesc": "Relazionale, documento, chiave-valore, grafo, serie temporali",
+        "acid": "Proprietà ACID",
+        "acidDesc": "Atomicità, Coerenza, Isolamento, Durabilità",
+        "normalization": "Normalizzazione",
+        "normalizationDesc": "Organizzazione dei dati per ridurre la ridondanza e migliorare l'integrità",
+        "indexing": "Indicizzazione",
+        "indexingDesc": "Ottimizzazione delle operazioni di recupero dati",
+        "transactions": "Transazioni",
+        "transactionsDesc": "Gestione di più operazioni di database come un'unica unità",
+        "concurrency": "Controllo della Concorrenza",
+        "concurrencyDesc": "Gestione dell'accesso simultaneo ai dati"
+      }
+    },
+    "types": {
+      "title": "Tipi di Database e Criteri di Selezione",
+      "relational": {
+        "title": "Database Relazionali (RDBMS)",
+        "intro": "Dati strutturati con relazioni definite tra entità:",
+        "postgresql": "PostgreSQL",
+        "postgresqlDesc": "RDBMS open-source avanzato con funzionalità robuste",
+        "mysql": "MySQL/MariaDB",
+        "mysqlDesc": "Database open-source popolare e affidabile",
+        "sqlServer": "SQL Server",
+        "sqlServerDesc": "Soluzione database enterprise di Microsoft",
+        "oracle": "Oracle",
+        "oracleDesc": "RDBMS di livello enterprise per applicazioni mission-critical",
+        "bestFor": "Ideale per: Query complesse, transazioni e dati con relazioni chiare"
+      },
+      "nosql": {
+        "title": "Database NoSQL",
+        "documentStores": "Database Documentali",
+        "documentStoresDesc": "MongoDB, Couchbase (schema flessibile, documenti simil-JSON)",
+        "keyValue": "Database Chiave-Valore",
+        "keyValueDesc": "Redis, DynamoDB (accesso ai dati semplice e ad alte prestazioni)",
+        "columnFamily": "Database a Famiglie di Colonne",
+        "columnFamilyDesc": "Cassandra, HBase (dati a colonne ampie con elevato throughput di scrittura)",
+        "graph": "Database a Grafo",
+        "graphDesc": "Neo4j, Amazon Neptune (dati incentrati sulle relazioni)",
+        "timeSeries": "Database di Serie Temporali",
+        "timeSeriesDesc": "InfluxDB, TimescaleDB (ottimizzati per dati basati sul tempo)",
+        "bestFor": "Ideale per: Pattern di dati specifici, scalabilità orizzontale e casi d'uso specializzati"
+      },
+      "selection": {
+        "title": "Criteri di Selezione del Database",
+        "dataStructure": "Struttura dei Dati",
+        "dataStructureDesc": "I tuoi dati sono relazionali o non strutturati?",
+        "queryPatterns": "Pattern di Query",
+        "queryPatternsDesc": "Quali tipi di query eseguirai più frequentemente?",
+        "scalability": "Requisiti di Scalabilità",
+        "scalabilityDesc": "Necessità di scalabilità verticale vs orizzontale",
+        "consistency": "Requisiti di Coerenza",
+        "consistencyDesc": "Coerenza forte vs coerenza eventuale",
+        "transaction": "Supporto alle Transazioni",
+        "transactionDesc": "Hai bisogno di transazioni ACID?",
+        "performance": "Esigenze di Performance",
+        "performanceDesc": "Carichi di lavoro intensivi in lettura vs scrittura"
+      }
+    },
+    "optimization": {
+      "title": "Tecniche di Ottimizzazione delle Performance",
+      "indexing": {
+        "title": "Strategie di Indicizzazione dei Database",
+        "btree": "Indici B-Tree",
+        "btreeDesc": "Indicizzazione per uso generale per query di uguaglianza e intervallo",
+        "hash": "Indici Hash",
+        "hashDesc": "Ricerche veloci per query di corrispondenza esatta",
+        "bitmap": "Indici Bitmap",
+        "bitmapDesc": "Efficienti per colonne a bassa cardinalità",
+        "fulltext": "Indici Full-Text",
+        "fulltextDesc": "Ottimizzati per la ricerca testuale",
+        "spatial": "Indici Spaziali",
+        "spatialDesc": "Per dati geografici e geometrici",
+        "composite": "Indici Compositi",
+        "compositeDesc": "Colonne multiple per pattern di query complessi"
+      },
+      "query": {
+        "title": "Ottimizzazione delle Query",
+        "executionPlans": "Comprensione dei piani di esecuzione delle query",
+        "rewriting": "Riscrittura di query inefficienti",
+        "joins": "Tecniche JOIN appropriate",
+        "n1": "Evitare problemi di query N+1",
+        "hints": "Utilizzo giudizioso dei suggerimenti per le query",
+        "pagination": "Implementazione efficace della paginazione"
+      },
+      "caching": {
+        "title": "Strategie di Caching",
+        "memory": "Caching in Memoria",
+        "memoryDesc": "Redis, Memcached",
+        "application": "Caching a Livello Applicativo",
+        "applicationDesc": "Cache di memoria locale",
+        "query": "Caching dei Risultati delle Query",
+        "queryDesc": "Memorizzazione dei risultati di query frequenti",
+        "dataAccess": "Caching del Livello di Accesso ai Dati",
+        "dataAccessDesc": "Caching a livello ORM",
+        "cdn": "Reti di Distribuzione dei Contenuti",
+        "cdnDesc": "Caching distribuito per contenuti"
+      }
+    },
+    "scaling": {
+      "title": "Scalabilità dei Sistemi di Database",
+      "vertical": {
+        "title": "Scaling Verticale (Scaling Up)",
+        "hardware": "Aggiunta di CPU, memoria o storage a un singolo server",
+        "storage": "Aggiornamento a storage più veloce (SSD, NVMe)",
+        "config": "Ottimizzazione dei parametri di configurazione del server",
+        "advantages": "Vantaggi: Semplicità, nessuna modifica all'applicazione necessaria",
+        "limitations": "Limitazioni: Limite hardware, singolo punto di fallimento"
+      },
+      "horizontal": {
+        "title": "Scaling Orizzontale (Scaling Out)",
+        "sharding": "Sharding",
+        "shardingDesc": "Partizionamento dei dati su più server di database",
+        "replication": "Replicazione",
+        "replicationDesc": "Creazione di copie dei dati per lo scaling in lettura e ridondanza",
+        "readReplicas": "Repliche di Lettura",
+        "readReplicasDesc": "Distribuzione del traffico di lettura su più server",
+        "clusters": "Cluster di Database",
+        "clustersDesc": "Nodi di database coordinati",
+        "advantages": "Vantaggi: Potenziale di scaling quasi illimitato, tolleranza ai guasti",
+        "challenges": "Sfide: Maggiore complessità, problemi di coerenza dei dati"
+      }
+    },
+    "reliability": {
+      "title": "Affidabilità e Manutenzione dei Database",
+      "availability": {
+        "title": "Pattern di Alta Disponibilità",
+        "masterSlave": "Replicazione Master-Slave",
+        "masterSlaveDesc": "Per capacità di failover",
+        "multiMaster": "Replicazione Multi-Master",
+        "multiMasterDesc": "Per configurazioni active-active",
+        "clustering": "Clustering di Database",
+        "clusteringDesc": "Per alta disponibilità coordinata",
+        "failover": "Failover Automatico",
+        "failoverDesc": "Con strumenti come HAProxy, Patroni",
+        "disaster": "Pianificazione del Disaster Recovery",
+        "disasterDesc": "Backup regolari e test di ripristino"
+      },
+      "maintenance": {
+        "title": "Best Practice per la Manutenzione dei Database",
+        "backup": "Test regolari di backup e ripristino",
+        "index": "Manutenzione degli indici e aggiornamenti delle statistiche",
+        "vacuum": "Processi di vacuum/pulizia del database",
+        "monitoring": "Sistemi di monitoraggio e allerta",
+        "upgrade": "Gestione di aggiornamenti e patch"
+      },
+      "checklist": {
+        "title": "Checklist di Architettura Database:",
+        "models": "Definire chiaramente modelli di dati e relazioni",
+        "indexing": "Implementare una strategia di indicizzazione adeguata",
+        "scale": "Pianificare per la scalabilità fin dall'inizio",
+        "monitoring": "Implementare monitoraggio e analisi delle performance",
+        "faultTolerance": "Progettare per la tolleranza ai guasti e l'alta disponibilità",
+        "backup": "Stabilire procedure di backup e disaster recovery",
+        "connection": "Documentare il connection pooling e la gestione delle risorse",
+        "dataLayer": "Creare un livello di accesso ai dati che astragga le operazioni di database"
+      }
+    }
+  },
+  "frontendRoadmap": {
+    "title": "Percorso Frontend (Angular & React)",
+    "description": "Padroneggia Angular e React per costruire interfacce utente moderne e responsive.",
+    "fundamentals": {
+      "title": "Fondamenti dello Sviluppo Frontend",
+      "intro": "Prima di immergersi in framework come Angular e React, è essenziale avere una solida comprensione delle tecnologie web di base che alimentano l'ecosistema frontend moderno.",
+      "coreTech": {
+        "title": "Tecnologie di Base",
+        "html": "HTML5",
+        "htmlDesc": "Markup semantico, accessibilità e struttura del documento",
+        "css": "CSS3",
+        "cssDesc": "Stili, layout, animazioni e design responsive",
+        "js": "JavaScript (ES6+)",
+        "jsDesc": "Funzionalità base del linguaggio, manipolazione del DOM e sintassi moderna",
+        "ts": "TypeScript",
+        "tsDesc": "Tipizzazione statica per JavaScript, essenziale per Angular e consigliato per React"
+      },
+      "prerequisites": {
+        "title": "Competenze Prerequisite:",
+        "http": "Comprensione del protocollo HTTP e concetti di API",
+        "responsive": "Comprensione base dei principi di design responsive",
+        "devtools": "Familiarità con gli strumenti di sviluppo del browser",
+        "git": "Controllo di versione con Git"
+      }
+    },
+    "angular": {
+      "title": "Framework Angular",
+      "concepts": {
+        "title": "Concetti di Base",
+        "components": "Componenti",
+        "componentsDesc": "Blocchi di costruzione delle applicazioni Angular",
+        "templates": "Template",
+        "templatesDesc": "HTML con sintassi specifica Angular",
+        "directives": "Direttive",
+        "directivesDesc": "Estendere l'HTML con comportamenti personalizzati",
+        "services": "Servizi",
+        "servicesDesc": "Fornitori di dati e logica riutilizzabili",
+        "di": "Dependency Injection",
+        "diDesc": "Sistema DI di Angular"
+      },
+      "state": {
+        "title": "Gestione dello Stato e Flusso Dati",
+        "io": "Proprietà Input/Output",
+        "services": "Servizi e RxJS",
+        "ngrx": "NgRx per gestione stato complessa",
+        "http": "HTTP Client per comunicazione API"
+      },
+      "ecosystem": {
+        "title": "Ecosistema Angular",
+        "cli": "Angular CLI per scaffolding di progetti e strumenti",
+        "material": "Angular Material per componenti UI",
+        "universal": "Angular Universal per rendering lato server",
+        "nx": "Nx per gestione monorepo"
+      }
+    },
+    "react": {
+      "title": "Libreria React",
+      "concepts": {
+        "title": "Concetti di Base",
+        "components": "Componenti",
+        "componentsDesc": "Componenti funzionali e di classe",
+        "jsx": "JSX",
+        "jsxDesc": "Sintassi JavaScript XML",
+        "props": "Props",
+        "propsDesc": "Proprietà dei componenti",
+        "state": "State",
+        "stateDesc": "Dati a livello di componente",
+        "hooks": "Hooks",
+        "hooksDesc": "Gestione dello stato e degli effetti collaterali nei componenti funzionali"
+      },
+      "state": {
+        "title": "Gestione dello Stato e Flusso Dati",
+        "context": "Context API per lo stato dell'albero dei componenti",
+        "redux": "Redux per gestione stato globale",
+        "query": "React Query per lo stato del server",
+        "apollo": "Apollo Client per GraphQL"
+      },
+      "ecosystem": {
+        "title": "Ecosistema React",
+        "cra": "Create React App per configurazione progetti",
+        "nextjs": "Next.js per rendering lato server e generazione siti statici",
+        "ui": "Material-UI, Chakra UI e altre librerie di componenti",
+        "router": "React Router per la navigazione"
+      }
+    },
+    "common": {
+      "title": "Competenze Frontend Comuni",
+      "styling": {
+        "title": "Approcci allo Styling",
+        "modules": "CSS Modules per stili a livello di componente",
+        "styled": "Styled Components per CSS-in-JS",
+        "tailwind": "Tailwind CSS per styling utility-first",
+        "sass": "Sass/SCSS per funzionalità CSS avanzate"
+      },
+      "testing": {
+        "title": "Framework di Testing",
+        "jest": "Jest per unit testing",
+        "rtl": "React Testing Library / Utilità di test Angular",
+        "cypress": "Cypress per test end-to-end",
+        "storybook": "Storybook per documentazione componenti e test visivi"
+      },
+      "performance": {
+        "title": "Ottimizzazione Prestazioni",
+        "splitting": "Code splitting e lazy loading",
+        "memo": "Tecniche di memoization",
+        "vitals": "Web Vitals e audit Lighthouse",
+        "bundle": "Ottimizzazione dimensione bundle"
+      }
+    },
+    "learning": {
+      "title": "Percorso di Apprendimento",
+      "intro": "Segui questo percorso strutturato per diventare competente nello sviluppo frontend:",
+      "path": {
+        "basics": "Fondamenti",
+        "basicsDesc": "Padroneggia i fondamenti di HTML, CSS e JavaScript",
+        "typescript": "TypeScript",
+        "typescriptDesc": "Impara le basi di TypeScript e i sistemi di tipi",
+        "framework": "Scegli un Framework",
+        "frameworkDesc": "Scegli Angular o React per iniziare (in base alle esigenze del progetto)",
+        "projects": "Costruisci Progetti",
+        "projectsDesc": "Crea applicazioni progressivamente complesse",
+        "testing": "Testing",
+        "testingDesc": "Implementa strategie di test complete",
+        "state": "Gestione dello Stato",
+        "stateDesc": "Aggiungi gestione stato avanzata",
+        "performance": "Prestazioni",
+        "performanceDesc": "Ottimizza per velocità ed esperienza utente",
+        "patterns": "Pattern Avanzati",
+        "patternsDesc": "Impara i pattern di design specifici per il tuo framework"
+      }
+    },
+    "comparison": {
+      "title": "Confronto tra Framework:",
+      "angular": {
+        "title": "Angular",
+        "complete": "Framework completo con soluzioni integrate",
+        "typescript": "TypeScript richiesto",
+        "opinions": "Opinioni più forti sull'architettura",
+        "enterprise": "Ideale per applicazioni aziendali"
+      },
+      "react": {
+        "title": "React",
+        "flexible": "Approccio libreria flessibile",
+        "ecosystem": "Più scelte nell'ecosistema",
+        "learning": "Curva di apprendimento inizialmente più leggera",
+        "startups": "Ottimo per startup e prototipazione rapida"
+      }
+    }
+  },
+  "devOpsEssentials": {
+    "title": "Fondamenti di DevOps",
+    "description": "Impara i principi fondamentali, le pratiche e gli strumenti per un'efficace implementazione DevOps.",
+    "understanding": {
+      "title": "Comprendere DevOps",
+      "intro": "DevOps è un insieme di pratiche che combina lo sviluppo software (Dev) e le operazioni IT (Ops), con l'obiettivo di abbreviare il ciclo di sviluppo e fornire una distribuzione continua di alta qualità. Si basa su una cultura di collaborazione tra team che storicamente funzionavano in silos."
+    },
+    "corePrinciples": {
+      "title": "Principi Fondamentali",
+      "collaboration": "Collaborazione",
+      "collaborationDesc": "Abbattere i silos tra sviluppo e operazioni",
+      "automation": "Automazione",
+      "automationDesc": "Automatizzare attività e processi ripetitivi",
+      "ci": "Integrazione Continua",
+      "ciDesc": "Unire frequentemente le modifiche al codice in un repository centrale",
+      "cd": "Consegna Continua",
+      "cdDesc": "Garantire che il codice possa essere rilasciato in modo affidabile in qualsiasi momento",
+      "monitoring": "Monitoraggio e Feedback",
+      "monitoringDesc": "Raccogliere metriche per migliorare i processi"
+    },
+    "practices": {
+      "title": "Pratiche DevOps Essenziali",
+      "iac": {
+        "title": "Infrastruttura come Codice (IaC)",
+        "description": "Gestire l'infrastruttura attraverso il codice invece di processi manuali:",
+        "terraform": "Terraform per il provisioning dell'infrastruttura",
+        "ansible": "Ansible per la gestione della configurazione",
+        "cloudformation": "CloudFormation per risorse AWS",
+        "arm": "Modelli ARM per risorse Azure"
+      },
+      "cicd": {
+        "title": "Integrazione Continua/Distribuzione Continua (CI/CD)",
+        "description": "Automatizzare l'integrazione e la distribuzione delle modifiche al codice:",
+        "jenkins": "Jenkins per server di automazione",
+        "github": "GitHub Actions per pipeline CI/CD",
+        "azure": "Azure DevOps per DevOps end-to-end",
+        "gitlab": "GitLab CI per flussi di lavoro integrati",
+        "circleci": "CircleCI per CI/CD basato su cloud"
+      },
+      "containers": {
+        "title": "Containerizzazione e Orchestrazione",
+        "description": "Pacchettizzare e gestire le applicazioni in modo coerente tra diversi ambienti:",
+        "docker": "Docker per containerizzazione",
+        "kubernetes": "Kubernetes per orchestrazione dei container",
+        "compose": "Docker Compose per applicazioni multi-container",
+        "helm": "Helm per gestione pacchetti Kubernetes"
+      }
+    },
+    "monitoring": {
+      "title": "Monitoraggio e Osservabilità",
+      "metrics": {
+        "title": "Metriche Chiave e Strumenti",
+        "prometheus": "Prometheus",
+        "prometheusDesc": "Monitoraggio delle serie temporali",
+        "grafana": "Grafana",
+        "grafanaDesc": "Visualizzazione e dashboard",
+        "elk": "ELK Stack",
+        "elkDesc": "Elasticsearch, Logstash, Kibana per la gestione dei log",
+        "newrelic": "New Relic",
+        "newrelicDesc": "Monitoraggio delle prestazioni delle applicazioni",
+        "datadog": "Datadog",
+        "datadogDesc": "Monitoraggio su scala cloud"
+      },
+      "pillars": {
+        "title": "Pilastri dell'Osservabilità",
+        "logs": "Log",
+        "logsDesc": "Registrazione di eventi ed errori",
+        "metrics": "Metriche",
+        "metricsDesc": "Misurazioni numeriche",
+        "traces": "Tracciamenti",
+        "tracesDesc": "Seguire le richieste attraverso un sistema distribuito",
+        "alerts": "Avvisi",
+        "alertsDesc": "Notifiche per problemi critici"
+      }
+    },
+    "security": {
+      "title": "Sicurezza in DevOps (DevSecOps)",
+      "intro": "Integrare pratiche di sicurezza all'interno del processo DevOps:",
+      "shiftLeft": "Sicurezza Shift Left",
+      "shiftLeftDesc": "Implementare la sicurezza nelle prime fasi dello sviluppo",
+      "testing": "Test di Sicurezza Automatizzati",
+      "testingDesc": "SAST, DAST, SCA",
+      "vulnerability": "Gestione delle Vulnerabilità",
+      "vulnerabilityDesc": "Scansione regolare e correzione",
+      "compliance": "Conformità come Codice",
+      "complianceDesc": "Automatizzare i controlli di conformità",
+      "secrets": "Gestione dei Segreti",
+      "secretsDesc": "Vault, AWS Secrets Manager, Azure Key Vault"
+    },
+    "implementation": {
+      "title": "Roadmap di Implementazione",
+      "intro": "Un approccio graduale per implementare DevOps nella tua organizzazione:",
+      "assessment": "Valutazione",
+      "assessmentDesc": "Valutare i processi attuali e i punti critici",
+      "culture": "Cultura",
+      "cultureDesc": "Favorire la collaborazione tra sviluppo e operazioni",
+      "tooling": "Strumenti",
+      "toolingDesc": "Selezionare e implementare gli strumenti appropriati",
+      "automation": "Automazione",
+      "automationDesc": "Iniziare con le pipeline CI/CD",
+      "monitoring": "Monitoraggio",
+      "monitoringDesc": "Implementare un monitoraggio completo",
+      "iteration": "Iterazione",
+      "iterationDesc": "Migliorare continuamente processi e pratiche",
+      "certifications": {
+        "title": "Certificazioni Consigliate",
+        "aws": "AWS Certified DevOps Engineer",
+        "azure": "Azure DevOps Engineer Expert",
+        "kubernetes": "Certified Kubernetes Administrator (CKA)",
+        "docker": "Docker Certified Associate"
+      }
+    }
+  },
+  "dotnetRoadmap": {
+    "title": "Percorso di Apprendimento .NET",
+    "description": "Una guida completa per padroneggiare lo sviluppo .NET e costruire applicazioni scalabili.",
+    "gettingStarted": {
+      "title": "Primi Passi con .NET",
+      "intro": ".NET è una piattaforma di sviluppo gratuita, multipiattaforma e open-source per costruire diversi tipi di applicazioni. Con .NET, puoi utilizzare più linguaggi, editor e librerie per sviluppare per web, mobile, desktop, giochi e IoT."
+    },
+    "coreConcepts": {
+      "title": "Concetti Fondamentali",
+      "csharp": "Fondamenti di C#",
+      "csharpDesc": "Padroneggia la sintassi, i tipi e i principi orientati agli oggetti",
+      "clr": "CLR & .NET Runtime",
+      "clrDesc": "Comprendi come .NET esegue il tuo codice",
+      "ide": "Visual Studio / VS Code",
+      "ideDesc": "Configura il tuo ambiente di sviluppo",
+      "nuget": "Gestione Pacchetti NuGet",
+      "nugetDesc": "Impara a utilizzare l'ecosistema di pacchetti .NET"
+    },
+    "keyTech": {
+      "title": "Tecnologie Chiave",
+      "aspnet": {
+        "title": "ASP.NET Core",
+        "description": "Crea applicazioni web e servizi veloci, sicuri e che possono essere eseguiti su Windows, Linux e macOS:",
+        "mvc": "Architettura MVC",
+        "razor": "Razor Pages",
+        "blazor": "Blazor (WebAssembly & Server)",
+        "api": "API Web e Servizi RESTful",
+        "signalr": "SignalR per Applicazioni in Tempo Reale"
+      },
+      "ef": {
+        "title": "Entity Framework Core",
+        "description": "ORM moderno per .NET che supporta più provider di database:",
+        "approaches": "Approcci Code-First e Database-First",
+        "linq": "LINQ per Query su Entità",
+        "migrations": "Migrazioni e Gestione Schema",
+        "performance": "Ottimizzazione delle Prestazioni"
+      },
+      "desktop": {
+        "title": "Sviluppo Desktop",
+        "description": "Opzioni per la creazione di applicazioni desktop:",
+        "wpf": "WPF (Windows Presentation Foundation)",
+        "winforms": "Windows Forms",
+        "uwp": "UWP (Universal Windows Platform)",
+        "maui": "MAUI (Multi-platform App UI)"
+      }
+    },
+    "advanced": {
+      "title": "Argomenti Avanzati",
+      "cloud": {
+        "title": "Cloud e Microservizi",
+        "azure": "Integrazione Azure",
+        "docker": "Containerizzazione con Docker",
+        "kubernetes": "Orchestrazione con Kubernetes",
+        "microservices": "Architettura a Microservizi"
+      },
+      "performance": {
+        "title": "Prestazioni e Ottimizzazione",
+        "async": "Pattern Async/Await",
+        "memory": "Gestione della Memoria",
+        "threading": "Threading e Concorrenza",
+        "profiling": "Profilazione delle Prestazioni"
+      },
+      "testing": {
+        "title": "Testing",
+        "unit": "Unit Testing con xUnit, NUnit o MSTest",
+        "integration": "Testing di Integrazione",
+        "mock": "Oggetti Mock e Iniezione delle Dipendenze",
+        "tdd": "Test-Driven Development (TDD)"
+      }
+    },
+    "learning": {
+      "title": "Percorso di Apprendimento e Risorse",
+      "intro": "Segui questo percorso strutturato per diventare competente nello sviluppo .NET:",
+      "path": {
+        "basics": "Fondamenti",
+        "basicsDesc": "Impara i fondamenti di C# e .NET",
+        "web": "Sviluppo Web",
+        "webDesc": "Padroneggia ASP.NET Core",
+        "data": "Accesso ai Dati",
+        "dataDesc": "Impara Entity Framework Core",
+        "auth": "Autenticazione",
+        "authDesc": "Implementa identità e sicurezza",
+        "cloud": "Cloud",
+        "cloudDesc": "Esegui il deployment su Azure e implementa DevOps",
+        "advanced": "Avanzato",
+        "advancedDesc": "Esplora microservizi e serverless"
+      },
+      "certifications": {
+        "title": "Certificazioni Consigliate",
+        "azure": "Microsoft Certified: Azure Developer Associate",
+        "dotnet": "Microsoft Certified: .NET Developer"
+      }
+    }
+  },
+  "techTopics": {
+    "kidsProgramming": {
+      "title": "Percorso di Programmazione per Bambini",
+      "description": "Una guida completa per insegnare ai bambini l'informatica, la programmazione e i concetti di IA."
+    },
+    "dotnet": {
+      "title": "Percorso di Apprendimento .NET",
+      "description": "Una guida completa per padroneggiare lo sviluppo .NET e costruire applicazioni scalabili."
+    },
+    "devops": {
+      "title": "Fondamenti di DevOps",
+      "description": "Impara i principi fondamentali, le pratiche e gli strumenti per un'implementazione efficace di DevOps."
+    },
+    "frontend": {
+      "title": "Percorso Frontend",
+      "description": "Padroneggia Angular e React per costruire interfacce utente moderne e responsive."
+    },
+    "project": {
+      "title": "Percorso di Project Management",
+      "description": "Una guida alle metodologie Agile, Scrum e alla leadership efficace dei progetti."
+    },
+    "ai": {
+      "title": "Capire l'IA per Sviluppatori",
+      "description": "Esplora concetti di IA, modelli e strategie di integrazione per sviluppatori software."
+    },
+    "database": {
+      "title": "Architettura e Prestazioni dei Database",
+      "description": "Migliori pratiche per progettare sistemi di database robusti e ad alte prestazioni su larga scala."
+    }
+  },
   "nav": {
     "home": "Home",
     "projects": "Progetti",
@@ -84,7 +1118,6 @@
     "contact": {
       "title": "Informazioni di contatto:",
       "email": "Email: Minaibrahem.youssef@gmail.com",
-      "email2": "Email: Mina@Minanarmer.com",
       "github": "GitHub: github.com/MinaNarmer",
       "linkedin": "LinkedIn: linkedin.com/in/minayousef",
       "whatsapp": "WhatsApp: +201003260417",
@@ -133,7 +1166,7 @@
     },
     "connectTitle": "Connettiti con me",
     "email": "Email",
-    "emailValue": "Minaibrahem.youssef@gmail.com, Mina@Minanarmer.com",
+    "emailValue": "Minaibrahem.youssef@gmail.com",
     "phone": "WhatsApp",
     "phoneValue": "+201003260417",
     "location": "Posizione",
@@ -166,7 +1199,7 @@
     
     "profile": {
       "title": "Profilo Professionale",
-      "description": "Ingegnere Software Senior con oltre 7 anni di esperienza in .NET, C# e architettura software. Ho costruito soluzioni scalabili e ad alte prestazioni nei settori di Private Equity, Farmaceutica e Innovazione, garantendo efficienza, sicurezza e manutenibilità. Certificato PMP, con competenza nella guida di team agili e nella gestione di progetti complessi. Attualmente sto ampliando le mie conoscenze in AI e DevOps, integrando tecnologie moderne nello sviluppo software. Appassionato di mentorship, problem solving e promozione dell'innovazione attraverso la tecnologia."
+      "description": "Sono un Ingegnere Software Senior con oltre 7 anni di esperienza nella progettazione, sviluppo e distribuzione di robusti sistemi backend utilizzando l'ecosistema Microsoft .NET. La mia competenza risiede nella costruzione di applicazioni scalabili e ad alte prestazioni in diversi domini come Private Equity, Sanità e Piattaforme di Innovazione.\n\nMi specializzo in C#, ASP.NET Core, API RESTful, architettura a microservizi e progettazione di database utilizzando SQL Server. Il mio lavoro è guidato dai principi di architettura pulita, testabilità e manutenibilità a lungo termine. Ho guidato progetti tecnici complessi, assicurando che fossero allineati con gli obiettivi aziendali, rispettassero gli standard di sicurezza e prestazioni, e scalassero efficacemente.\n\nIn possesso di certificazione PMP, ho gestito e consegnato con successo progetti basati su metodologie agili, collaborato con team interfunzionali e guidato sforzi di sviluppo in ambienti distribuiti. Credo che la comunicazione efficace e la leadership strutturata siano tanto critiche quanto l'esecuzione tecnica.\n\nAttualmente sto ampliando le mie competenze in Intelligenza Artificiale e DevOps. Sto integrando attivamente l'IA nei sistemi backend e adottando pratiche DevOps moderne come pipeline CI/CD, containerizzazione e deployment cloud-native.\n\nOltre al codice, sono appassionato di mentorship, costruzione di comunità e semplificazione di argomenti complessi attraverso l'educazione. Che stia progettando un sistema o guidando un team, il mio obiettivo è generare valore, ispirare crescita e spingere i confini di ciò che è possibile con il software."
     },
     
     "experience": {

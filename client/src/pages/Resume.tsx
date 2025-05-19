@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/context/LanguageContext";
+import PMPCertificateImg from "../assets/pmp-certificate.png";
 import { 
   Download, 
   Code, 
@@ -38,6 +39,7 @@ export default function Resume() {
   const [activeSection, setActiveSection] = useState<string>("profile");
   const [isAnimating, setIsAnimating] = useState(false);
   const [activePhotoIndex, setActivePhotoIndex] = useState<number>(0);
+  const [isPMPImageOpen, setIsPMPImageOpen] = useState(false);
   
   // Gallery photos array
   const galleryPhotos = [
@@ -191,7 +193,7 @@ export default function Resume() {
                 </div>
                 
                 {/* Job 3 */}
-                <div className="ml-6">
+                <div className="mb-12 ml-6">
                   <div className="absolute w-4 h-4 bg-primary-color rounded-full -left-2 mt-1.5"></div>
                   
                   <div className="p-5 bg-white dark:bg-gray-800 rounded-xl shadow-lg border-l-4 border-primary-color transition-all hover:shadow-xl hover:translate-x-1">
@@ -218,6 +220,114 @@ export default function Resume() {
                       <li className="flex items-start">
                         <span className="mr-2 text-primary-color">▹</span>
                         {t('resume.experience.job3.responsibility3')}
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+                {/* Job 4 */}
+                <div className="mb-12 ml-6">
+                  <div className="absolute w-4 h-4 bg-primary-color rounded-full -left-2 mt-1.5"></div>
+                  
+                  <div className="p-5 bg-white dark:bg-gray-800 rounded-xl shadow-lg border-l-4 border-primary-color transition-all hover:shadow-xl hover:translate-x-1">
+                    <div className="flex flex-col md:flex-row justify-between mb-2">
+                      <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                        {t('resume.experience.job4.title')}
+                      </h3>
+                      <span className="text-primary-color font-medium bg-blue-100 dark:bg-blue-900 dark:text-blue-300 px-3 py-1 rounded-full text-sm">
+                        {t('resume.experience.job4.period')}
+                      </span>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-400 mb-3 font-medium">
+                      @{t('resume.experience.job4.company')} - {t('resume.experience.job4.location')}
+                    </p>
+                    <p className="text-gray-500 dark:text-gray-400 italic mb-3">
+                      {t('resume.experience.job4.description')}
+                    </p>
+                    <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                      <li className="flex items-start">
+                        <span className="mr-2 text-primary-color">▹</span>
+                        {t('resume.experience.job4.responsibility1')}
+                      </li>
+                      <li className="flex items-start">
+                        <span className="mr-2 text-primary-color">▹</span>
+                        {t('resume.experience.job4.responsibility2')}
+                      </li>
+                      <li className="flex items-start">
+                        <span className="mr-2 text-primary-color">▹</span>
+                        {t('resume.experience.job4.responsibility3')}
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+                {/* Job 5 */}
+                <div className="mb-12 ml-6">
+                  <div className="absolute w-4 h-4 bg-primary-color rounded-full -left-2 mt-1.5"></div>
+                  
+                  <div className="p-5 bg-white dark:bg-gray-800 rounded-xl shadow-lg border-l-4 border-primary-color transition-all hover:shadow-xl hover:translate-x-1">
+                    <div className="flex flex-col md:flex-row justify-between mb-2">
+                      <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                        {t('resume.experience.job5.title')}
+                      </h3>
+                      <span className="text-primary-color font-medium bg-blue-100 dark:bg-blue-900 dark:text-blue-300 px-3 py-1 rounded-full text-sm">
+                        {t('resume.experience.job5.period')}
+                      </span>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-400 mb-3 font-medium">
+                      @{t('resume.experience.job5.company')} - {t('resume.experience.job5.location')}
+                    </p>
+                    <p className="text-gray-500 dark:text-gray-400 italic mb-3">
+                      {t('resume.experience.job5.description')}
+                    </p>
+                    <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                      <li className="flex items-start">
+                        <span className="mr-2 text-primary-color">▹</span>
+                        {t('resume.experience.job5.responsibility1')}
+                      </li>
+                      <li className="flex items-start">
+                        <span className="mr-2 text-primary-color">▹</span>
+                        {t('resume.experience.job5.responsibility2')}
+                      </li>
+                      <li className="flex items-start">
+                        <span className="mr-2 text-primary-color">▹</span>
+                        {t('resume.experience.job5.responsibility3')}
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+                {/* Job 6 */}
+                <div className="ml-6">
+                  <div className="absolute w-4 h-4 bg-primary-color rounded-full -left-2 mt-1.5"></div>
+                  
+                  <div className="p-5 bg-white dark:bg-gray-800 rounded-xl shadow-lg border-l-4 border-primary-color transition-all hover:shadow-xl hover:translate-x-1">
+                    <div className="flex flex-col md:flex-row justify-between mb-2">
+                      <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                        {t('resume.experience.job6.title')}
+                      </h3>
+                      <span className="text-primary-color font-medium bg-blue-100 dark:bg-blue-900 dark:text-blue-300 px-3 py-1 rounded-full text-sm">
+                        {t('resume.experience.job6.period')}
+                      </span>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-400 mb-3 font-medium">
+                      @{t('resume.experience.job6.company')} - {t('resume.experience.job6.location')}
+                    </p>
+                    <p className="text-gray-500 dark:text-gray-400 italic mb-3">
+                      {t('resume.experience.job6.description')}
+                    </p>
+                    <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                      <li className="flex items-start">
+                        <span className="mr-2 text-primary-color">▹</span>
+                        {t('resume.experience.job6.responsibility1')}
+                      </li>
+                      <li className="flex items-start">
+                        <span className="mr-2 text-primary-color">▹</span>
+                        {t('resume.experience.job6.responsibility2')}
+                      </li>
+                      <li className="flex items-start">
+                        <span className="mr-2 text-primary-color">▹</span>
+                        {t('resume.experience.job6.responsibility3')}
                       </li>
                     </ul>
                   </div>
@@ -420,23 +530,42 @@ export default function Resume() {
               {t('resume.certifications.title')}
             </h2>
             
-            <div className="grid grid-cols-1 gap-4">
-              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
-                <div className="flex flex-col md:flex-row items-start md:items-center">
-                  <div className="p-3 rounded-full bg-blue-100 dark:bg-blue-900 text-primary-color mr-4 mb-4 md:mb-0">
-                    <Award size={24} />
+            <div className="grid grid-cols-1 gap-6">
+              {/* PMP Certificate Card with Image - Updated design */}
+              <div className="bg-gray-900 dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden border border-gray-800 dark:border-gray-700 hover:shadow-xl transition-shadow text-white">
+                <div className="flex items-center justify-between p-6">
+                  <div className="flex items-start space-x-4">
+                    <div className="bg-blue-900 rounded-full p-3 flex items-center justify-center">
+                      <Award size={24} className="text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-white mb-1">
+                        Project Management Professional (PMP)
+                      </h3>
+                      <p className="text-gray-400">
+                        PMI • 2024
+                      </p>
+                      <span className="inline-block mt-2 bg-green-800 text-green-200 px-3 py-1 rounded-full text-sm font-medium">
+                        Active
+                      </span>
+                    </div>
                   </div>
-                  <div className="flex-grow">
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-                      {t('resume.certifications.cert1.name')}
-                    </h3>
-                    <p className="text-gray-600 dark:text-gray-400">
-                      {t('resume.certifications.cert1.issuer')} • {t('resume.certifications.cert1.year')}
-                    </p>
+                  <div className="hidden md:block">
+                    <img 
+                      src={PMPCertificateImg} 
+                      alt="PMP Certificate" 
+                      className="h-16 object-contain cursor-pointer hover:opacity-90 transition-opacity"
+                      onClick={() => setIsPMPImageOpen(true)}
+                      title="Click to enlarge"
+                    />
                   </div>
-                  <span className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300 px-3 py-1 rounded-full text-sm font-medium mt-2 md:mt-0">
-                    Active
-                  </span>
+                </div>
+                <div className="px-6 pb-6 pt-0 text-gray-400">
+                  <p>
+                    Certification Number: 3999600<br />
+                    Original Grant Date: 25 December 2024<br />
+                    Expiration Date: 25 December 2027
+                  </p>
                 </div>
               </div>
               
@@ -702,6 +831,25 @@ export default function Resume() {
           </div>
         </div>
       </div>
+      {/* PMP Certificate Image Modal */}
+      {isPMPImageOpen && (
+        <div className="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center p-4" 
+             onClick={() => setIsPMPImageOpen(false)}>
+          <div className="relative max-w-[90%] max-h-[90vh]" onClick={(e) => e.stopPropagation()}>
+            <button 
+              onClick={() => setIsPMPImageOpen(false)}
+              className="absolute -top-10 right-0 bg-white dark:bg-zinc-800 rounded-full p-2 text-black dark:text-white"
+            >
+              ✕
+            </button>
+            <img 
+              src={PMPCertificateImg} 
+              alt="PMP Certificate Full View" 
+              className="w-full h-auto object-contain max-h-[80vh] rounded-lg border-2 border-gray-200 dark:border-gray-700"
+            />
+          </div>
+        </div>
+      )}
     </>
   );
 }
