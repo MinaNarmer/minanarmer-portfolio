@@ -30,6 +30,7 @@ import resumeItaly from "@/assets/resume-italy.png";
 import resumeMountains1 from "@/assets/resume-mountains1.png";
 import resumeMountains2 from "@/assets/resume-mountains2.png";
 import resumeFamily from "@/assets/resume-family.png";
+import resumePDF from "@/assets/Mina-Youssef-CV.pdf";
 
 export default function Resume() {
   const { t } = useTranslation();
@@ -59,8 +60,9 @@ export default function Resume() {
   
   // Links to CV files for different languages
   const cvFiles = {
-    en: "/Mina-Youssef-CV.pdf",
-    ar: "/Mina-Youssef-CV.pdf"
+    en: "/assets/Mina-Youssef-CV.pdf",
+    de: "/assets/Mina-Youssef-CV.pdf",
+    it: "/assets/Mina-Youssef-CV.pdf"
   };
   
   // Helper function to get the correct CV link based on current language
@@ -638,16 +640,24 @@ export default function Resume() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">{t('resume.title')}</h1>
           <p className="text-lg md:text-xl text-blue-300 mb-8 max-w-3xl mx-auto">{t('resume.profile.description').split('.')[0]}.</p>
           
-          <a 
-            href={getCvLink()} 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            download
+          <button
+            onClick={() => {
+              // المسار المباشر إلى ملف PDF
+              const pdfUrl = '/assets/Mina-Youssef-CV.pdf';
+              
+              // إنشاء رابط وتنزيل الملف
+              const link = document.createElement('a');
+              link.href = pdfUrl;
+              link.setAttribute('download', 'Mina-Youssef-CV.pdf');
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }}
             className="inline-flex items-center gap-2 bg-primary-color hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-md transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1"
           >
             <Download size={20} />
             {t('resume.downloadButton')}
-          </a>
+          </button>
         </div>
       </div>
       

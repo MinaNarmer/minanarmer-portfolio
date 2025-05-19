@@ -5,6 +5,7 @@ import { z } from "zod";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
+import { sendEmail, EmailFormData } from "@/lib/emailService";
 import { 
   Form, 
   FormControl, 
@@ -46,7 +47,15 @@ export default function ContactSection() {
   
   // Submit handler
   const mutation = useMutation({
-    mutationFn: (values: ContactFormValues) => {
+    mutationFn: async (values: ContactFormValues) => {
+      // نرسل البريد الإلكتروني باستخدام EmailJS
+      const emailSuccess = await sendEmail(values);
+      
+      if (!emailSuccess) {
+        throw new Error(t("contact.emailError"));
+      }
+
+      // نحفظ الرسالة في قاعدة البيانات كالمعتاد (اختياري)
       return apiRequest("POST", "/api/contact", values);
     },
     onSuccess: () => {

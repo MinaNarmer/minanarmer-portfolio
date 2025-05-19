@@ -28,16 +28,16 @@ export function Navbar() {
   }, [location]);
 
   const navLinks = [
-    { href: "/", label: t("nav.home") },
-    { href: "/resume", label: t("nav.resume") },
-    { href: "#clients", label: t("nav.clients") },
-    { href: "#blog", label: t("nav.blog") },
-    { href: "#contact", label: t("nav.contact") }
+    { href: "/", label: t("nav.home"), isHash: false },
+    { href: "/resume", label: t("nav.resume"), isHash: false },
+    { href: "/projects", label: t("nav.projects"), isHash: false },
+    { href: "#clients", label: t("nav.clients"), isHash: true },
+    { href: "#blog", label: t("nav.blog"), isHash: true },
+    { href: "#contact", label: t("nav.contact"), isHash: true }
   ];
 
   const languages = [
     { code: "en", name: "English", display: "EN" },
-    { code: "ar", name: "العربية", display: "عربي" },
     { code: "de", name: "Deutsch", display: "DE" },
     { code: "it", name: "Italiano", display: "IT" }
   ];
@@ -55,10 +55,24 @@ export function Navbar() {
             <div className="hidden sm:ml-6 sm:flex sm:items-center">
               <div className="space-x-4 rtl:space-x-reverse">
                 {navLinks.map((link) => 
-                  link.href.startsWith('#') ? (
+                  link.isHash ? (
                     <a
                       key={link.href}
-                      href={link.href}
+                      href={location === "/" ? link.href : "/"}
+                      onClick={(e) => {
+                        if (location !== "/") {
+                          e.preventDefault();
+                          window.history.pushState({}, "", "/");
+                          window.dispatchEvent(new PopStateEvent("popstate"));
+                          // نضيف تأخير صغير للسماح للصفحة بالتحميل قبل التمرير
+                          setTimeout(() => {
+                            const element = document.querySelector(link.href);
+                            if (element) {
+                              element.scrollIntoView({ behavior: 'smooth' });
+                            }
+                          }, 100);
+                        }
+                      }}
                       className={`px-3 py-2 text-sm font-medium ${
                         location === link.href
                           ? "text-primary-color"
@@ -163,10 +177,24 @@ export function Navbar() {
       <div className={`sm:hidden ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1">
           {navLinks.map((link) => 
-            link.href.startsWith('#') ? (
+            link.isHash ? (
               <a
                 key={link.href}
-                href={link.href}
+                href={location === "/" ? link.href : "/"}
+                onClick={(e) => {
+                  if (location !== "/") {
+                    e.preventDefault();
+                    window.history.pushState({}, "", "/");
+                    window.dispatchEvent(new PopStateEvent("popstate"));
+                    // نضيف تأخير صغير للسماح للصفحة بالتحميل قبل التمرير
+                    setTimeout(() => {
+                      const element = document.querySelector(link.href);
+                      if (element) {
+                        element.scrollIntoView({ behavior: 'smooth' });
+                      }
+                    }, 100);
+                  }
+                }}
                 className={`block px-3 py-2 text-base font-medium ${
                   location === link.href
                     ? "text-primary-color"

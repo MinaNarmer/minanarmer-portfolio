@@ -4,6 +4,242 @@
 @tailwind components;
 @tailwind utilities;
 
+/* RTL Support Improvements */
+html[dir="rtl"] {
+  text-align: right;
+}
+
+html[dir="rtl"] * {
+  letter-spacing: 0;
+}
+
+/* Fix grid/flex layout for RTL */
+html[dir="rtl"] .rtl\:flex-row-reverse,
+html[dir="rtl"] .flex {
+  flex-direction: row-reverse !important;
+}
+
+html[dir="rtl"] .rtl\:text-right {
+  text-align: right !important;
+}
+
+html[dir="rtl"] .rtl\:mr-0 {
+  margin-right: 0 !important;
+}
+
+html[dir="rtl"] .rtl\:ml-2 {
+  margin-left: 0.5rem !important;
+}
+
+html[dir="rtl"] .rtl\:mr-2 {
+  margin-right: 0.5rem !important;
+}
+
+html[dir="rtl"] .rtl\:space-x-reverse {
+  --tw-space-x-reverse: 1 !important;
+}
+
+html[dir="rtl"] .space-x-2 > :not([hidden]) ~ :not([hidden]),
+html[dir="rtl"] .space-x-3 > :not([hidden]) ~ :not([hidden]),
+html[dir="rtl"] .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1 !important;
+}
+
+/* Global RTL Containers Fix */
+html[dir="rtl"] .max-w-7xl,
+html[dir="rtl"] .container,
+html[dir="rtl"] header,
+html[dir="rtl"] footer,
+html[dir="rtl"] main,
+html[dir="rtl"] nav,
+html[dir="rtl"] section {
+  width: 100%;
+  max-width: 100%;
+  padding-left: inherit;
+  padding-right: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Fix Header and Footer width in RTL */
+html[dir="rtl"] nav,
+html[dir="rtl"] footer {
+  width: 100vw !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+html[dir="rtl"] nav > div,
+html[dir="rtl"] footer > div,
+html[dir="rtl"] .footer-container,
+html[dir="rtl"] .max-w-7xl {
+  width: 100% !important;
+  max-width: 1280px !important; /* 7xl equivalent */
+  margin-left: auto !important;
+  margin-right: auto !important;
+  position: relative !important;
+}
+
+/* Fix Page Headers in RTL mode */
+html[dir="rtl"] .page-header {
+  width: 100% !important;
+  max-width: 100% !important;
+  text-align: center !important;
+  justify-content: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+/* Bio Section Special Handling */
+html[dir="rtl"] #bio {
+  direction: ltr !important;
+}
+
+/* Keep Bio text RTL */
+html[dir="rtl"] #bio h2,
+html[dir="rtl"] #bio h3,
+html[dir="rtl"] #bio h4,
+html[dir="rtl"] #bio p {
+  text-align: right !important;
+  direction: rtl;
+}
+
+/* Specifically space out paragraphs */
+html[dir="rtl"] #bio p {
+  line-height: 1.9;
+  margin-bottom: 1.5rem;
+}
+
+/* Fix Bio section content container */
+html[dir="rtl"] #bio .lg\:col-span-3 {
+  text-align: right;
+}
+
+/* Improve alignment of skill titles in RTL */
+html[dir="rtl"] #bio h4.text-lg {
+  width: 100%;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Fix skills grid for RTL */
+html[dir="rtl"] #bio .grid {
+  direction: ltr !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-start !important;
+  gap: 0.75rem !important;
+}
+
+/* Make skill items display properly */
+html[dir="rtl"] #bio .grid > div {
+  width: auto !important;
+  display: inline-flex !important;
+  margin-bottom: 0.5rem;
+}
+
+/* Keep skill icons on left side of text in RTL */
+html[dir="rtl"] #bio .grid span.mr-2 {
+  margin-right: 0.5rem !important;
+  margin-left: 0 !important;
+}
+
+/* Fix specific alignments in RTL mode */
+html[dir="rtl"] .text-start {
+  text-align: right !important;
+}
+
+html[dir="rtl"] .text-end {
+  text-align: left !important;
+}
+
+/* Fix for Resume page in RTL */
+html[dir="rtl"] .resume-header,
+html[dir="rtl"] .resume-grid,
+html[dir="rtl"] .resume-container,
+html[dir="rtl"] body > div > div > div.max-w-7xl {
+  width: 100% !important;
+  max-width: 1280px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+html[dir="rtl"] .pt-20.min-h-screen > div.max-w-7xl,
+html[dir="rtl"] .pt-20 > .max-w-7xl {
+  width: 100% !important;
+  max-width: 1280px !important;
+  margin-left: auto !important;  
+  margin-right: auto !important;
+  position: relative !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+html[dir="rtl"] .pt-20 > div.max-w-7xl > div.text-center {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Fix specific sidebar in resume page */
+html[dir="rtl"] .col-span-1 {
+  width: 100% !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+/* Additional RTL fixes for margin, spacing in resume page */
+html[dir="rtl"] .resume-section {
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+html[dir="rtl"] .resume-section h2,
+html[dir="rtl"] .resume-section h3 {
+  text-align: right !important;
+  direction: rtl !important;
+  width: 100% !important;
+}
+
+/* Header & Footer RTL adjustments */
+html[dir="rtl"] nav .flex,
+html[dir="rtl"] footer .flex {
+  flex-direction: row-reverse !important;
+}
+
+/* Content containers in RTL */
+html[dir="rtl"] .container,
+html[dir="rtl"] .max-w-xl,
+html[dir="rtl"] .max-w-2xl,
+html[dir="rtl"] .max-w-3xl,
+html[dir="rtl"] .max-w-4xl,
+html[dir="rtl"] .max-w-5xl,
+html[dir="rtl"] .max-w-6xl,
+html[dir="rtl"] .max-w-7xl {
+  direction: rtl;
+}
+
+/* Force text alignment for RTL */
+html[dir="rtl"] p,
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] h5,
+html[dir="rtl"] h6,
+html[dir="rtl"] li {
+  text-align: right !important;
+}
+
 :root {
   --background: 0 0% 100%;
   --foreground: 20 14.3% 4.1%;

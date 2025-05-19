@@ -25,7 +25,11 @@ export const LanguageProvider = ({ children }: LanguageProviderProps) => {
   // Initialize from localStorage or fallback to i18n.language
   const savedLanguage = localStorage.getItem("language");
   console.log("Initializing language context, saved language:", savedLanguage);
-  const initialLanguage = savedLanguage || i18n.language || "en";
+  // Only allow en, de, or it as valid languages (ar removed)
+  const validLanguages = ["en", "de", "it"];
+  const initialLanguage = validLanguages.includes(savedLanguage || "") 
+    ? savedLanguage || "en"
+    : "en";
   console.log("Initial language set to:", initialLanguage);
   
   const [language, setLanguageState] = useState<string>(initialLanguage);
@@ -39,38 +43,33 @@ export const LanguageProvider = ({ children }: LanguageProviderProps) => {
   }, []);
   
   const setLanguage = (lang: string) => {
+    // Only allow en, de, or it as valid languages
+    const validLanguages = ["en", "de", "it"];
+    if (!validLanguages.includes(lang)) {
+      lang = "en"; // Default to English if invalid language
+    }
+    
     console.log("Changing language to:", lang);
     i18n.changeLanguage(lang);
     setLanguageState(lang);
     localStorage.setItem("language", lang);
     
-    // Apply RTL/LTR styling immediately
-    if (lang === "ar") {
-      document.documentElement.classList.add("rtl");
-      document.body.setAttribute("dir", "rtl");
-    } else {
-      document.documentElement.classList.remove("rtl");
-      document.body.setAttribute("dir", "ltr");
-    }
+    // Since we removed Arabic, no more RTL
+    document.documentElement.classList.remove("rtl");
+    document.body.setAttribute("dir", "ltr");
   };
   
   useEffect(() => {
-    // Set direction based on language
-    const isRTL = language === "ar";
-    setDirection(isRTL ? "rtl" : "ltr");
+    // All languages are LTR now (Arabic removed)
+    setDirection("ltr");
     
     // Update document attributes
     document.documentElement.setAttribute("lang", language);
-    document.documentElement.setAttribute("dir", isRTL ? "rtl" : "ltr");
+    document.documentElement.setAttribute("dir", "ltr");
     
-    // Add or remove RTL class to html
-    if (isRTL) {
-      document.documentElement.classList.add("rtl");
-      document.body.dir = "rtl";
-    } else {
-      document.documentElement.classList.remove("rtl");
-      document.body.dir = "ltr";
-    }
+    // Remove RTL class from html (Arabic has been removed)
+    document.documentElement.classList.remove("rtl");
+    document.body.dir = "ltr";
     
     // Update language in localStorage
     localStorage.setItem("language", language);

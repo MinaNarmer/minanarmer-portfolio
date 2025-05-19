@@ -8,6 +8,7 @@ import { Footer } from "@/components/layout/Footer";
 import { useLanguage } from "@/context/LanguageContext";
 import Home from "@/pages/Home";
 import Resume from "@/pages/Resume";
+import Projects from "@/pages/Projects";
 import NotFound from "@/pages/not-found";
 
 // Tech blog pages
@@ -23,6 +24,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home}/>
       <Route path="/resume" component={Resume}/>
+      <Route path="/projects" component={Projects}/>
       
       {/* Tech blog routes */}
       <Route path="/tech/dotnet-roadmap" component={DotNetRoadmap}/>

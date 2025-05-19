@@ -23,6 +23,13 @@
     "viewProjects": "Visualizza Progetti",
     "contactMe": "Contattami"
   },
+  
+  "bio": {
+    "title": "Chi Sono",
+    "paragraph1": "Sono un Ingegnere Software Senior con oltre 7 anni di esperienza in .NET, C# e architettura software. Ho realizzato soluzioni scalabili e ad alte prestazioni nei settori Private Equity, Farmaceutico e Innovazione, garantendo efficienza, sicurezza e manutenibilità.",
+    "paragraph2": "Certificato PMP, con esperienza nella guida di team Agile e nella gestione di progetti complessi. Attualmente sto ampliando le mie conoscenze in AI e DevOps, integrando tecnologie moderne nello sviluppo software. Appassionato di mentoring, problem-solving e innovazione attraverso la tecnologia.",
+    "skills": "Competenze Tecniche"
+  },
   "terminal": {
     "welcome": {
       "line1": "Benvenuto nel portfolio terminale di Mina Narmer!",
@@ -96,7 +103,12 @@
     "demo": "Demo",
     "viewMore": "Visualizza altri clienti",
     "confidential": "Altri Clienti (Riservato)",
-    "confidentialTooltip": "Alcune collaborazioni sono sotto NDA e non possono essere elencate pubblicamente."
+    "confidentialTooltip": "Alcune collaborazioni sono sotto NDA e non possono essere elencate pubblicamente.",
+    "pageTitle": "Portfolio Progetti",
+    "pageDescription": "Visualizza i progetti di sviluppo software di Mina Narmer e le collaborazioni con i clienti in vari settori.",
+    "comingSoon": "Progetti in arrivo",
+    "comingSoonDescription": "Sto attualmente lavorando a una presentazione completa dei miei progetti. Torna presto per esplorare il mio lavoro in dettaglio.",
+    "backHome": "Torna alla Home"
   },
   "blog": {
     "title": "Blog Tecnico",

@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { useLocation } from "wouter";
 import Terminal from "./Terminal";
 import { useLanguage } from "@/context/LanguageContext";
 import profileImage from "@/assets/profile-new.png";
@@ -50,8 +51,15 @@ export default function HeroSection() {
             </p>
             <div className="flex flex-wrap gap-4 rtl:flex-row-reverse">
               <a 
-                href="#projects" 
-                className="px-6 py-3 bg-primary-color hover:bg-primary-color-dark text-white font-medium rounded-md transition-colors flex items-center rtl:flex-row-reverse"
+                href="/projects" 
+                onClick={(e) => {
+                  e.preventDefault();
+                  // استخدام history push بدلاً من تغيير window.location
+                  // يحافظ على حالة React ولا يسبب إعادة تحميل كاملة
+                  window.history.pushState({}, "", "/projects");
+                  window.dispatchEvent(new PopStateEvent("popstate"));
+                }}
+                className="px-6 py-3 bg-primary-color hover:bg-primary-color-dark text-white font-medium rounded-md transition-colors flex items-center rtl:flex-row-reverse cursor-pointer"
               >
                 <svg className="w-5 h-5 mr-2 rtl:mr-0 rtl:ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />

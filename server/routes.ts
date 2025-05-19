@@ -7,6 +7,12 @@ import { ZodError } from "zod";
 import { fromZodError } from "zod-validation-error";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Serve PDF files with correct content type
+  app.get('/assets/Mina-Youssef-CV.pdf', (req, res) => {
+    res.setHeader('Content-Type', 'application/pdf');
+    res.setHeader('Content-Disposition', 'attachment; filename=Mina-Youssef-CV.pdf');
+    res.sendFile('public/assets/Mina-Youssef-CV.pdf', { root: '.' });
+  });
   // API Routes with /api prefix
   
   // Get all projects

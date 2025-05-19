@@ -214,7 +214,12 @@
     "demo": "Demo",
     "viewMore": "View More Clients",
     "confidential": "Other Clients (Confidential)",
-    "confidentialTooltip": "Some collaborations are under NDA and cannot be publicly listed."
+    "confidentialTooltip": "Some collaborations are under NDA and cannot be publicly listed.",
+    "pageTitle": "Projects Portfolio",
+    "pageDescription": "View Mina Narmer's software development projects and client collaborations across various industries.",
+    "comingSoon": "Projects Coming Soon",
+    "comingSoonDescription": "I'm currently working on a comprehensive showcase of my projects. Please check back soon to explore my work in detail.",
+    "backHome": "Back to Home"
   },
   "blog": {
     "title": "Tech Blog",
@@ -250,7 +255,8 @@
     "success": "Message Sent",
     "successMessage": "Thanks for reaching out! I'll get back to you soon.",
     "error": "Error",
-    "errorMessage": "There was a problem sending your message. Please try again."
+    "errorMessage": "There was a problem sending your message. Please try again.",
+    "emailError": "Failed to send email notification. Please try again later."
   },
   "footer": {
     "description": "Software engineer specializing in backend development, system design, and AI solutions. Building robust, scalable applications with modern technologies.",
@@ -310,7 +316,32 @@
     "title": "About Me",
     "paragraph1": "I'm a Senior Software Engineer with over 7 years of experience in .NET, C#, and software architecture. I've built scalable, high-performance solutions across Private Equity, Pharma, and Innovation sectors, ensuring efficiency, security, and maintainability.",
     "paragraph2": "PMP-certified, with expertise in leading agile teams and managing complex projects. Currently expanding my knowledge in AI & DevOps, integrating modern technologies into software development. Passionate about mentorship, problem-solving, and driving innovation through technology.",
-    "skills": "Technical Skills"
+    "skills": "Technical Skills",
+    "technical_skills": "Technical Skills",
+    "architecture_leadership": "Architecture & Leadership",
+    "project_management": "Project Management & Leadership",
+    "system_design": "System Design",
+    "microservices": "Microservices",
+    "cloud_architecture": "Cloud Architecture",
+    "pmp_certified": "PMP Certified",
+    "pmp": "PMP",
+    "devops": "DevOps",
+    "agile": "Agile",
+    "scrum": "Scrum",
+    "pmbok": "PMBOK",
+    "team_leadership": "Team Leadership",
+    "risk_management": "Risk Management",
+    "resource_planning": "Resource Planning",
+    "project_scheduling": "Project Scheduling",
+    "stakeholder_management": "Stakeholder Management",
+    "csharp": "C#",
+    "dotnet_core": ".NET Core",
+    "sql": "SQL",
+    "asp_net": "ASP.NET",
+    "ai": "AI",
+    "solid": "SOLID",
+    "oop": "OOP",
+    "linq": "LINQ"
   },
   "seo": {
     "home": {

@@ -151,38 +151,38 @@ export default function BioSection() {
               </h3>
               
               <div className="mb-4">
-                <h4 className="text-lg font-medium mb-2 text-gray-800 dark:text-gray-200">Technical Skills</h4>
+                <h4 className="text-lg font-medium mb-2 text-gray-800 dark:text-gray-200">{t("bio.technical_skills")}</h4>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-6">
-                  <SkillItem icon={<Code size={16} />} color="blue" name="C#" />
-                  <SkillItem icon={<Server size={16} />} color="green" name=".NET Core" />
-                  <SkillItem icon={<Database size={16} />} color="purple" name="SQL" />
-                  <SkillItem icon={<Server size={16} />} color="amber" name="ASP.NET" />
-                  <SkillItem icon={<Cpu size={16} />} color="red" name="AI" />
-                  <SkillItem icon={<Activity size={16} />} color="cyan" name="SOLID" />
-                  <SkillItem icon={<Cpu size={16} />} color="teal" name="OOP" />
-                  <SkillItem icon={<Database size={16} />} color="pink" name="LINQ" />
+                  <SkillItem icon={<Code size={16} />} color="blue" name={t("bio.csharp")} />
+                  <SkillItem icon={<Server size={16} />} color="green" name={t("bio.dotnet_core")} />
+                  <SkillItem icon={<Database size={16} />} color="purple" name={t("bio.sql")} />
+                  <SkillItem icon={<Server size={16} />} color="amber" name={t("bio.asp_net")} />
+                  <SkillItem icon={<Cpu size={16} />} color="red" name={t("bio.ai")} />
+                  <SkillItem icon={<Activity size={16} />} color="cyan" name={t("bio.solid")} />
+                  <SkillItem icon={<Cpu size={16} />} color="teal" name={t("bio.oop")} />
+                  <SkillItem icon={<Database size={16} />} color="pink" name={t("bio.linq")} />
                 </div>
                 
-                <h4 className="text-lg font-medium mb-2 text-gray-800 dark:text-gray-200">Architecture & Leadership</h4>
+                <h4 className="text-lg font-medium mb-2 text-gray-800 dark:text-gray-200">{t("bio.architecture_leadership")}</h4>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-6">
-                  <SkillItem icon={<LayoutGrid size={16} />} color="yellow" name="System Design" />
-                  <SkillItem icon={<GitBranch size={16} />} color="indigo" name="DevOps" />
-                  <SkillItem icon={<LineChart size={16} />} color="lime" name="PMP" />
-                  <SkillItem icon={<GitBranch size={16} />} color="rose" name="Agile" />
-                  <SkillItem icon={<LayoutGrid size={16} />} color="purple" name="Microservices" />
-                  <SkillItem icon={<Server size={16} />} color="blue" name="Cloud Architecture" />
+                  <SkillItem icon={<LayoutGrid size={16} />} color="yellow" name={t("bio.system_design")} />
+                  <SkillItem icon={<GitBranch size={16} />} color="indigo" name={t("bio.devops")} />
+                  <SkillItem icon={<LineChart size={16} />} color="lime" name={t("bio.pmp")} />
+                  <SkillItem icon={<GitBranch size={16} />} color="rose" name={t("bio.agile")} />
+                  <SkillItem icon={<LayoutGrid size={16} />} color="purple" name={t("bio.microservices")} />
+                  <SkillItem icon={<Server size={16} />} color="blue" name={t("bio.cloud_architecture")} />
                 </div>
                 
-                <h4 className="text-lg font-medium mb-2 text-gray-800 dark:text-gray-200">Project Management & Leadership</h4>
+                <h4 className="text-lg font-medium mb-2 text-gray-800 dark:text-gray-200">{t("bio.project_management")}</h4>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-                  <SkillItem icon={<LineChart size={16} />} color="amber" name="PMP Certified" />
-                  <SkillItem icon={<GitBranch size={16} />} color="green" name="Scrum" />
-                  <SkillItem icon={<Activity size={16} />} color="rose" name="Team Leadership" />
-                  <SkillItem icon={<Cpu size={16} />} color="cyan" name="Risk Management" />
-                  <SkillItem icon={<LayoutGrid size={16} />} color="indigo" name="Resource Planning" />
-                  <SkillItem icon={<Database size={16} />} color="teal" name="PMBOK" />
-                  <SkillItem icon={<Server size={16} />} color="pink" name="Project Scheduling" />
-                  <SkillItem icon={<LineChart size={16} />} color="blue" name="Stakeholder Management" />
+                  <SkillItem icon={<LineChart size={16} />} color="amber" name={t("bio.pmp_certified")} />
+                  <SkillItem icon={<GitBranch size={16} />} color="green" name={t("bio.scrum")} />
+                  <SkillItem icon={<Activity size={16} />} color="rose" name={t("bio.team_leadership")} />
+                  <SkillItem icon={<Cpu size={16} />} color="cyan" name={t("bio.risk_management")} />
+                  <SkillItem icon={<LayoutGrid size={16} />} color="indigo" name={t("bio.resource_planning")} />
+                  <SkillItem icon={<Database size={16} />} color="teal" name={t("bio.pmbok")} />
+                  <SkillItem icon={<Server size={16} />} color="pink" name={t("bio.project_scheduling")} />
+                  <SkillItem icon={<LineChart size={16} />} color="blue" name={t("bio.stakeholder_management")} />
                 </div>
               </div>
             </div>

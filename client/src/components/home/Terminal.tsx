@@ -7,14 +7,10 @@ type CommandOutput = {
 }
 
 export default function Terminal() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [cursorVisible, setCursorVisible] = useState(true);
   const [currentCommand, setCurrentCommand] = useState('');
-  const [history, setHistory] = useState<CommandOutput[]>([
-    { type: 'output', content: t('terminal.welcome.line1') },
-    { type: 'output', content: t('terminal.welcome.line2') },
-    { type: 'output', content: t('terminal.welcome.line3') }
-  ]);
+  const [history, setHistory] = useState<CommandOutput[]>([]);
   
   const terminalRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -34,6 +30,16 @@ export default function Terminal() {
     
     return () => clearInterval(interval);
   }, []);
+  
+  // Initialize welcome messages when component mounts or language changes
+  useEffect(() => {
+    // Reset history with welcome messages in current language
+    setHistory([
+      { type: 'output', content: t('terminal.welcome.line1') },
+      { type: 'output', content: t('terminal.welcome.line2') },
+      { type: 'output', content: t('terminal.welcome.line3') }
+    ]);
+  }, [t, i18n.language]);
   
   // Auto-scroll to bottom on new command/output
   useEffect(() => {
